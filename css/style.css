@@ -4,4 +4,24 @@
   --main-Blue: #008F9F;
   --main-Black: #050505;
   --main-Yellow: #FDC523;
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+.bg-blueilerna {
+  color: #fff !important;
+  background-color: #008F9F !important;
+}
+
+.link-blueilerna {
+  color: #0d6efd !important;
+}
+.link-blueilerna:hover, .link-blueilernay:focus {
+  color: #0a58ca !important;
+}
+
+
+/* Estilos personalizados para el menú alineado a la derecha */
+.menu-derecha {
+  margin-left: auto; /* Mueve el menú hacia la derecha */
 }
