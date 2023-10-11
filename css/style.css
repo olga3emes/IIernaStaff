@@ -72,13 +72,7 @@ body {
   /* Cambia el color del subrayado al pasar el cursor */
 }
 
-
-
-
-
-
-
-
+/*Submenu*/
 .has-submenu {
   position: relative;
 }
@@ -86,14 +80,15 @@ body {
 .submenu {
   display: none;
   position: absolute;
-  background-color: #333;
+  background-color: #008f9fd5;
   list-style: none;
   margin: 0;
   padding: 0;
   z-index: 1;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  width: 200px; /* Ajusta el ancho según tus necesidades */
+  width: 200px;
+  /* Ajusta el ancho según tus necesidades */
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 0.3s, transform 0.3s;
@@ -114,39 +109,88 @@ body {
 }
 
 .submenu a:hover {
-  background-color: #555;
+  background-color: #cae2e46d;
 }
 
-.arrow-down {
-  margin-left: 5px;
+.arrow-down-custom {
   display: flex;
   align-items: center;
 }
 
-.arrow-down svg {
+.custom-arrow {
   fill: currentColor;
   transition: transform 0.3s;
-  width: 14px; /* Ajusta el tamaño de la flecha */
-  height: 14px; /* Ajusta el tamaño de la flecha */
+  width: 30px;
+  /* Ajusta el tamaño de la flecha */
+  height: 24px;
+  margin-right: 5px;
+  /* Ajusta el espacio entre la flecha y el texto */
 }
 
-.has-submenu:hover .arrow-down svg {
+.has-submenu:hover .custom-arrow {
   transform: rotate(180deg);
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 .px-15 {
   padding-right: 8rem !important;
   padding-left: 8rem !important;
+}
+
+
+
+
+
+
+
+
+.navbar-nav .nav-link {
+  position: relative;
+  color: white;
+}
+
+.navbar-nav .nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  background-color: #ffffff00;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.navbar-toggler {
+  color: #ffffff00;
+  border: none;
+  padding: 0;
+  width: 35px;
+  height: 40px;
+  margin-bottom: 16px;
+}
+
+.navbar-toggler span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: #fff;
+  margin-bottom: 5px;
+}
+
+.navbar-toggler span:last-child {
+  margin-bottom: 0;
+}
+
+.navbar-toggler span {
+  background-color: #fff;
+  transition: all 0.6s ease-in-out;
+}
+
+.navbar-toggler:hover span {
+  background-color: #b9dfe3;
 }
