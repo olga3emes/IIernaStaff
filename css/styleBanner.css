@@ -1,0 +1,19 @@
+:root {
+  --main-White: #FBFBFB;
+  --main-Light-blue: #CAE2E4;
+  --main-Blue: #008F9F;
+  --main-Black: #050505;
+  --main-Yellow: #FDC523;
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+#hero{
+  background-color: var(--main-Light-blue);
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+}
+/*font size por defecto 16px*/
+p {
+  font-family: 'Lato', sans-serif;
+}
