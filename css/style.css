@@ -23,7 +23,13 @@ p {
 .bg-card{
   background-color: var(--main-White);
 }
-
+.card-shadow{
+  box-shadow:0 1rem 3rem rgba(0, 0, 0, 0.6);
+}
+.border-color{
+  border-color: var(--main-Black);
+}
+/*evita texto fuera de sus cuadros*/
 .white-space{
   white-space: nowrap;
 }
