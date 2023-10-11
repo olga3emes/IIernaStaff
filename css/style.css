@@ -21,17 +21,9 @@ p {
 }
 /*bgs de las cards,personalizado*/
 .bg-card{
-  background-color: coral;
+  background-color: var(--main-White);
 }
-.bg-card1{
-  background-color: rgb(52, 207, 24);
-}
-.bg-card2{
-  background-color: rgb(211, 29, 196);
-}
-.bg-card3{
-  background-color: rgb(233, 21, 14);
-}
+
 .white-space{
   white-space: nowrap;
 }
