@@ -4,9 +4,12 @@
   --main-Blue: #008F9F;
   --main-Black: #050505;
   --main-Yellow: #FDC523;
-  font-family: 'Montserrat', sans-serif;
 }
 
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
 
 .bg-blueilerna {
   color: #fff !important;
@@ -16,12 +19,134 @@
 .link-blueilerna {
   color: #0d6efd !important;
 }
-.link-blueilerna:hover, .link-blueilernay:focus {
+
+.link-blueilerna:hover,
+.link-blueilernay:focus {
   color: #0a58ca !important;
 }
 
-
 /* Estilos personalizados para el menú alineado a la derecha */
 .menu-derecha {
-  margin-left: auto; /* Mueve el menú hacia la derecha */
+  margin-left: auto;
+  /* Mueve el menú hacia la derecha */
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilo del subrayado y color al pasar el cursor sobre los elementos del menú */
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: #ffffff;
+  /* Color inicial del texto del menú */
+  transition: color 0.3s;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #CAE2E4;
+  ;
+  /* Color inicial del subrayado */
+  transform: scaleX(0);
+  /* Inicialmente, el subrayado no es visible */
+  transform-origin: bottom right;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.nav-link:hover {
+  color: #CAE2E4;
+  ;
+  /* Cambia el color del texto al pasar el cursor */
+}
+
+.nav-link:hover::before {
+  transform: scaleX(1);
+  /* Muestra el subrayado al pasar el cursor */
+  transform-origin: bottom left;
+  background-color: #CAE2E4;
+  ;
+  /* Cambia el color del subrayado al pasar el cursor */
+}
+
+
+
+
+
+
+
+
+.has-submenu {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  width: 200px; /* Ajusta el ancho según tus necesidades */
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.has-submenu:hover .submenu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.submenu a {
+  color: #fff;
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.submenu a:hover {
+  background-color: #555;
+}
+
+.arrow-down {
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.arrow-down svg {
+  fill: currentColor;
+  transition: transform 0.3s;
+  width: 14px; /* Ajusta el tamaño de la flecha */
+  height: 14px; /* Ajusta el tamaño de la flecha */
+}
+
+.has-submenu:hover .arrow-down svg {
+  transform: rotate(180deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.px-15 {
+  padding-right: 8rem !important;
+  padding-left: 8rem !important;
 }
