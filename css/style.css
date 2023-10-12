@@ -11,3 +11,39 @@
   height: 15%;
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+#hero{
+  background-color: var(--main-Light-blue);
+}
+h1, h2, h3,h4 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+} 
+/*font size por defecto 16px*/
+p {
+  font-family: 'Lato', sans-serif;
+  font-weight: normal;
+}
+/*bgs de las cards,personalizado*/
+.bg-card{
+  background-color: var(--main-White);
+}
+.card-shadow{
+  box-shadow:0 1rem 3rem rgba(0, 0, 0, 0.6);
+}
+.border-color{
+  border-color: var(--main-Black);
+}
+/*evita texto fuera de sus cuadros*/
+.white-space{
+  white-space: nowrap;
+}
+/*! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS*/
+.bg-badge-virginia{
+background-color: aquamarine;
+}
+.badge-size {
+  width: 100px; /* Cambia el valor según tus necesidades */
+  height: 50px; /* Cambia el valor según tus necesidades */
+}
