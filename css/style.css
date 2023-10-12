@@ -12,17 +12,8 @@ body {
 }
 
 .bg-blueilerna {
-  color: #fff !important;
-  background-color: #008F9F !important;
-}
-
-.link-blueilerna {
-  color: #0d6efd !important;
-}
-
-.link-blueilerna:hover,
-.link-blueilernay:focus {
-  color: #0a58ca !important;
+  color: var(--main-White) !important;
+  background-color: var(--main-Blue) !important;
 }
 
 /* Estilos personalizados para el menú alineado a la derecha */
@@ -36,7 +27,7 @@ body {
 .nav-link {
   position: relative;
   text-decoration: none;
-  color: #ffffff;
+  color: var(--main-White);
   /* Color inicial del texto del menú */
   transition: color 0.3s;
 }
@@ -48,7 +39,7 @@ body {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #CAE2E4;
+  background-color: var(--main-Light-blue);
   ;
   /* Color inicial del subrayado */
   transform: scaleX(0);
@@ -58,8 +49,7 @@ body {
 }
 
 .nav-link:hover {
-  color: #CAE2E4;
-  ;
+  color: var(--main-Light-blue);
   /* Cambia el color del texto al pasar el cursor */
 }
 
@@ -67,7 +57,7 @@ body {
   transform: scaleX(1);
   /* Muestra el subrayado al pasar el cursor */
   transform-origin: bottom left;
-  background-color: #CAE2E4;
+  background-color: var(--main-Light-blue);
   ;
   /* Cambia el color del subrayado al pasar el cursor */
 }
@@ -80,7 +70,7 @@ body {
 .submenu {
   display: none;
   position: absolute;
-  background-color: #008f9fd5;
+  background-color: #008f9fd5;/*main blue con transparencia*/
   list-style: none;
   margin: 0;
   padding: 0;
@@ -88,7 +78,6 @@ body {
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
   width: 200px;
-  /* Ajusta el ancho según tus necesidades */
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 0.3s, transform 0.3s;
@@ -101,7 +90,7 @@ body {
 }
 
 .submenu a {
-  color: #fff;
+  color: var(--main-White);
   text-decoration: none;
   padding: 10px;
   display: block;
@@ -109,7 +98,7 @@ body {
 }
 
 .submenu a:hover {
-  background-color: #cae2e46d;
+  background-color: #cae2e46d;/*blue light con transparencia*/
 }
 
 .arrow-down-custom {
@@ -138,7 +127,7 @@ body {
 
 .navbar-nav .nav-link {
   position: relative;
-  color: white;
+  color: var(--main-White);
 }
 
 .navbar-nav .nav-link:before {
@@ -147,7 +136,7 @@ body {
   width: 100%;
   height: 2px;
   left: 0;
-  background-color: #ffffff00;
+  background-color: #ffffff00;/*quitar color poniendole otro tranparente*/
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
@@ -171,7 +160,7 @@ body {
   display: block;
   width: 100%;
   height: 3px;
-  background-color: #fff;
+  background-color: var(--main-White);
   margin-bottom: 5px;
 }
 
@@ -180,16 +169,16 @@ body {
 }
 
 .navbar-toggler span {
-  background-color: #fff;
+  background-color: var(--main-White);
   transition: all 0.6s ease-in-out;
 }
 
 .navbar-toggler:hover span {
-  background-color: #b9dfe3;
+  background-color: var(--main-Light-blue);/*#b9dfe3*/
 }
 
 .custom-navbar .navbar-toggler-icon {
-  border-color: #fff;
+  border-color: var(--main-White);
 }
 
 .nav-link:hover {
@@ -203,7 +192,7 @@ body {
   left: 0;
   width: 100%;
   height: 2px;
-  background-color: #CAE2E4;
+  background-color: var(--main-Light-blue);
   /* Color del subrayado */
   transform: scaleX(0);
   transform-origin: right;
@@ -217,7 +206,7 @@ body {
   right: 0;
   width: 100%;
   height: 2px;
-  background-color: #cae2e46d;
+  background-color: #cae2e46d;/*blue light con transparencia*/
   /* Color del subrayado */
   transform: scaleX(0);
   transform-origin: left;
