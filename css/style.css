@@ -136,13 +136,6 @@ body {
   padding-left: 8rem !important;
 }
 
-
-
-
-
-
-
-
 .navbar-nav .nav-link {
   position: relative;
   color: white;
@@ -169,8 +162,8 @@ body {
   color: #ffffff00;
   border: none;
   padding: 0;
-  width: 35px;
-  height: 40px;
+  width: 30px;
+  height: 20px;
   margin-bottom: 16px;
 }
 
@@ -193,4 +186,51 @@ body {
 
 .navbar-toggler:hover span {
   background-color: #b9dfe3;
+}
+
+.custom-navbar .navbar-toggler-icon {
+  border-color: #fff;
+}
+
+.nav-link:hover {
+  position: relative;
+}
+
+.nav-link:hover::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #CAE2E4;
+  /* Color del subrayado */
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #cae2e46d;
+  /* Color del subrayado */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.correo-link {
+  color: inherit;
+  text-decoration: none;
 }
