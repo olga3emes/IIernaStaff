@@ -13,6 +13,225 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+/*NAVBAR*/
+.bg-blueilerna {
+  color: var(--main-White) !important;
+  background-color: var(--main-Blue) !important;
+}
+
+/* Estilos personalizados para el menú alineado a la derecha */
+.menu-derecha {
+  margin-left: auto;
+  /* Mueve el menú hacia la derecha */
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Estilo del subrayado y color al pasar el cursor sobre los elementos del menú */
+.nav-link {
+  position: relative;
+  text-decoration: none;
+  color: var(--main-White);
+  /* Color inicial del texto del menú */
+  transition: color 0.3s;
+}
+
+.nav-link::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--main-Light-blue);
+  ;
+  /* Color inicial del subrayado */
+  transform: scaleX(0);
+  /* Inicialmente, el subrayado no es visible */
+  transform-origin: bottom right;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+.nav-link:hover {
+  color: var(--main-Light-blue);
+  /* Cambia el color del texto al pasar el cursor */
+}
+
+.nav-link:hover::before {
+  transform: scaleX(1);
+  /* Muestra el subrayado al pasar el cursor */
+  transform-origin: bottom left;
+  background-color: var(--main-Light-blue);
+  ;
+  /* Cambia el color del subrayado al pasar el cursor */
+}
+
+/*Submenu*/
+.has-submenu {
+  position: relative;
+}
+
+.submenu {
+  display: none;
+  position: absolute;
+  background-color: #008f9fd5;/*main blue con transparencia*/
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  z-index: 1;
+  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+  width: 200px;
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.has-submenu:hover .submenu {
+  display: block;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.submenu a {
+  color: var(--main-White);
+  text-decoration: none;
+  padding: 10px;
+  display: block;
+  transition: background-color 0.3s;
+}
+
+.submenu a:hover {
+  background-color: #cae2e46d;/*blue light con transparencia*/
+}
+
+.arrow-down-custom {
+  display: flex;
+  align-items: center;
+}
+
+.custom-arrow {
+  fill: currentColor;
+  transition: transform 0.3s;
+  width: 30px;
+  /* Ajusta el tamaño de la flecha */
+  height: 24px;
+  margin-right: 5px;
+  /* Ajusta el espacio entre la flecha y el texto */
+}
+
+.has-submenu:hover .custom-arrow {
+  transform: rotate(180deg);
+}
+
+.px-15 {
+  padding-right: 8rem !important;
+  padding-left: 8rem !important;
+}
+
+.navbar-nav .nav-link {
+  position: relative;
+  color: var(--main-White);
+}
+
+.navbar-nav .nav-link:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  left: 0;
+  background-color: #ffffff00;/*quitar color poniendole otro tranparente*/
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar-nav .nav-link:hover:before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
+.navbar-toggler {
+  color: #ffffff00;
+  border: none;
+  padding: 0;
+  width: 30px;
+  height: 20px;
+  margin-bottom: 16px;
+}
+
+.navbar-toggler span {
+  display: block;
+  width: 100%;
+  height: 3px;
+  background-color: var(--main-White);
+  margin-bottom: 5px;
+}
+
+.navbar-toggler span:last-child {
+  margin-bottom: 0;
+}
+
+.navbar-toggler span {
+  background-color: var(--main-White);
+  transition: all 0.6s ease-in-out;
+}
+
+.navbar-toggler:hover span {
+  background-color: var(--main-Light-blue);/*#b9dfe3*/
+}
+
+.custom-navbar .navbar-toggler-icon {
+  border-color: var(--main-White);
+}
+
+.nav-link:hover {
+  position: relative;
+}
+
+.nav-link:hover::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 2px;
+  background-color: var(--main-Light-blue);
+  /* Color del subrayado */
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover::after {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #cae2e46d;/*blue light con transparencia*/
+  /* Color del subrayado */
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 0.3s ease;
+}
+
+.nav-link:hover::before,
+.nav-link:hover::after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+
+.correo-link {
+  color: inherit;
+  text-decoration: none;
+}
+/*! FIN NAVBAR FOOTER*/
 #hero{
   background-color: var(--main-Light-blue);
 }
