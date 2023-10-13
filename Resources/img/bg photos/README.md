@@ -1,0 +1,1 @@
+ Fotos usadas para fondos de cards,banners... sin editar

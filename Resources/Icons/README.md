@@ -1,0 +1,1 @@
+Iconos en formato svg para usar, importante eliminar comentario para utilizar.
