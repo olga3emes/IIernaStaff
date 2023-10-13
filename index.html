@@ -2,30 +2,181 @@
 <html lang="es">
 
 <head>
-  <title>Ilerna Staff</title>
+  <title>Inicio · Ilerna Staff</title>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <!-- Bootstrap -->
- <link rel="stylesheet" href="css/bootstrap.css">
- <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <script defer src="js/bootstrap.bundle.js"></script>
 
- <script defer src="js/bootstrap.bundle.js"></script>
 </head>
 
 <body>
   <header>
-    <!-- place navbar here -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="index.html">
+          <img src="Resources/img/logo/ilerna_Staff_Amarillo.png" alt="Logo" width="150" height="55">
+        </a>
+
+        <!--NO BORRAR BOTÓN DE MOVIL-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <span class="linea"></span>
+            <span class="linea"></span>
+            <span class="linea"></span>
+          </span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto menu-derecha">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item has-submenu">
+              <a class="nav-link text-white" href="#">Familias educativas <class="arrow-down-custom">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="custom-arrow" viewBox="0 0 16 16">
+                    <path
+                      d="M4.646 6.146a.5.5 0 01.708 0L8 9.793l2.646-2.647a.5.5 0 01.708 0 .5.5 0 010 .708l-3 3a.5.5 0 01-.708 0l-3-3a.5.5 0 010-.708z" />
+                  </svg>
+              </a>
+              <ul class="submenu">
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Sanidad</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Serv. Socioculturales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Comercio y Marketing</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Administ. y Gestión</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Imagen Sonido</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Imagen Personal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="#">Administración</a>
+                </li>
+              </ul>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Administración</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="#">Mantenimientos y servicios</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </header>
   <main>
-
+    <!-- Contenido principal -->
+    <br><br>
   </main>
-  <footer>
-    <!-- place footer here -->
+
+  <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
+    <div class="container">
+      <div class="row">
+
+        <!-- Bloque 1: Familias Educativas - Primera fila -->
+        <div class="row mt-2">
+          <div class="col-md-3 text-center">
+            <a href="#" style="text-decoration: none; color: inherit;">Sanidad</a>
+          </div>
+          <div class="col-md-3 text-center">
+            <a href="#" style="text-decoration: none; color: inherit;">Serv. Socioculturales</a>
+          </div>
+          <div class="col-md-3 text-center">
+            <a href="#" style="text-decoration: none; color: inherit;">Comercio y Marketing</a>
+          </div>
+          <div class="col-md-3 text-center">
+            <a href="#" style="text-decoration: none; color: inherit;">Administ. y Gestión</a>
+          </div>
+        </div>
+
+        <!-- Separación entre filas -->
+        <div class="my-2"></div>
+
+        <!-- Segunda fila -->
+        <div class="row">
+          <div class="col-md-4 text-center">
+            <a href="#" style="text-decoration: none; color: inherit;">Imagen Sonido</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="#" style="text-decoration: none; color: inherit;">Imagen Personal</a>
+          </div>
+          <div class="col-md-4 text-center">
+            <a href="#" style="text-decoration: none; color: inherit;">Administración</a>
+          </div>
+        </div>
+
+        <!-- Línea horizontal -->
+        <div class="col-12">
+          <hr class="bg-white">
+        </div>
+        <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
+        <div class="row">
+          <div class="col-12 col-md-4">
+            <div class="text-left">
+              <p>Av. de la Innovación, 7-9, Edificio Arena, 2, 41020 Sevilla).<br>
+                <a href="https://maps.app.goo.gl/8xVnSDgvoMCbBNeA9" style="text-decoration: none; color: inherit;">
+                  <h5>Ver mapa</h5>
+                </a>
+              </p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="text-left">
+              <p>954 04 12 12 <br> (llamada gratuita)<br> Horario: L-J: 9-14h / 15:30-19h; V: 9-15h</p>
+            </div>
+          </div>
+          <div class="col-12 col-md-4">
+            <div class="text-left">
+              <p>
+                <a href="mailto:correo1@example.com" class="correo-link">ilernaonline@gmail.com</a>
+                <br>
+                <a href="mailto:correo2@example.com" class="correo-link">ilernaandalucia@gmail.com</a>
+                <br>
+                Preguntas frecuentes
+              </p>
+            </div>
+          </div>
+        </div>
+        <!-- Línea horizontal -->
+        <div class="col-12">
+          <hr class="bg-white">
+        </div>
+
+        <!-- Bloque 3: Políticas de Privacidad y Cookies -->
+        <div class="row">
+          <div class="col-md-7 text-center">
+            <div>
+              <a class="text-light" href="#">Política de Privacidad</a>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div>
+              <a class="text-light" href="#">Política de Cookies</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </footer>
-  
 </body>
 
 </html>
-<!--holiwi-->
