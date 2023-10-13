@@ -252,9 +252,9 @@ p {
 .white-space{
   white-space: nowrap;
 }
-/*! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS*/
-.bg-badge-virginia{
-background-color: aquamarine;
+
+.bg-badge-alba{
+background-color: #1b5ed3;
 }
 .badge-size {
   width: 100px; /* Cambia el valor según tus necesidades */
