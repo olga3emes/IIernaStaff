@@ -259,6 +259,12 @@ background-color: aquamarine;
   width: 100px;
   height: 50px;
 }
+/*oculta card en displ moviles*/
+@media (max-width: 450px) {
+  #remove_mobile {
+    display: none;
+  }
+}
 /** Carousel*/
 .bg-carousel{
   background-color: var(--main-Blue);

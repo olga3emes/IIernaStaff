@@ -100,8 +100,10 @@
     <hr class="hr" />
 
     <!--CARD-->
+    <!--! container sin fluid , mt-2 -->
     <div class="container p-5 mt-2">
-      <div class="row justify-content-center align-items-center p-5"><!-- disminuir p-->
+      <!--! sin p-5 psm-0 p-md-0 p-lg-5-->
+      <div  class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5 "><!-- disminuir p-->
 
         <div class="col-12 col-md-12 col-lg-12 g-5">
           <div
@@ -119,7 +121,8 @@
               </div>
 
             </div>
-            <div class="col-12 col-md-12 col-lg-6 ">
+            <!--! añadido id remove_mobile-->
+            <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
               <div class="row justify-content-center align-items-center align-middle g-2">
                 <div class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4  ">
                   <div class="container bg-card rounded-top mt-1">
@@ -257,6 +260,7 @@
 
         <!-- Segunda fila -->
         <div class="navbar justify-content-around mb-1" id="navbarNav">
+          <!--! flex wrap añadido-->
           <ul class="navbar-nav flex-row flex-wrap">
             <li class="nav-item active px-3 ">
               <a class="nav-link text-white" href="index.html">Inicio</a>
