@@ -253,11 +253,14 @@ p {
 }
 /*! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS*/
 .bg-badge-virginia{
-background-color: aquamarine;
+background-color: #FF00FF;
 }
 .badge-size {
   width: 100px;
   height: 50px;
+}
+.bg-badge-sergio{
+  background: linear-gradient(to bottom, #000000, #0000FF);
 }
 /*oculta card en displ moviles*/
 @media (max-width: 450px) {
