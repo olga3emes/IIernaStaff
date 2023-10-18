@@ -253,19 +253,31 @@ p {
 }
 /*! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS*/
 .bg-badge-virginia{
-background-color: aquamarine;
+background-color: rgb(255, 0, 230);
 }
 .badge-size {
-  width: 100px;
-  height: 50px;
+  width: 100px; /* Cambia el valor según tus necesidades */
+  height: 50px; /* Cambia el valor según tus necesidades */
 }
+
 /*oculta card en displ moviles*/
 @media (max-width: 450px) {
   #remove_mobile {
     display: none;
   }
 }
+
 /** Carousel*/
 .bg-carousel{
   background-color: var(--main-Blue);
+}
+.bg-badge-ivan{
+  background-color: #006dc6;
+}
+
+.bg-badge-javierGuirado{
+  background-color: #fffb00;
+}
+.bg-badge-noemi{
+  background-color: #00eaff;
 }
