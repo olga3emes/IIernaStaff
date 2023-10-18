@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
 
-  <script defer ="js/bootstrap.bundle.js"></script>
+  <script defer src="js/bootstrap.bundle.js"></script>
 </head>
 
 <body>
@@ -97,27 +97,32 @@
         </div>
       </div>
     </div>
-    <hr class="hr" />
+ 
 
     <!--CARD-->
-    <div class="container-fluid p-5 mt-5">
-      <div class="row justify-content-center align-items-center p-5">
-        
+    <!--! container sin fluid , mt-2 -->
+    <div class="container p-5 mt-2">
+      <!--! sin p-5 psm-0 p-md-0 p-lg-5-->
+      <div  class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5 "><!-- disminuir p-->
+
         <div class="col-12 col-md-12 col-lg-12 g-5">
-          <div class="row rounded-5 justify-content-center align-items-center card-shadow p-4 bg-card border border-1 border-color ">
+          <div
+            class="row rounded-5 justify-content-center align-items-center card-shadow p-4 bg-card border border-1 border-color ">
             <div class="col-12 col-md-12 col-lg-6 text-center p-3">
-              <img src="/Resources/img/personal/virginia.jpeg" class="img-fluid rounded-3">
+              <img src="Resources/img/personal/virginia.jpeg" class="img-fluid rounded-3">
               <div class="container">
                 <div class="row justify-content-center align-items-center g-2 mt-2">
                   <!--! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS EN BG-BADGE-->
-                  <h1 class="col-12 text-center">Virginia Federica Santos <span class="badge rounded-pill badge-size bg-badge-virginia align-middle">☆</span></h1>
+                  <h1 class="col-12 text-center">Virginia Federica Santos <span
+                      class="badge rounded-pill badge-size bg-badge-virginia align-middle">☆</span></h1>
                   <h4 class="col-12 text-center">Directora</h4>
                 </div>
 
               </div>
 
             </div>
-            <div class="col-12 col-md-12 col-lg-6 ">
+            <!--! añadido id remove_mobile-->
+            <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
               <div class="row justify-content-center align-items-center align-middle g-2">
                 <div class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4  ">
                   <div class="container bg-card rounded-top mt-1">
@@ -126,15 +131,21 @@
                   </div>
                   <div class="container bg-card">
                     <h4 class="pt-2">Hobbies</h4>
-                    <p class="text-break pb-1 mb-1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis molestiae facilis maiores eveniet nisi fugiat! Mollitia maxime quae, magni tenetur libero soluta asperiores magnam illo distinctio explicabo voluptas perferendis autem.</p>
+                    <p class="text-break pb-1 mb-1"> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+                      molestiae facilis maiores eveniet nisi fugiat! Mollitia maxime quae, magni tenetur libero soluta
+                      asperiores magnam illo distinctio explicabo voluptas perferendis autem.</p>
                   </div>
                   <div class="container bg-card">
                     <h4 class="pt-2">Frase que te represente</h4>
-                    <p class="text-break pb-1 mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis molestiae facilis maiores eveniet nisi fugiat! Mollitia maxime quae, magni tenetur libero soluta asperiores magnam illo distinctio explicabo voluptas</p>
+                    <p class="text-break pb-1 mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+                      molestiae facilis maiores eveniet nisi fugiat! Mollitia maxime quae, magni tenetur libero soluta
+                      asperiores magnam illo distinctio explicabo voluptas</p>
                   </div>
                   <div class="container bg-card rounded-bottom ">
                     <h4 class="pt-2">Algo sobre ti</h4>
-                    <p class="text-break pb-1 mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis molestiae facilis maiores eveniet nisi fugiat! Mollitia maxime quae, magni tenetur libero soluta asperiores magnam illo distinctio explicabo voluptas</p>
+                    <p class="text-break pb-1 mb-1">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis
+                      molestiae facilis maiores eveniet nisi fugiat! Mollitia maxime quae, magni tenetur libero soluta
+                      asperiores magnam illo distinctio explicabo voluptas</p>
                   </div>
 
                 </div>
@@ -145,21 +156,116 @@
         </div>
 
       </div>
-      
+
     </div>
+    <!--* carousel:-->
+
+    <div class="bg-carousel my-5">
+      <div class="container mt-5 bg-carousel p-5">
+        <h1 class="text-light mb-3">Familia profesional</h1>
+        <div id="carouselId" class="carousel carousel-dark slide" data-bs-ride="false">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active p-1">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <a href="https://www.google.com/?hl=es">
+                    <div class="bg-image hover-zoom">
+                      <img src="Resources/img/bg photos/alumnos_5.jpg" href="google.com"
+                        class="w-100 d-block rounded-2" alt="First slide">
+                    </div>
+                  </a>
+                  <div class="text-light ms-3 text-center mt-3">
+                    <a href="https://www.google.com/?hl=es" class="text-decoration-none">
+                      <h5 class="text-light ">CFGS Desarrollo de Aplicaciones Web</h5>
+                    </a>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <a href="https://www.google.com/?hl=es"><img src="Resources/img/bg photos/alumnos_5.jpg"
+                      href="google.com" class="w-100 d-block rounded-2" alt="First slide"></a>
+                  <div class="text-light me-3 text-center mt-3">
+                    <a href="https://www.google.com/?hl=es" class="text-decoration-none">
+                      <h5 class="link text-light">CFGS Desarrollo de Aplicaciones Web</h5>
+                    </a>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item p-1">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <a href="https://www.google.com/?hl=es"><img src="Resources/img/bg photos/alumnos_5.jpg"
+                      href="google.com" class="w-100 d-block rounded-2" alt="First slide"></a>
+                  <div class="text-light ms-3 text-center mt-3">
+                    <a href="https://www.google.com/?hl=es" class="text-decoration-none">
+                      <h5 class="link text-light">CFGS Desarrollo de Aplicaciones Web</h5>
+                    </a>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <a href="https://www.google.com/?hl=es"><img src="Resources/img/bg photos/alumnos_5.jpg"
+                      href="google.com" class="w-100 d-block rounded-2" alt="First slide"></a>
+                  <div class="text-light me-3 text-center mt-3">
+                    <a href="https://www.google.com/?hl=es" class="text-decoration-none">
+                      <h5 class="link text-light">CFGS Desarrollo de Aplicaciones Web</h5>
+                    </a>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item p-1">
+              <div class="row">
+                <div class="col-12 col-md-6">
+                  <a href="https://www.google.com/?hl=es"><img src="Resources/img/bg photos/alumnos_5.jpg"
+                      href="google.com" class="w-100 d-block rounded-2" alt="First slide"></a>
+                  <div class="text-light ms-3 text-center mt-3">
+                    <a href="https://www.google.com/?hl=es" class="text-decoration-none">
+                      <h5 class="link text-light">CFGS Desarrollo de Aplicaciones Web</h5>
+                    </a>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6">
+                  <a href="https://www.google.com/?hl=es"><img src="Resources/img/bg photos/alumnos_5.jpg"
+                      href="google.com" class="w-100 d-block rounded-2" alt="First slide"></a>
+                  <div class="text-light me-3 text-center mt-3">
+                    <a href="https://www.google.com/?hl=es" class="text-decoration-none">
+                      <h5 class="link text-light">CFGS Desarrollo de Aplicaciones Web</h5>
+                    </a>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+    </div>
+
 
   </main>
   <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
     <div class="container">
-      <div class="row">
+      <div class="row my-4">
 
         <!-- Segunda fila -->
-        <div class="navbar" id="navbarNav">
-          <ul class="navbar-nav justify-content-around">
-            <li class="nav-item active">
+        <div class="navbar justify-content-around mb-1" id="navbarNav">
+          <!--! flex wrap añadido-->
+          <ul class="navbar-nav flex-row flex-wrap">
+            <li class="nav-item active px-3 ">
               <a class="nav-link text-white" href="index.html">Inicio</a>
             </li>
-            <li class="nav-item has-submenu">
+            <li class="nav-item px-3 has-submenu">
               <a class="nav-link text-white" href="#">Familias educativas <class="arrow-down-custom">
                   <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
                     class="custom-arrow" viewBox="0 0 16 16">
@@ -192,21 +298,21 @@
               </ul>
             </li>
 
-            <li class="nav-item">
+            <li class="nav-item px-3">
               <a class="nav-link text-white" href="#">Administración</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item px-3">
               <a class="nav-link text-white" href="#">Mantenimientos y servicios</a>
             </li>
           </ul>
         </div>
 
         <!-- Línea horizontal -->
-        <div class="col-12">
+        <div class="col-12 mb-2">
           <hr class="bg-white">
         </div>
         <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
-        <div class="row">
+        <div class="row my-3">
           <div class="col-12 col-md-4">
             <div class="text-left">
               <p>Av. de la Innovación, 7-9, Edificio Arena, 2, 41020 Sevilla.<br>
@@ -239,8 +345,8 @@
         </div>
 
         <!-- Bloque 3: Políticas de Privacidad y Cookies -->
-        <div class="row">
-          <div class="col-md-7 text-center">
+        <div class="row my-3">
+          <div class="col-md-7 text-center ">
             <div>
               <a class="text-light" href="#">Política de Privacidad</a>
             </div>
