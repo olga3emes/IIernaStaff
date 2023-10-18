@@ -287,3 +287,10 @@ background-color: rgb(255, 0, 230);
 .bg-badge-erika{
   background-color: #7e16d8;
 }
+
+
+.bg-banner-direccion{
+  background-image: url("../carouselPrueba/recursosPrueba/MantenimientoCentro_DxO.jpg");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
+}
