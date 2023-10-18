@@ -290,7 +290,7 @@ background-color: rgb(255, 0, 230);
 
 
 .bg-banner-direccion{
-  background-image: url("../carouselPrueba/recursosPrueba/DireccionCentro_DxO\ \(2\).png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("../carouselPrueba/recursosPrueba/MantenimientoCentro_DxO.jpg");
+  /* background-repeat: no-repeat;
+  background-size: cover; */
 }
