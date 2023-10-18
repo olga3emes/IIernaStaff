@@ -16,7 +16,6 @@
 
 body {
   font-family: 'Montserrat', sans-serif;
-
 }
 /*NAVBAR*/
 .bg-blueilerna {
@@ -265,4 +264,14 @@ background-color: aquamarine;
 .badge-size {
   width: 100px; /* Cambia el valor según tus necesidades */
   height: 50px; /* Cambia el valor según tus necesidades */
+}
+/*oculta card en displ moviles*/
+@media (max-width: 450px) {
+  #remove_mobile {
+    display: none;
+  }
+}
+/** Carousel*/
+.bg-carousel{
+  background-color: var(--main-Blue);
 }
