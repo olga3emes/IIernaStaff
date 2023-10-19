@@ -294,3 +294,9 @@ background-color: rgb(255, 0, 230);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
+.bg-banner-personal{
+  background-image: url("../carouselPrueba/recursosPrueba/MantenimientoCentro_DxO.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
