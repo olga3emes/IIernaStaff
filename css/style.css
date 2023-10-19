@@ -261,6 +261,9 @@ p {
 .bg-badge-virginia{
 background-color: aquamarine;
 }
+.bg-badge-paula{
+  background-color: #5dc1b9;
+}
 .badge-size {
   width: 100px; /* Cambia el valor según tus necesidades */
   height: 50px; /* Cambia el valor según tus necesidades */
