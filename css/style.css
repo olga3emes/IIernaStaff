@@ -4,7 +4,22 @@
   --main-Blue: #008F9F;
   --main-Black: #050505;
   --main-Yellow: #FDC523;
+  --badge-Red: #ec1212;
+  --badge-Green: #05b80b;
+  --badge-Lilac: #B695C0;
+  --badge-blue: #1b5ed3;
+  --badge-Orange: #ec9c12;
+  --badge-Pink: #ff35d7;/*o fucsia*/
+  --badge-White: #dddddd;
+  --badge-Black: #050505;
+  --badge-Yellow: #ece112;
+  --badge-Aquamarine: #9fd5d1;
+  --badge-Purple: #800080;
+  --badge-Light-blue: #80cdde;
+  --badge-mallow: #E0B0FF;
+  --badge-turquoise:#5dc1b9;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
@@ -219,6 +234,10 @@ body {
   opacity: 1;
   transform: scaleX(1);
 }
+.link-joseka{
+  text-decoration: none;
+  color: inherit;
+}
 
 .correo-link {
   color: inherit;
@@ -251,10 +270,6 @@ p {
 .white-space{
   white-space: nowrap;
 }
-/*! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS*/
-.bg-badge-virginia{
-background-color: #FF00FF;
-}
 .badge-size {
   width: 100px;
   height: 50px;
@@ -263,7 +278,7 @@ background-color: #FF00FF;
   background: linear-gradient(to bottom, #000000, #0000FF);
 }
 /*oculta card en displ moviles*/
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   #remove_mobile {
     display: none;
   }
@@ -272,25 +287,59 @@ background-color: #FF00FF;
 .bg-carousel{
   background-color: var(--main-Blue);
 }
-
-.bg-badge-olga{
-  background-color: #B695C0;
+/*! badge colors*/
+.bg-badge-Red {
+  background-color: var(--badge-Red);
 }
 
-.bg-badge-martin{
-  background-color: #ec1212;
+.bg-badge-Green {
+  background-color: var(--badge-Green);
 }
 
-.bg-badge-soraya{
-  background-color: #05b80b;
+.bg-badge-Lilac {
+  background-color: var(--badge-Lilac);
 }
 
-.bg-badge-pedro{
-  background-color: #1b5ed3;
+.bg-badge-blue {
+  background-color: var(--badge-blue);
 }
 
-.bg-badge-juanca{
-  background-color: #05b80b;
+.bg-badge-Orange {
+  background-color: var(--badge-Orange);
 }
 
+.bg-badge-Pink {
+  background-color: var(--badge-Pink);
+}
 
+.bg-badge-White {
+  background-color: var(--badge-White);
+}
+
+.bg-badge-Black {
+  background-color: var(--badge-Black);
+}
+
+.bg-badge-Yellow {
+  background-color: var(--badge-Yellow);
+}
+
+.bg-badge-Aquamarine {
+  background-color: var(--badge-Aquamarine);
+}
+
+.bg-badge-Purple {
+  background-color: var(--badge-Purple);
+}
+
+.bg-badge-Light-blue {
+  background-color: var(--badge-Light-blue);
+}
+
+.bg-badge-mallow {
+  background-color: var(--badge-mallow);
+}
+
+.bg-badge-turquoise {
+  background-color: var(--badge-turquoise);
+}
