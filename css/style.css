@@ -4,7 +4,22 @@
   --main-Blue: #008F9F;
   --main-Black: #050505;
   --main-Yellow: #FDC523;
+  --badge-Red: #ec1212;
+  --badge-Green: #05b80b;
+  --badge-Lilac: #B695C0;
+  --badge-blue: #1b5ed3;
+  --badge-Orange: #ec9c12;
+  --badge-Pink: #ff35d7;/*o fucsia*/
+  --badge-White: #dddddd;
+  --badge-Black: #050505;
+  --badge-Yellow: #ece112;
+  --badge-Aquamarine: #9fd5d1;
+  --badge-Purple: #800080;
+  --badge-Light-blue: #80cdde;
+  --badge-mallow: #E0B0FF;
+  --badge-turquoise:#5dc1b9;
 }
+
 
 .carouselImg {
   width: 15%;
@@ -231,6 +246,10 @@ body {
   opacity: 1;
   transform: scaleX(1);
 }
+.link-joseka{
+  text-decoration: none;
+  color: inherit;
+}
 
 .correo-link {
   color: inherit;
@@ -273,16 +292,6 @@ p {
 .white-space {
   white-space: nowrap;
 }
-
-/*! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS*/
-.bg-badge-virginia {
-  background-color: aquamarine;
-}
-
-.bg-badge-paula {
-  background-color: #5dc1b9;
-}
-
 .badge-size {
   width: 100px;
   /* Cambia el valor según tus necesidades */
@@ -291,7 +300,7 @@ p {
 }
 
 /*oculta card en displ moviles*/
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   #remove_mobile {
     display: none;
   }
@@ -301,11 +310,59 @@ p {
 .bg-carousel {
   background-color: var(--main-Blue);
 }
-
-.bg-badge-yellow {
-  background-color: #ece112;
+/*! badge colors*/
+.bg-badge-Red {
+  background-color: var(--badge-Red);
 }
 
-.bg-badge-green{
-  background-color: #05b80b;
+.bg-badge-Green {
+  background-color: var(--badge-Green);
+}
+
+.bg-badge-Lilac {
+  background-color: var(--badge-Lilac);
+}
+
+.bg-badge-blue {
+  background-color: var(--badge-blue);
+}
+
+.bg-badge-Orange {
+  background-color: var(--badge-Orange);
+}
+
+.bg-badge-Pink {
+  background-color: var(--badge-Pink);
+}
+
+.bg-badge-White {
+  background-color: var(--badge-White);
+}
+
+.bg-badge-Black {
+  background-color: var(--badge-Black);
+}
+
+.bg-badge-Yellow {
+  background-color: var(--badge-Yellow);
+}
+
+.bg-badge-Aquamarine {
+  background-color: var(--badge-Aquamarine);
+}
+
+.bg-badge-Purple {
+  background-color: var(--badge-Purple);
+}
+
+.bg-badge-Light-blue {
+  background-color: var(--badge-Light-blue);
+}
+
+.bg-badge-mallow {
+  background-color: var(--badge-mallow);
+}
+
+.bg-badge-turquoise {
+  background-color: var(--badge-turquoise);
 }
