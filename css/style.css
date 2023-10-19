@@ -4,7 +4,22 @@
   --main-Blue: #008F9F;
   --main-Black: #050505;
   --main-Yellow: #FDC523;
+  --badge-Red: #ec1212;
+  --badge-Green: #05b80b;
+  --badge-Lilac: #B695C0;
+  --badge-blue: #1b5ed3;
+  --badge-Orange: #ec9c12;
+  --badge-Pink: #ff35d7;/*o fucsia*/
+  --badge-White: #dddddd;
+  --badge-Black: #050505;
+  --badge-Yellow: #ece112;
+  --badge-Aquamarine: #9fd5d1;
+  --badge-Purple: #800080;
+  --badge-Light-blue: #80cdde;
+  --badge-mallow: #E0B0FF;
+  --badge-turquoise:#5dc1b9;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
@@ -219,6 +234,10 @@ body {
   opacity: 1;
   transform: scaleX(1);
 }
+.link-joseka{
+  text-decoration: none;
+  color: inherit;
+}
 
 .correo-link {
   color: inherit;
@@ -251,17 +270,13 @@ p {
 .white-space{
   white-space: nowrap;
 }
-/*! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS*/
-.bg-badge-virginia{
-background-color: aquamarine;
-}
 .badge-size {
   width: 100px; /* Cambia el valor según tus necesidades */
   height: 50px; /* Cambia el valor según tus necesidades */
 }
 
 /*oculta card en displ moviles*/
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   #remove_mobile {
     display: none;
   }
@@ -270,44 +285,59 @@ background-color: aquamarine;
 .bg-carousel{
   background-color: var(--main-Blue);
 }
-
-.bg-badge-carloshuertas{
-  background-color: #05b80b;
-  }
-
-.bg-badge-joseandres{
-    background-color: #dddddd;
-  }
-
-.bg-badge-rosagarcia{
-  background-color: #05b80b;
-}
-.bg-badge-ivancarrasco{
-  background-color: #1b5ed3;
+/*! badge colors*/
+.bg-badge-Red {
+  background-color: var(--badge-Red);
 }
 
-.bg-badge-mariasilva{
-  background-color: #5dc1b9;
+.bg-badge-Green {
+  background-color: var(--badge-Green);
 }
-.bg-badge-albavalle{
-  background-color: #343434;
-} 
-.bg-badge-CarlosHuertas{
-  background-color: #29cfe9;
-} 
-.bg-badge-AnaGarcía{
-  background-color: #f9a135;
-} 
-.bg-badge-RaquelGarcía{
-  background-color: #e235f9;
-} 
-.bg-badge-JoseAndres{
-  background-color: #e1d4d3;
-} 
-.bg-badge-MarisaTorralbo{
-  background-color: #57ef49;
-} 
 
-.bg-badge-daniel{
-  background-color: #80cdde;
+.bg-badge-Lilac {
+  background-color: var(--badge-Lilac);
+}
+
+.bg-badge-blue {
+  background-color: var(--badge-blue);
+}
+
+.bg-badge-Orange {
+  background-color: var(--badge-Orange);
+}
+
+.bg-badge-Pink {
+  background-color: var(--badge-Pink);
+}
+
+.bg-badge-White {
+  background-color: var(--badge-White);
+}
+
+.bg-badge-Black {
+  background-color: var(--badge-Black);
+}
+
+.bg-badge-Yellow {
+  background-color: var(--badge-Yellow);
+}
+
+.bg-badge-Aquamarine {
+  background-color: var(--badge-Aquamarine);
+}
+
+.bg-badge-Purple {
+  background-color: var(--badge-Purple);
+}
+
+.bg-badge-Light-blue {
+  background-color: var(--badge-Light-blue);
+}
+
+.bg-badge-mallow {
+  background-color: var(--badge-mallow);
+}
+
+.bg-badge-turquoise {
+  background-color: var(--badge-turquoise);
 }
