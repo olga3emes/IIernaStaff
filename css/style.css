@@ -260,7 +260,7 @@ background-color: aquamarine;
   height: 50px;
 }
 /*oculta card en displ moviles*/
-@media (max-width: 450px) {
+@media (max-width: 750px) {
   #remove_mobile {
     display: none;
   }
