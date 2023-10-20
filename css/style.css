@@ -20,12 +20,19 @@
   --badge-turquoise:#5dc1b9;
 }
 
+
+.carouselImg {
+  width: 15%;
+  height: 15%;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
   font-family: 'Montserrat', sans-serif;
 }
+
 /*NAVBAR*/
 .bg-blueilerna {
   color: var(--main-White) !important;
@@ -86,7 +93,8 @@ body {
 .submenu {
   display: none;
   position: absolute;
-  background-color: #008f9f;/*main blue con transparencia*/
+  background-color: #008f9f;
+  /*main blue con transparencia*/
   list-style: none;
   margin: 0;
   padding: 0;
@@ -114,7 +122,8 @@ body {
 }
 
 .submenu a:hover {
-  background-color: #cae2e46d;/*blue light con transparencia*/
+  background-color: #cae2e46d;
+  /*blue light con transparencia*/
 }
 
 .arrow-down-custom {
@@ -152,7 +161,8 @@ body {
   width: 100%;
   height: 2px;
   left: 0;
-  background-color: #ffffff00;/*quitar color poniendole otro tranparente*/
+  background-color: #ffffff00;
+  /*quitar color poniendole otro tranparente*/
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
@@ -190,7 +200,8 @@ body {
 }
 
 .navbar-toggler:hover span {
-  background-color: var(--main-Light-blue);/*#b9dfe3*/
+  background-color: var(--main-Light-blue);
+  /*#b9dfe3*/
 }
 
 .custom-navbar .navbar-toggler-icon {
@@ -222,7 +233,8 @@ body {
   right: 0;
   width: 100%;
   height: 2px;
-  background-color: #cae2e46d;/*blue light con transparencia*/
+  background-color: #cae2e46d;
+  /*blue light con transparencia*/
   /* Color del subrayado */
   transform: scaleX(0);
   transform-origin: left;
@@ -243,39 +255,51 @@ body {
   color: inherit;
   text-decoration: none;
 }
+
 /*! FIN NAVBAR FOOTER*/
-#hero{
+#hero {
   background-color: var(--main-Light-blue);
 }
-h1, h2, h3,h4 {
+
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-} 
+}
+
 /*font size por defecto 16px*/
 p {
   font-family: 'Lato', sans-serif;
   font-weight: normal;
 }
+
 /*bgs de las cards,personalizado*/
-.bg-card{
+.bg-card {
   background-color: var(--main-White);
 }
-.card-shadow{
-  box-shadow:0 1rem 3rem rgba(0, 0, 0, 0.6);
+
+.card-shadow {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
 }
-.border-color{
+
+.border-color {
   border-color: var(--main-Black);
 }
+
 /*evita texto fuera de sus cuadros*/
-.white-space{
+.white-space {
   white-space: nowrap;
 }
 .badge-size {
   width: 100px; /* Cambia el valor según tus necesidades */
+  /* Cambia el valor según tus necesidades */
   height: 50px; /* Cambia el valor según tus necesidades */
 }
 .bg-badge-sergio{
   background: linear-gradient(to bottom, #000000, #0000FF);
+  /* Cambia el valor según tus necesidades */
 }
 
 /*oculta card en displ moviles*/
@@ -286,7 +310,7 @@ p {
 }
 
 /** Carousel*/
-.bg-carousel{
+.bg-carousel {
   background-color: var(--main-Blue);
 }
 /*! badge colors*/
