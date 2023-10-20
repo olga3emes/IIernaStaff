@@ -86,7 +86,7 @@ body {
 .submenu {
   display: none;
   position: absolute;
-  background-color: #008f9fd5;/*main blue con transparencia*/
+  background-color: #008f9f;/*main blue con transparencia*/
   list-style: none;
   margin: 0;
   padding: 0;
@@ -340,4 +340,11 @@ p {
 
 .bg-badge-turquoise {
   background-color: var(--badge-turquoise);
+}
+.dropdown-h{
+  height: 500px;
+}
+
+.title-dropdown{
+  color:var(--main-Yellow) ;
 }
