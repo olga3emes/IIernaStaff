@@ -277,12 +277,14 @@ p {
 .bg-badge-sergio{
   background: linear-gradient(to bottom, #000000, #0000FF);
 }
+
 /*oculta card en displ moviles*/
 @media (max-width: 750px) {
   #remove_mobile {
     display: none;
   }
 }
+
 /** Carousel*/
 .bg-carousel{
   background-color: var(--main-Blue);
