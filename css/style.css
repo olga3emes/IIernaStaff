@@ -274,7 +274,9 @@ p {
   width: 100px; /* Cambia el valor según tus necesidades */
   height: 50px; /* Cambia el valor según tus necesidades */
 }
-
+.bg-badge-sergio{
+  background: linear-gradient(to bottom, #000000, #0000FF);
+}
 /*oculta card en displ moviles*/
 @media (max-width: 750px) {
   #remove_mobile {
