@@ -93,7 +93,7 @@ body {
 .submenu {
   display: none;
   position: absolute;
-  background-color: #008f9f;
+  background-color: #008f9fd5;
   /*main blue con transparencia*/
   list-style: none;
   margin: 0;
@@ -293,9 +293,47 @@ p {
   white-space: nowrap;
 }
 .badge-size {
-  width: 100px; /* Cambia el valor según tus necesidades */
+  width: 100px;
   /* Cambia el valor según tus necesidades */
-  height: 50px; /* Cambia el valor según tus necesidades */
+  height: 50px;
+  /* Cambia el valor según tus necesidades */
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  margin: 0%;
+}
+
+
+.image-container img {
+  width: 100%;
+  height: 45%;
+  margin: 0%;
+ 
+}
+
+.image-container .texto {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  right: 10%;
+  color: var(--main-White);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  
+}
+
+.carrusel-img {
+  display: flex;
+  flex: 1;
+}
+
+button{
+  background-color: var(--main-Yellow);
+  font-weight:bold;
+  font-size: 20px;
 }
 .bg-badge-sergio{
   background: linear-gradient(to bottom, #000000, #0000FF);
