@@ -366,3 +366,10 @@ p {
 .bg-badge-turquoise {
   background-color: var(--badge-turquoise);
 }
+.dropdown-h{
+  height: 500px;
+}
+
+.title-dropdown{
+  color:var(--main-Yellow) ;
+}
