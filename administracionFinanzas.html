@@ -1,42 +1,392 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="es">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="../js/bootstrap.bundle.js"></script>
-    <link rel="stylesheet" href="../css/bootstrap.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <title>Ilerna Staff</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/bootstrap.bundle.js"></script>
 </head>
 
 <body>
-    <div class="bg-carousel my-5">
-        <div class="container mt-5 bg-carousel p-5">
-            <h1 class="text-light mb-3">Administración y finanzas</h1>
-            <div id="carouselId" class="carousel carousel-dark slide" data-bs-ride="false">
-                <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active p-1">
-                        <div class="row">
-                            <div class="justify-content-center img-size">
-                                <a href="administracionFinanza_Cards.html">
-                                    <div class="bg-image hover-zoom">
-                                        <img src="/Resources/img/grupo4/AdministracionFinanzas.png" href="google.com"
-                                            class="w-100 d-block rounded-2" alt="First slide">
-                                    </div>
-                                </a>
-                                <div class="text-light ms-3 text-center mt-3">
-                                    <a href="https://www.google.com/?hl=es" class="text-decoration-none">
-                                        <h5 class="text-light ">CFGS Administración y finanzas</h5>
-                                    </a>
-                                    <p>¡Conoce a los profesores que imparten las asignaturas del ciclo de Administración y finanzas!.</p>
-                                </div>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
+          <div class="container-xxl">
+            <a class="navbar-brand" href="index.html">
+              <img src="Resources/img/logo/ilerna_Staff_Amarillo.png" alt="Logo" width="150" height="55">
+            </a>
+    
+            <!--NO BORRAR BOTÓN DE MOVIL-->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon">
+                <span class="linea"></span>
+                <span class="linea"></span>
+                <span class="linea"></span>
+              </span>
+            </button>
+    
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto menu-derecha">
+                <li class="nav-item active">
+                  <a class="nav-link text-white" href="index.html">Inicio</a>
+                </li>
+                <li class="nav-item has-submenu">
+                  <a class="nav-link text-white" href="#">Familias educativas <class="arrow-down-custom">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                        class="custom-arrow" viewBox="0 0 16 16">
+                        <path
+                          d="M4.646 6.146a.5.5 0 01.708 0L8 9.793l2.646-2.647a.5.5 0 01.708 0 .5.5 0 010 .708l-3 3a.5.5 0 01-.708 0l-3-3a.5.5 0 010-.708z" />
+                      </svg>
+                  </a>
+                  <ul class="submenu">
+                    <div class="container overflow-auto dropdown-h">
+                      <div id="sanidad" class="">
+                        <h5 class="px-3 pt-2 title-dropdown">Sanidad</h5>
+                        <hr>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="Sanidad_Anatomia.html">Anatomía Patológica y Citodiagnóstico</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="Sanidad_Audiologia.html">Audiología Protésica</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="Sanidad_Aux_Enfermeria.html">Auxiliar de Enfermería</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="Sanidad_Dietetica.html">Dietética</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="Sanidad_HigieneBucodental.html">Higiene Bucodental</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="Sanidad_Imagenydiasnostico.html">Imagen para el Diagnóstico y Medicina Nuclear</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="sanidad_laboratorio.html">Laboratorio Clínico y Biomédico</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="Sanidad_Protesis.html">Prótesis Dental</a>
+                        </li>
+                      </div>
+                      <div id="CMarketing" class="">
+                        <h5 class="px-3 pt-2 title-dropdown">Comercio y Marketing</h5>
+                        <hr>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="Familias/marketingPublicidad.html">Marketing y Publicidad</a>
+                        </li>                     
+                      </div>
+                      <div id="ADE" class="">
+                        <h5 class="px-3 pt-2 title-dropdown">Administración y Gestión</h5>
+                        <hr>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="administracionFinanzas.html">Administración y finanzas</a>
+                        </li>
+                      </div>
+                      <div id="InformatiaComunicacion" class="">
+                        <h5 class="px-3 pt-2 title-dropdown">Informática y Comunicaciones</h5>
+                        <hr>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="informatica_y_telecomunicaciones_desarrollo_de_aplicaciones_web.html">Desarrollo de Apliciones Web</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="informatica_y_telecomunicaciones_desarrollo_de_aplicaciones_multiplataforma.html">Desarrollo de Aplicaciones Multiplataforma</a>
+                        </li>
+                      </div>
+                      <div id="ImagenSonido" class="">
+                        <h5 class="px-3 pt-2 title-dropdown">Imágen y Sonido</h5>
+                        <hr>
+                        <li class="nav-item">
+                          <a class="nav-link text-white" href="imagen_y_sonido_3D,juegos_y_entornos_interactivos.html">3D, Juegos y Entornos Interactivos</a>
+                        </li>
+                      </div>
+                    </div>
+                  </ul>
+                </li>
+    
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="Transversal_Transversal.html">Transversales</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="adminCentro_direccion.html">Administración</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link text-white" href="adminCentro_personal.html">Mantenimientos y servicios</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+      </header>
+    <main>
+        <!-- Hero -->
+        <div id="hero" class="p-5 text-center">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="d-flex justify-content-center align-items-center h-100">
+                            <div class="text-black">
+                                <h1 class="mb-3">Administracion y Finanzas</h1>
+                                <p class="mb-3">Profesorado de las asignaturas de Administracion y Finanzas</p>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+        <hr class="hr" />
+
+        <!--CARD-->
+        <!--! container sin fluid , mt-2 -->
+        <div class="container p-5 mt-2">
+            <!--! sin p-5 psm-0 p-md-0 p-lg-5-->
+            <div class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5 "><!-- disminuir p-->
+
+                <div class="col-12 col-md-12 col-lg-12 g-5">
+                    <div
+                        class="row rounded-5 justify-content-center align-items-center card-shadow p-4 bg-card border border-1 border-color ">
+                        <div class="col-12 col-md-12 col-lg-6 text-center p-3">
+                            <img src="Resources/img/img_Personal-4-3/franciscojavier_DxO.jpg"
+                                class="img-fluid rounded-3">
+                            <div class="container">
+                                <div class="row justify-content-center align-items-center g-2 mt-2">
+                                    <!--! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS EN BG-BADGE-->
+                                    <h1 class="col-12 text-center">Fco Javier Sanchez Echevarria<span
+                                            class="badge rounded-pill badge-size bg-badge-Yellow align-middle">☆</span>
+                                    </h1>
+                                    <h4 class="col-12 text-center">Orientador/Profesor</h4>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!--! añadido id remove_mobile-->
+                        <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
+                            <div class="row justify-content-center align-items-center align-middle g-2">
+                                <div
+                                    class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4  ">
+                                    <div class="container bg-card rounded-top mt-1">
+                                        <h4 class="pt-2">Formación</h4>
+                                        <p class="text-break pb-1 mb-1">Grado universitario de administración y finanzas
+                                        </p>
+                                    </div>
+                                    <div class="container bg-card">
+                                        <h4 class="pt-2">Hobbies</h4>
+                                        <p class="text-break pb-1 mb-1"> Los hobbies que más disfruto son el deporte y
+                                            el carnaval</p>
+                                    </div>
+                                    <div class="container bg-card">
+                                        <h4 class="pt-2">Frase que te represente</h4>
+                                        <p class="text-break pb-1 mb-1">La clave de la educación no es enseñar, es
+                                            despertar</p>
+                                    </div>
+                                    <div class="container bg-card rounded-bottom ">
+                                        <h4 class="pt-2">Algo sobre ti</h4>
+                                        <p class="text-break pb-1 mb-1">Como profesional me considero constante y justo
+                                        </p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="container p-5 mt-2">
+            <!--! sin p-5 psm-0 p-md-0 p-lg-5-->
+            <div class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5 "><!-- disminuir p-->
+
+                <div class="col-12 col-md-12 col-lg-12 g-5">
+                    <div
+                        class="row rounded-5 justify-content-center align-items-center card-shadow p-4 bg-card border border-1 border-color ">
+                        <div class="col-12 col-md-12 col-lg-6 text-center p-3">
+                            <img src="Resources/img/img_Personal-4-3/carmen_DxO.jpg" class="img-fluid rounded-3">
+                            <div class="container">
+                                <div class="row justify-content-center align-items-center g-2 mt-2">
+                                    <!--! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS EN BG-BADGE-->
+                                    <h1 class="col-12 text-center">Carmen Vidaurreta Casero<span
+                                            class="badge rounded-pill badge-size bg-badge-Green align-middle">☆</span>
+                                    </h1>
+                                    <h4 class="col-12 text-center">Profesora</h4>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!--! añadido id remove_mobile-->
+                        <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
+                            <div class="row justify-content-center align-items-center align-middle g-2">
+                                <div
+                                    class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4  ">
+                                    <div class="container bg-card rounded-top mt-1">
+                                        <h4 class="pt-2">Formación</h4>
+                                        <p class="text-break pb-1 mb-1"> Licenciada en ADE</p>
+                                    </div>
+                                    <div class="container bg-card">
+                                        <h4 class="pt-2">Hobbies</h4>
+                                        <p class="text-break pb-1 mb-1"> Entre mis hobbies se encuentran leer, viajar,
+                                            el cine, hacer senderismo y jugar a juegos de mesa entre otros</p>
+                                    </div>
+                                    <div class="container bg-card">
+                                        <h4 class="pt-2">Frase que te represente</h4>
+                                        <p class="text-break pb-1 mb-1">Aunque nada cambie, si yo cambio todo cambia
+                                        </p>
+                                    </div>
+                                    <div class="container bg-card rounded-bottom ">
+                                        <h4 class="pt-2">Algo sobre ti</h4>
+                                        <p class="text-break pb-1 mb-1">Soy una persona muy comprometida con mi trabajo,
+                                            por ello nunca he parado de formarme. Intento inculcar en mis alumnos el
+                                            valor del esfuerzo, y sobre todo, ser buenas personas.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="container p-5 mt-2">
+            <!--! sin p-5 psm-0 p-md-0 p-lg-5-->
+            <div class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5 "><!-- disminuir p-->
+
+                <div class="col-12 col-md-12 col-lg-12 g-5">
+                    <div
+                        class="row rounded-5 justify-content-center align-items-center card-shadow p-4 bg-card border border-1 border-color ">
+                        <div class="col-12 col-md-12 col-lg-6 text-center p-3">
+                            <img src="Resources/img/img_Personal-4-3/jessica_DxO.jpg" class="img-fluid rounded-3">
+                            <div class="container">
+                                <div class="row justify-content-center align-items-center g-2 mt-2">
+                                    <!--! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS EN BG-BADGE-->
+                                    <h1 class="col-12 text-center">Jessica Cardenas Cadiz <span
+                                            class="badge rounded-pill badge-size bg-badge-Yellow align-middle">☆</span>
+                                    </h1>
+                                    <h4 class="col-12 text-center">Profesora</h4>
+                                </div>
+
+                            </div>
+
+                        </div>
+                        <!--! añadido id remove_mobile-->
+                        <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
+                            <div class="row justify-content-center align-items-center align-middle g-2">
+                                <div
+                                    class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4  ">
+                                    <div class="container bg-card rounded-top mt-1">
+                                        <h4 class="pt-2">Formación</h4>
+                                        <p class="text-break pb-1 mb-1">
+                                            Licenciada en Ciencias empresariales,
+                                            Máster en formación del profesorado de educación secundaria y bachillerato,
+                                            formación profesional y enseñanza de idiomas
+                                        </p>
+                                    </div>
+                                    <div class="container bg-card">
+                                        <h4 class="pt-2">Hobbies</h4>
+                                        <p class="text-break pb-1 mb-1"> Mis hobbies principales son ir a la playa, la
+                                            lectura y pasar tiempo con mis amistades </p>
+                                    </div>
+                                    <div class="container bg-card">
+                                        <h4 class="pt-2">Frase que te represente</h4>
+                                        <p class="text-break pb-1 mb-1">Insistir, persistir, resistir y nunca desistir
+                                        </p>
+                                    </div>
+                                    <div class="container bg-card rounded-bottom ">
+                                        <h4 class="pt-2">Algo sobre ti</h4>
+                                        <p class="text-break pb-1 mb-1">Tras varios años dedicada al mundo de la banca,
+                                            me desenamoré de mi profesión al descubrir mi pasión, la docencia</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        
+
+    </main>
+    <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
+        <div class="container">
+            <div class="row my-4">
+
+                <!-- Segunda fila -->
+                
+
+                <!-- Línea horizontal -->
+                <div class="col-12 mb-2">
+                    <hr class="bg-white">
+                </div>
+                <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
+                <div class="row my-3">
+                    <div class="col-12 col-md-4">
+                        <div class="text-left">
+                            <p>Av. de la Innovación, 7-9, Edificio Arena, 2, 41020 Sevilla.<br>
+                                <a href="https://maps.app.goo.gl/8xVnSDgvoMCbBNeA9"
+                                    style="text-decoration: none; color: inherit;">
+                                    <h5>Ver mapa</h5>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-left">
+                            <p>954 04 12 12 <br> (llamada gratuita)<br> Horario: L-J: 9-14h / 15:30-19h; V: 9-15h</p>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-4">
+                        <div class="text-left">
+                            <p>
+                                <a href="mailto:correo1@example.com" class="correo-link">ilernaonline@gmail.com</a>
+                                <br>
+                                <a href="mailto:correo2@example.com" class="correo-link">ilernaandalucia@gmail.com</a>
+                                <br>
+                                Preguntas frecuentes
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Línea horizontal -->
+                <div class="col-12">
+                    <hr class="bg-white">
+                </div>
+
+                <!-- Bloque 3: Políticas de Privacidad y Cookies -->
+                <div class="row my-3">
+                    <div class="col-md-7 text-center ">
+                        <div>
+                            <a class="text-light" href="#">Política de Privacidad</a>
+                        </div>
+                    </div>
+                    <div class="col-md-3 text-center">
+                        <div>
+                            <a class="text-light" href="#">Política de Cookies</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
 
 </html>
+<!--holiwi-->
