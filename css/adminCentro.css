@@ -1,8 +1,11 @@
-.bg-banner-personal{
-
-}
-.bg-banner-direccion{
+.bg-banner-direccion {
     background-image: url("../carouselPrueba/recursosPrueba/DireccionCentro.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-banner-personal {
+    background-image: url("../carouselPrueba/recursosPrueba/MantenimientoCentro.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
