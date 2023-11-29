@@ -93,8 +93,9 @@ body {
 .submenu {
   display: none;
   position: absolute;
-  background-color: #008f9fd5;
-  /*main blue con transparencia*/
+  background-color: #008f9f;
+  /*main blue con transparencia*/ 
+  /* con transparencia en los menús mucho ojo porque se ponen encima del texto y no se ve*/
   list-style: none;
   margin: 0;
   padding: 0;
@@ -116,7 +117,7 @@ body {
 .submenu a {
   color: var(--main-White);
   text-decoration: none;
-  padding: 10px;
+  padding: 6px;
   display: block;
   transition: background-color 0.3s;
 }
@@ -179,7 +180,7 @@ body {
   padding: 0;
   width: 30px;
   height: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 1em;
 }
 
 .navbar-toggler span {
@@ -333,7 +334,7 @@ p {
 button{
   background-color: var(--main-Yellow);
   font-weight:bold;
-  font-size: 20px;
+  font-size: 16px;
 }
 .bg-badge-sergio{
   background: linear-gradient(to bottom, #000000, #0000FF);
