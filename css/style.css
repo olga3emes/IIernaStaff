@@ -426,3 +426,15 @@ button{
   min-width: 1000px;
   height: auto;
 }
+figure {
+  max-width: 300px;
+  overflow: auto;
+ }
+ 
+ figure img {
+  float: left;
+  margin: 0 1em 1em 0;
+  width: 40px;
+  height: auto;
+ }
+ 
