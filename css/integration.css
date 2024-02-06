@@ -1,0 +1,33 @@
+:root {
+    --main-White: #FBFBFB;
+    --main-Light-blue: #CAE2E4;
+    --main-Blue: #008F9F;
+    --main-Black: #050505;
+    --main-Yellow: #FDC523;
+    --badge-Red: #ec1212;
+    --badge-Green: #05b80b;
+    --badge-Lilac: #B695C0;
+    --badge-blue: #1b5ed3;
+    --badge-Orange: #ec9c12;
+    --badge-Pink: #ff35d7;/*o fucsia*/
+    --badge-White: #dddddd;
+    --badge-Black: #050505;
+    --badge-Yellow: #ece112;
+    --badge-Aquamarine: #9fd5d1;
+    --badge-Purple: #800080;
+    --badge-Light-blue: #80cdde;
+    --badge-mallow: #E0B0FF;
+    --badge-turquoise:#5dc1b9;
+  }
+
+.bg-card-orange{
+    background-color: #F28E13;
+}
+.h35 {
+    font-size: 1.5rem ; /* Tamaño de fuente medio entre 3 y 4 */
+    font-weight: 550;
+}
+/* modificar por lapiz */
+.cursor{
+    cursor: pointer;
+}
