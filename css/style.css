@@ -1,3 +1,7 @@
+body{
+  background-image: url("../Resources/img/bg\ photos/fondoinfantil.jpg");
+}
+
 :root {
   --main-White: #FBFBFB;
   --main-Light-blue: #CAE2E4;
@@ -285,6 +289,22 @@ p {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
 }
 
+.card-shadow-Yellow {
+  box-shadow: 0 1rem 3rem  var(--badge-Yellow);
+}
+
+.card-shadow-Green {
+  box-shadow: 0 1rem 3rem   var(--badge-Green);
+}
+
+.card-shadow-Purple {
+  box-shadow: 0 1rem 3rem  var(--badge-Purple);
+}
+
+.card-shadow-Light-blue {
+  box-shadow: 0 1rem 3rem  var(--badge-Light-blue);
+}
+
 .border-color {
   border-color: var(--main-Black);
 }
@@ -340,13 +360,6 @@ button{
 .bg-badge-sergio{
   background: linear-gradient(to bottom, #000000, #0000FF);
   /* Cambia el valor según tus necesidades */
-}
-
-/*oculta card en displ moviles*/
-@media (max-width: 750px) {
-  #remove_mobile {
-    display: none;
-  }
 }
 
 /** Carousel*/
