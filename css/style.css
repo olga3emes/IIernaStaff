@@ -445,3 +445,8 @@ figure {
       margin: 0 0 1em;
   }
 }
+
+.last-card-wrapper {
+  display: flex;
+  justify-content: center;
+}
