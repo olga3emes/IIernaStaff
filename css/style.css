@@ -4,14 +4,35 @@
   --main-Blue: #008F9F;
   --main-Black: #050505;
   --main-Yellow: #FDC523;
+  --badge-Red: #ec1212;
+  --badge-Green: #05b80b;
+  --badge-Lilac: #B695C0;
+  --badge-blue: #1b5ed3;
+  --badge-Orange: #ec9c12;
+  --badge-Pink: #ff35d7;/*o fucsia*/
+  --badge-White: #dddddd;
+  --badge-Black: #050505;
+  --badge-Yellow: #ece112;
+  --badge-Aquamarine: #9fd5d1;
+  --badge-Purple: #800080;
+  --badge-Light-blue: #80cdde;
+  --badge-mallow: #E0B0FF;
+  --badge-turquoise:#5dc1b9;
 }
+
+
+.carouselImg {
+  width: 15%;
+  height: 15%;
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
 
 body {
   font-family: 'Montserrat', sans-serif;
-
 }
+
 /*NAVBAR*/
 .bg-blueilerna {
   color: var(--main-White) !important;
@@ -72,14 +93,16 @@ body {
 .submenu {
   display: none;
   position: absolute;
-  background-color: #008f9fd5;/*main blue con transparencia*/
+  background-color: #008f9f;
+  /*main blue con transparencia*/ 
+  /* con transparencia en los menús mucho ojo porque se ponen encima del texto y no se ve*/
   list-style: none;
   margin: 0;
   padding: 0;
   z-index: 1;
   box-shadow: 0 2px 2px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
-  width: 200px;
+  width: 300px;
   opacity: 0;
   transform: translateY(10px);
   transition: opacity 0.3s, transform 0.3s;
@@ -94,13 +117,14 @@ body {
 .submenu a {
   color: var(--main-White);
   text-decoration: none;
-  padding: 10px;
+  padding: 6px;
   display: block;
   transition: background-color 0.3s;
 }
 
 .submenu a:hover {
-  background-color: #cae2e46d;/*blue light con transparencia*/
+  background-color: #cae2e46d;
+  /*blue light con transparencia*/
 }
 
 .arrow-down-custom {
@@ -138,7 +162,8 @@ body {
   width: 100%;
   height: 2px;
   left: 0;
-  background-color: #ffffff00;/*quitar color poniendole otro tranparente*/
+  background-color: #ffffff00;
+  /*quitar color poniendole otro tranparente*/
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out;
@@ -155,7 +180,7 @@ body {
   padding: 0;
   width: 30px;
   height: 20px;
-  margin-bottom: 16px;
+  margin-bottom: 1em;
 }
 
 .navbar-toggler span {
@@ -176,7 +201,8 @@ body {
 }
 
 .navbar-toggler:hover span {
-  background-color: var(--main-Light-blue);/*#b9dfe3*/
+  background-color: var(--main-Light-blue);
+  /*#b9dfe3*/
 }
 
 .custom-navbar .navbar-toggler-icon {
@@ -208,7 +234,8 @@ body {
   right: 0;
   width: 100%;
   height: 2px;
-  background-color: #cae2e46d;/*blue light con transparencia*/
+  background-color: #cae2e46d;
+  /*blue light con transparencia*/
   /* Color del subrayado */
   transform: scaleX(0);
   transform-origin: left;
@@ -220,43 +247,201 @@ body {
   opacity: 1;
   transform: scaleX(1);
 }
+.link-joseka{
+  text-decoration: none;
+  color: inherit;
+}
 
 .correo-link {
   color: inherit;
   text-decoration: none;
 }
+
 /*! FIN NAVBAR FOOTER*/
-#hero{
+#hero {
   background-color: var(--main-Light-blue);
 }
-h1, h2, h3,h4 {
+
+h1,
+h2,
+h3,
+h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-} 
+}
+
 /*font size por defecto 16px*/
 p {
   font-family: 'Lato', sans-serif;
   font-weight: normal;
 }
+
 /*bgs de las cards,personalizado*/
-.bg-card{
+.bg-card {
   background-color: var(--main-White);
 }
-.card-shadow{
-  box-shadow:0 1rem 3rem rgba(0, 0, 0, 0.6);
+
+.card-shadow {
+  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
 }
-.border-color{
+
+.border-color {
   border-color: var(--main-Black);
 }
+
 /*evita texto fuera de sus cuadros*/
-.white-space{
+.white-space {
   white-space: nowrap;
 }
-/*! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS*/
-.bg-badge-virginia{
-background-color: aquamarine;
-}
 .badge-size {
-  width: 100px; /* Cambia el valor según tus necesidades */
-  height: 50px; /* Cambia el valor según tus necesidades */
+  width: 100px;
+  /* Cambia el valor según tus necesidades */
+  height: 50px;
+  /* Cambia el valor según tus necesidades */
+}
+
+.image-container {
+  position: relative;
+  text-align: center;
+  margin: 0%;
+}
+
+
+.image-container img {
+  width: 100%;
+  height: auto;
+  margin: 0%;
+ 
+}
+
+.image-container .texto {
+  position: absolute;
+  padding: 0.5em;
+  top: 20%;
+  left: 10%;
+  right: 10%;
+  color: var(--main-White);
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 5px;
+  
+}
+
+.carrusel-img {
+  display: flex;
+  flex: 1;
+}
+
+button{
+  background-color: var(--main-Yellow);
+  font-weight:bold;
+  font-size: 16px;
+}
+.bg-badge-sergio{
+  background: linear-gradient(to bottom, #000000, #0000FF);
+  /* Cambia el valor según tus necesidades */
+}
+
+/*oculta card en displ moviles*/
+@media (max-width: 750px) {
+  #remove_mobile {
+    display: none;
+  }
+}
+
+/** Carousel*/
+.bg-carousel {
+  background-color: var(--main-Blue);
+}
+/*! badge colors*/
+.bg-badge-Red {
+  background-color: var(--badge-Red);
+}
+
+.bg-badge-Green {
+  background-color: var(--badge-Green);
+}
+
+.bg-badge-Lilac {
+  background-color: var(--badge-Lilac);
+}
+
+.bg-badge-blue {
+  background-color: var(--badge-blue);
+}
+
+.bg-badge-Orange {
+  background-color: var(--badge-Orange);
+}
+
+.bg-badge-Pink {
+  background-color: var(--badge-Pink);
+}
+
+.bg-badge-White {
+  background-color: var(--badge-White);
+}
+
+.bg-badge-Black {
+  background-color: var(--badge-Black);
+}
+
+.bg-badge-Yellow {
+  background-color: var(--badge-Yellow);
+}
+
+.bg-badge-Aquamarine {
+  background-color: var(--badge-Aquamarine);
+}
+
+.bg-badge-Purple {
+  background-color: var(--badge-Purple);
+}
+
+.bg-badge-Light-blue {
+  background-color: var(--badge-Light-blue);
+}
+
+.bg-badge-mallow {
+  background-color: var(--badge-mallow);
+}
+
+.bg-badge-turquoise {
+  background-color: var(--badge-turquoise);
+}
+.dropdown-h{
+  height: 500px;
+}
+
+.title-dropdown{
+  color:var(--main-Yellow) ;
+}
+
+.img-max-w{
+  max-width: 1500px;
+  height: auto;
+}
+
+.img-min-w{
+  min-width: 1000px;
+  height: auto;
+}
+figure {
+  max-width: 300px;
+  overflow: auto;
+ }
+ 
+ figure img {
+  float: left;
+  margin: 0 1em 1em 0;
+  width: 40px;
+  height: auto;
+ }
+ @media screen and (max-width: 600px) {
+  .table-container {
+      width: 100%;
+      overflow-y: auto;
+      _overflow: auto;
+      margin: 0 0 1em;
+  }
 }
