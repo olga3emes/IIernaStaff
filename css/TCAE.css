@@ -1,0 +1,50 @@
+.tab {
+  cursor: pointer;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+.card{
+  background-color: blueviolet;
+  
+}
+
+
+
+/* Estilos para las tarjetas */
+.bg-card {
+  background-color: #f5caca; /* Color de fondo de las tarjetas */
+
+}
+
+/* Estilos para el texto dentro de las tarjetas */
+.container.bg-card h4 {
+  text-align: center; /* Centrar el texto */
+  font-family: Arial, sans-serif; /* Tipo de fuente */
+  color: #000000; /* Color del texto */
+}
+
+body {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative; /* Añade esto para que los elementos posicionados relativamente respeten este contenedor */
+}
+
+/* Para hacer que la imagen de fondo tenga opacidad */
+body::before {
+  content: "";
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: fixed; /* Esto hace que la imagen de fondo ocupe toda la pantalla */
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  opacity: 0.5; /* Cambia este valor para ajustar la opacidad de la imagen de fondo */
+  z-index: -1; /* Para que la imagen esté detrás del contenido */
+}
+
