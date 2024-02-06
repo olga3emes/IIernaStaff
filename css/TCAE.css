@@ -6,45 +6,23 @@
   margin-top: 20px;
 }
 
-.card{
-  background-color: blueviolet;
-  
-}
-
-
-
-/* Estilos para las tarjetas */
-.bg-card {
-  background-color: #f5caca; /* Color de fondo de las tarjetas */
-
-}
-
-/* Estilos para el texto dentro de las tarjetas */
-.container.bg-card h4 {
-  text-align: center; /* Centrar el texto */
-  font-family: Arial, sans-serif; /* Tipo de fuente */
-  color: #000000; /* Color del texto */
-}
-
 body {
+  background-image: url('/Resources/img/cosasTCAE/fondo.jpg'); /* Reemplaza 'path/to/fondo.jpg' con la ruta real de tu imagen */
   background-size: cover;
-  background-position: center;
   background-repeat: no-repeat;
-  position: relative; /* Añade esto para que los elementos posicionados relativamente respeten este contenedor */
+  background-attachment: fixed;
+  background-position: center;
 }
 
-/* Para hacer que la imagen de fondo tenga opacidad */
-body::before {
-  content: "";
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  position: fixed; /* Esto hace que la imagen de fondo ocupe toda la pantalla */
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  opacity: 0.5; /* Cambia este valor para ajustar la opacidad de la imagen de fondo */
-  z-index: -1; /* Para que la imagen esté detrás del contenido */
+/* Estilos para hacer que el contenido sea opaco */
+main, header, footer {
+  background-color: rgba(188, 199, 253, 0.9); /* Ajusta el valor de alfa según sea necesario */
 }
 
+.card{
+  opacity: 0.8; /* Ajusta la opacidad según sea necesario */
+}
+.img-border {
+  border: 3px solid #00FFFF; /* Azul fosforito */
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5); /* Sombra azul fosforito */
+}
