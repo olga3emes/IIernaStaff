@@ -89,7 +89,7 @@ input#open {
 
 
 #p1 .back {
-  transform: rotateY(180deg) scaleX(-1);
+  transform: rotateY(180deg);
   background-image: url("../Resources/img/img_Personal-4-3/jessica_DxO.jpg");
   background-position: center center;
   background-size: cover;
