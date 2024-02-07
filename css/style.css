@@ -285,6 +285,30 @@ p {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
 }
 
+.card {
+  border: none;
+  border-radius: 15px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+  height: 250px;
+}
+.card-body {
+  padding: 2rem;
+}
+.divider {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin: 1.5rem 0;
+}
+.section-title {
+  text-align: center;
+}
+
 .border-color {
   border-color: var(--main-Black);
 }
@@ -444,9 +468,4 @@ figure {
       _overflow: auto;
       margin: 0 0 1em;
   }
-}
-
-.last-card-wrapper {
-  display: flex;
-  justify-content: center;
 }
