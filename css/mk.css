@@ -1,0 +1,100 @@
+.container {
+    max-width: 800px; /* Aumentamos el ancho aquí */
+    margin: 20px auto;
+    padding: 0 15px; /* Asegura un poco de espacio en los lados en pantallas pequeñas */
+  }
+  
+  .card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: box-shadow 0.3s ease-in-out, transform 0.3s ease;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+    transform: translateY(-5px);
+  }
+  
+  .card-header img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  
+  .card-body {
+    padding: 20px;
+  }
+  
+  .card-title {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .card-subtitle {
+    font-size: 18px;
+    color: #666;
+    margin-bottom: 20px;
+  }
+  
+  .card-info p {
+    margin-bottom: 10px;
+  }
+  
+  .badge {
+    background-color: turquoise;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 50%;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .card-title.active {
+    /* Personaliza este estilo como prefieras */
+  }
+  
+  #toggleDetails {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .card-info p {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .card-info p.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .card-info h5, .card-info p {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+  }
+  
+  .card-info h5.active, .card-info p.active {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+
+  .hidden-text {
+    display: none; /* Hide the paragraphs by default */
+  }
+  
+  .show {
+    display: block !important; /* Override display property to show the paragraph */
+  }
+  
