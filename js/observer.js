@@ -1,16 +1,12 @@
-let cards = document.querySelectorAll('.card');
+let cards = document.querySelectorAll('.fade-in-g');
 
-let observer = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('active');
-      observer.unobserve(entry.target); // Detener la observación una vez activada la animación
+window.addEventListener('scroll', () => {
+  cards.forEach(card => {
+    let rect = card.getBoundingClientRect();
+    if (rect.top >=  0 && rect.bottom <= window.innerHeight) {
+      card.classList.add('active');
+    } else {
+      card.classList.remove('active');
     }
   });
-}, {
-  threshold: 0.5 // Porcentaje de visibilidad necesario para activar la animación (50%)
-});
-
-cards.forEach(card => {
-  observer.observe(card);
 });

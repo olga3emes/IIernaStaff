@@ -34,17 +34,6 @@
     font-weight: 550;
 }
 
-/* animation */
-.fade-in {
-    opacity: 0;
-}
-
-.fade-in.active {
-    opacity: 1;
-    animation: fadeIn 1s ease-in-out forwards;
-}
-
-
 /* modificar por lapiz */
 .cursor {
     cursor: pointer;
