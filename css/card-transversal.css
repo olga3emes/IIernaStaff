@@ -2,23 +2,31 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
-    margin: 0;
+    height: auto;
+    margin: 3vh;
+}
+
+.general-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    width: 90vh;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    display: flex;
+
 }
 
 .teacher-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
     width: 45vh;
-    border-radius: 5px;
     overflow: hidden;
-    margin-left: 3vh;
-    margin-right: 3vh;
 }
 
 .teacher-card img {
     width: 100%;
-    display: block;
 }
 
 .container {
