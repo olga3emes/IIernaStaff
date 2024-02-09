@@ -31,18 +31,28 @@
 .cursor {
     cursor: pointer;
 }
-.critina-select:hover{
+
+.critina-select:hover {
     background-color: #05b80b;
 }
-.maria-select:hover{
+
+.maria-select:hover {
     background-color: #800080;
     color: var(--main-White);
 }
-.lourdes-select:hover{
-    background-color:#ece112;
+
+.lourdes-select:hover {
+    background-color: #ece112;
 }
-.noemi-select:hover{
+
+.noemi-select:hover {
     background-color: #80cdde;
+}
+
+.card-shadow-integration {
+
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
+
 }
 
 #rotated-svg {
