@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap");
 
+body{
+  background-color: rgb(168, 136, 92);
+}
+
 *,
 *::after,
 *::before {
@@ -24,22 +28,24 @@
   margin-top: -15px;
 }
 
-input#open {
+input#open, input#open2 {
   display: none;
 }
 
-.open {
+.open, .open2 {
   display: flex;
   background-color: transparent;
   cursor: pointer;
   transition: 2s;
 }
 
-#open:checked ~ label #p1 .clip {
+#open:checked ~ label #p1 .clip,
+#open2:checked ~ label #p1 .clip {
   transform: rotateY(-180deg);
 }
 
-#open:checked ~ label {
+#open:checked ~ label,
+#open2:checked ~ label {
   margin-left: 300px;
 }
 
@@ -86,7 +92,6 @@ input#open {
   outline: 0px solid #000;
   background-color: #ead5b7; /* Beige claro */
 }
-
 
 #p1 .back {
   transform: rotateY(180deg);
