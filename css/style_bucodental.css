@@ -286,6 +286,25 @@ p {
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+/* Estilos personalizados para la insignia */
+.badge-custom {
+  position: absolute;
+  transform: translate(-50%, 50%);
+  background-color: #ffffff; /* Color de fondo */
+  color: #000000; /* Color del texto */
+  padding: 5px 10px; /* Espaciado interno */
+  font-size: 12px; /* Tamaño de fuente */
+}
+
+.badge-custom2 {
+  position: absolute;
+  transform: translate(-50%, 50%);
+  background-color: #ffffff; /* Color de fondo */
+  color: #000000; /* Color del texto */
+  padding: 5px 10px; /* Espaciado interno */
+  font-size: 12px; /* Tamaño de fuente */
+}
+
 .card-img{
   display: flex;
  justify-content: center;
@@ -294,6 +313,16 @@ p {
   border-radius: 15px;
   width: 300px;
   height: 400px;
+}
+
+#gradiente-andrea{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-50%, 50%);
+  background: linear-gradient(45deg, #ffff00b7 50%, #ff00ffbe 50%); /* Gradient con dos colores */
+  padding: 5px 10px; /* Espaciado interno */
+  font-size: 12px; /* Tamaño de fuente */
 }
 
 img{
