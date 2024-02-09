@@ -1,0 +1,15 @@
+.fs-7{
+    font-size: 1.2em;
+}
+
+.bg-blue{
+    background-color: rgb(97, 134, 255);
+}
+
+.bg-dark-blue{
+    background-color: rgb(0, 0, 180);
+}
+
+body{
+    background-image: url('../Resources/Icons/audiologia_iconos/fondoAudiologia.jpg');
+}
