@@ -21,13 +21,6 @@
     --badge-turquoise: #5dc1b9;
 }
 
-/* body{
-    background-color: #b8b8b8;
-} */
-.bg-card-orange {
-    background-color: #F28E13;
-}
-
 .h35 {
     font-size: 1.5rem;
     /* Tamaño de fuente medio entre 3 y 4 */
@@ -37,6 +30,19 @@
 /* modificar por lapiz */
 .cursor {
     cursor: pointer;
+}
+.critina-select:hover{
+    background-color: #05b80b;
+}
+.maria-select:hover{
+    background-color: #800080;
+    color: var(--main-White);
+}
+.lourdes-select:hover{
+    background-color:#ece112;
+}
+.noemi-select:hover{
+    background-color: #80cdde;
 }
 
 #rotated-svg {
