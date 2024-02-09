@@ -309,10 +309,6 @@ p {
   text-align: center;
 }
 
-.border-color {
-  border-color: var(--main-Black);
-}
-
 /*evita texto fuera de sus cuadros*/
 .white-space {
   white-space: nowrap;
@@ -364,13 +360,6 @@ button{
 .bg-badge-sergio{
   background: linear-gradient(to bottom, #000000, #0000FF);
   /* Cambia el valor según tus necesidades */
-}
-
-/*oculta card en displ moviles*/
-@media (max-width: 750px) {
-  #remove_mobile {
-    display: none;
-  }
 }
 
 /** Carousel*/
