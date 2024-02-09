@@ -2,6 +2,14 @@
     color: var(--badge-Pink);
 }
 
+.text-azul{
+    color: var(--badge-blue);
+}
+
+.text-purple{
+    color: var(--badge-Purple);
+}
+
 .main {
     display: grid;
     justify-content: center;
@@ -26,6 +34,7 @@
     .general-card {
         display: grid;
         grid-template-columns: 1fr;
+        
     }
 }
 
