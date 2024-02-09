@@ -33,3 +33,13 @@ h2 {
 	flex: 1 1 300px;
 	outline: 0.5rem solid;
 }
+
+#trigger:hover h4{
+	text-decoration: underline;
+	text-decoration-color: blue;
+}
+
+#trigger2:hover h4{
+	text-decoration: underline;
+	text-decoration-color: rgb(0, 0, 0);
+}
