@@ -15,7 +15,7 @@
   color: #24252a;
   padding-top: 30px;
   position: relative;
-  max-width: 80%;
+  max-width: 89%;
   margin: 0 auto;
   text-align: center;
 }
@@ -42,13 +42,13 @@ button.primary.ghost {
 
 #Martin{
   background-color: #ff0000;
-  border-bottom-left-radius: 20px; /* Hace que el borde inferior izquierdo de la sección de habilidades sea redondeado */
-  border-bottom-right-radius: 20px; /* Hace que el borde inferior derecho de la sección de habilidades sea redondeado */
+  border-bottom-left-radius: 20px; 
+  border-bottom-right-radius: 20px; 
   text-align: center;
   padding: 10px;
   margin-top: 30px;
-  margin-left: -12px; /* Ajusta el margen izquierdo para que coincida con el borde redondeado de la tarjeta */
-  margin-right: -12px; /* Ajusta el margen derecho para que coincida con el borde redondeado de la tarjeta */
+  margin-left: -12px; 
+  margin-right: -12px;
 }
 #Martin ul {
   list-style-type: none;
@@ -62,13 +62,13 @@ button.primary.ghost {
 
 #Olga{
     background-color: #ca92e9;
-    border-bottom-left-radius: 20px; /* Hace que el borde inferior izquierdo de la sección de habilidades sea redondeado */
-    border-bottom-right-radius: 20px; /* Hace que el borde inferior derecho de la sección de habilidades sea redondeado */
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
     text-align: center;
     padding: 10px;
     margin-top: 30px;
-    margin-left: -12px; /* Ajusta el margen izquierdo para que coincida con el borde redondeado de la tarjeta */
-    margin-right: -12px; /* Ajusta el margen derecho para que coincida con el borde redondeado de la tarjeta */
+    margin-left: -12px; 
+    margin-right: -12px; 
 }
 
 #Olga  ul{
@@ -81,13 +81,13 @@ button.primary.ghost {
 
 #Soraya{
     background-color: #05b80b;
-    border-bottom-left-radius: 20px; /* Hace que el borde inferior izquierdo de la sección de habilidades sea redondeado */
-    border-bottom-right-radius: 20px; /* Hace que el borde inferior derecho de la sección de habilidades sea redondeado */
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
     text-align: center;
     padding: 10px;
     margin-top: 30px;
-    margin-left: -12px; /* Ajusta el margen izquierdo para que coincida con el borde redondeado de la tarjeta */
-    margin-right: -12px; /* Ajusta el margen derecho para que coincida con el borde redondeado de la tarjeta */
+    margin-left: -12px; 
+    margin-right: -12px; 
 }
 
 #Soraya  ul{
@@ -98,13 +98,13 @@ button.primary.ghost {
 
     #Pedro{
         background-color: #1b5ed3;
-        border-bottom-left-radius: 20px; /* Hace que el borde inferior izquierdo de la sección de habilidades sea redondeado */
-        border-bottom-right-radius: 20px; /* Hace que el borde inferior derecho de la sección de habilidades sea redondeado */
+        border-bottom-left-radius: 20px; 
+        border-bottom-right-radius: 20px; 
         text-align: center;
         padding: 10px;
         margin-top: 30px;
-        margin-left: -12px; /* Ajusta el margen izquierdo para que coincida con el borde redondeado de la tarjeta */
-        margin-right: -12px; /* Ajusta el margen derecho para que coincida con el borde redondeado de la tarjeta */
+        margin-left: -12px;
+        margin-right: -12px;
     }
     
     #Pedro  ul{
