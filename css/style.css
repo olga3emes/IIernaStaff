@@ -362,6 +362,16 @@ button{
   /* Cambia el valor según tus necesidades */
 }
 
+.bg-badge-jessica3d{
+  background-color: #ff0000;
+  /* Cambia el valor según tus necesidades */
+}
+
+.bg-badge-guille3d{
+  background-color: #f8770d;
+  /* Cambia el valor según tus necesidades */
+}
+
 /** Carousel*/
 .bg-carousel {
   background-color: var(--main-Blue);
