@@ -306,10 +306,6 @@ p {
   text-align: center;
 }
 
-.border-color {
-  border-color: var(--main-Black);
-}
-
 /*evita texto fuera de sus cuadros*/
 .white-space {
   white-space: nowrap;
@@ -360,11 +356,14 @@ button {
   /* Cambia el valor según tus necesidades */
 }
 
-/*oculta card en displ moviles*/
-@media (max-width: 750px) {
-  #remove_mobile {
-    display: none;
-  }
+.bg-badge-jessica3d{
+  background-color: #ff0000;
+  /* Cambia el valor según tus necesidades */
+}
+
+.bg-badge-guille3d{
+  background-color: #f8770d;
+  /* Cambia el valor según tus necesidades */
 }
 
 /** Carousel*/
