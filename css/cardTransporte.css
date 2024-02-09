@@ -19,11 +19,11 @@ body{
   align-items: center;
 }
 
-#card {
+#card1, #card2 {
   transform-style: preserve-3d;
 }
 
-#card h4 {
+#card1 h4, #card2 h4 {
   color: #8b5d2e; 
   margin-top: -15px;
 }
@@ -93,9 +93,16 @@ input#open, input#open2 {
   background-color: #ead5b7; /* Beige claro */
 }
 
-#p1 .back {
+#card1 #p1 .back {
   transform: rotateY(180deg);
   background-image: url("../Resources/img/img_Personal-4-3/jessica_DxO.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#card2 #p1 .back {
+  transform: rotateY(180deg);
+  background-image: url("../Resources/img/img_Personal-4-3/pablocenizo.jpg");
   background-position: center center;
   background-size: cover;
 }
