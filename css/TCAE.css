@@ -1,0 +1,28 @@
+.tab {
+  cursor: pointer;
+}
+
+.info {
+  margin-top: 20px;
+}
+
+body {
+  background-image: url('/Resources/img/cosasTCAE/fondo.jpg'); /* Reemplaza 'path/to/fondo.jpg' con la ruta real de tu imagen */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Estilos para hacer que el contenido sea opaco */
+main, header, footer {
+  background-color: rgba(188, 199, 253, 0.9); /* Ajusta el valor de alfa según sea necesario */
+}
+
+.card{
+  opacity: 0.8; /* Ajusta la opacidad según sea necesario */
+}
+.img-border {
+  border: 3px solid #00FFFF; /* Azul fosforito */
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5); /* Sombra azul fosforito */
+}

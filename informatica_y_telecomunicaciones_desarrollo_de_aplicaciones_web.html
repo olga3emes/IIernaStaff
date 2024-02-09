@@ -6,142 +6,167 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/bootstrap.css">
   <link rel="stylesheet" href="css/style.css">
+
+  <!--Enlace cdnj iconos RRSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!--Enlace cdnj iconos RRSS -->
+  <link rel="stylesheet" href="css/cards-DAW-SEIDA.css">
+
   <link rel="shortcut icon" href="Resources/img/logo/ilerna_Staff_Amarillo.png" type="image/x-icon">
 
   <script defer src="js/bootstrap.bundle.js"></script>
-  <title>Desarrollo Web</title>
+  <title>Desarrollo WEB</title>
 </head>
 
 <body>
+
+  <!-- Menú-->
   <header>
     <nav class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
       <div class="container-xxl">
-          <a class="navbar-brand" href="index.html">
-              <img src="Resources/img/logo/ilerna_Staff_Amarillo.png" alt="Logo" width="150" height="55">
-          </a>
+        <a class="navbar-brand" href="index.html">
+          <img src="Resources/img/logo/ilerna_Staff_Amarillo.png" alt="Logo" width="150" height="55">
+        </a>
 
-          <!--NO BORRAR BOTÓN DE MOVIL-->
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-              aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon">
-                  <span class="linea"></span>
-                  <span class="linea"></span>
-                  <span class="linea"></span>
-              </span>
-          </button>
+        <!--NO BORRAR BOTÓN DE MOVIL-->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon">
+            <span class="linea"></span>
+            <span class="linea"></span>
+            <span class="linea"></span>
+          </span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-              <ul class="navbar-nav ml-auto menu-derecha">
-                  <li class="nav-item active">
-                      <a class="nav-link text-white" href="index.html">Inicio</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto menu-derecha">
+            <li class="nav-item active">
+              <a class="nav-link text-white" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item has-submenu">
+              <a class="nav-link text-white" href="#">Familias educativas <class="arrow-down-custom">
+                  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor"
+                    class="custom-arrow" viewBox="0 0 16 16">
+                    <path
+                      d="M4.646 6.146a.5.5 0 01.708 0L8 9.793l2.646-2.647a.5.5 0 01.708 0 .5.5 0 010 .708l-3 3a.5.5 0 01-.708 0l-3-3a.5.5 0 010-.708z" />
+                  </svg>
+              </a>
+              <ul class="submenu">
+                <div class="container overflow-auto">
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bg-blueilerna" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Sanidad
+                    </a>
+                    <ul class="dropdown-menu bg-blueilerna">
+                      <li><a class="dropdown-item " href="Sanidad_Anatomia.html">Anatomía
+                          Patológica y <br> Citodiagnóstico</a></li>
+                      <li><a class="dropdown-item" href="Sanidad_Audiologia.html">Audiología Protésica</a></li>
+                      <li><a class="dropdown-item" href="Sanidad_Aux_Enfermeria.html">Auxiliar de Enfermería</a></li>
+                      <li><a class="dropdown-item" href="Sanidad_Dietetica.html">Dietética</a></li>
+                      <li><a class="dropdown-item" href="Sanidad_Imagenydiasnostico.html">Imagen para el Diagnóstico y
+                          <br> Medicina Nuclear</a></li>
+                      <li><a class="dropdown-item" href="sanidad_laboratorio.html">Laboratorio Clínico y
+                          <br>Biomédico</a></li>
+                      <li><a class="dropdown-item" href="Sanidad_Protesis.html">Prótesis Dental</a></li>
+
+
+                    </ul>
                   </li>
-                  <li class="nav-item has-submenu">
-                      <a class="nav-link text-white" href="#">Familias educativas <class="arrow-down-custom">
-                              <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
-                                  fill="currentColor" class="custom-arrow" viewBox="0 0 16 16">
-                                  <path
-                                      d="M4.646 6.146a.5.5 0 01.708 0L8 9.793l2.646-2.647a.5.5 0 01.708 0 .5.5 0 010 .708l-3 3a.5.5 0 01-.708 0l-3-3a.5.5 0 010-.708z" />
-                              </svg>
-                      </a>
-                      <ul class="submenu">
-                          <div class="container overflow-auto">
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle bg-blueilerna" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Sanidad
-                              </a>
-                              <ul class="dropdown-menu bg-blueilerna">
-                                <li><a class="dropdown-item " href="Sanidad_Anatomia.html">Anatomía
-                                  Patológica y  <br> Citodiagnóstico</a></li>
-                                <li><a class="dropdown-item" href="Sanidad_Audiologia.html">Audiología Protésica</a></li>
-                                <li><a class="dropdown-item" href="Sanidad_Aux_Enfermeria.html">Auxiliar de Enfermería</a></li>
-                                <li><a class="dropdown-item" href="Sanidad_Dietetica.html">Dietética</a></li>
-                                <li><a class="dropdown-item" href="Sanidad_Imagenydiasnostico.html">Imagen para el Diagnóstico y <br> Medicina Nuclear</a></li>
-                                <li><a class="dropdown-item" href="sanidad_laboratorio.html">Laboratorio Clínico y <br>Biomédico</a></li>
-                                <li><a class="dropdown-item" href="Sanidad_Protesis.html">Prótesis Dental</a></li>
 
-
-                              </ul>
-                            </li>
-                            
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle bg-blueilerna" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Comercio y Marketing
-                              </a>
-                              <ul class="dropdown-menu bg-blueilerna">
-                                <li><a class="dropdown-item " href="marketingPublicidad.html"> Marketing y Publicidad</a></li>
-                              </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle bg-blueilerna" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Administración y Gestión
-                              </a>
-                              <ul class="dropdown-menu bg-blueilerna">
-                                <li><a class="dropdown-item " href="administracionFinanzas.html"> Administración y Finanzas</a></li>
-                              </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle bg-blueilerna" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Informática
-                              </a>
-                              <ul class="dropdown-menu bg-blueilerna">
-                                <li><a class="dropdown-item " href="informatica_y_telecomunicaciones_desarrollo_de_aplicaciones_web.html"> Desarrollo de Aplicaciones  <br>Web</a></li>
-                                <li><a class="dropdown-item " href="informatica_y_telecomunicaciones_desarrollo_de_aplicaciones_multiplataforma.html"> Desarrollo de Aplicaciones  <br>Multiplataforma</a></li>
-
-                              </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle bg-blueilerna" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Imagen y Sonido
-                              </a>
-                              <ul class="dropdown-menu bg-blueilerna">
-                                <li><a class="dropdown-item " href="administracionFinanzas.html"> 3D,Juegos y <br> Entornos Interactivos</a></li>
-                              </ul>
-                            </li>
-                            <li class="nav-item dropdown">
-                              <a class="nav-link dropdown-toggle bg-blueilerna" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                  Servicios Socioculturales
-                              </a>
-                              <ul class="dropdown-menu bg-blueilerna">
-                                <li><a class="dropdown-item " href="integracionsocial.html"> Integracion Social</a></li>
-                                <li><a class="dropdown-item " href="administracionFinanzas.html"> Educacion Infantil</a></li>
-
-                              </ul>
-                            </li>
-                          </div>
-                      </ul>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bg-blueilerna" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Comercio y Marketing
+                    </a>
+                    <ul class="dropdown-menu bg-blueilerna">
+                      <li><a class="dropdown-item " href="marketingPublicidad.html"> Marketing y Publicidad</a></li>
+                    </ul>
                   </li>
-                  <li class="nav-item small">
-                      <a class="nav-link text-white" href="Transversal_Transversal.html">Transversales</a>
-                  </li>
-                  <li class="nav-item small">
-                      <a class="nav-link text-white" href="adminCentro_direccion.html">Administración</a>
-                  </li>
-                  <li class="nav-item small">
-                      <a class="nav-link text-white" href="adminCentro_personal.html">Mantenimientos y
-                          servicios</a>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bg-blueilerna" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Administración y Gestión
+                    </a>
+                    <ul class="dropdown-menu bg-blueilerna">
+                      <li><a class="dropdown-item " href="administracionFinanzas.html"> Administración y Finanzas</a>
                       </li>
-                      <li class="nav-item small">
-                          <a class="nav-link text-white" href="voluntariado.html">Voluntariado</a>
-                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bg-blueilerna" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Informática
+                    </a>
+                    <ul class="dropdown-menu bg-blueilerna">
+                      <li><a class="dropdown-item "
+                          href="informatica_y_telecomunicaciones_desarrollo_de_aplicaciones_web.html"> Desarrollo de
+                          Aplicaciones <br>Web</a></li>
+                      <li><a class="dropdown-item "
+                          href="informatica_y_telecomunicaciones_desarrollo_de_aplicaciones_multiplataforma.html">
+                          Desarrollo de Aplicaciones <br>Multiplataforma</a></li>
+
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bg-blueilerna" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Imagen y Sonido
+                    </a>
+                    <ul class="dropdown-menu bg-blueilerna">
+                      <li><a class="dropdown-item " href="administracionFinanzas.html"> 3D,Juegos y <br> Entornos
+                          Interactivos</a></li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle bg-blueilerna" href="#" role="button" data-bs-toggle="dropdown"
+                      aria-expanded="false">
+                      Servicios Socioculturales
+                    </a>
+                    <ul class="dropdown-menu bg-blueilerna">
+                      <li><a class="dropdown-item " href="integracionsocial.html"> Integracion Social</a></li>
+                      <li><a class="dropdown-item " href="administracionFinanzas.html"> Educacion Infantil</a></li>
+
+                    </ul>
+                  </li>
+                </div>
               </ul>
-          </div>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link text-white" href="Transversal_Transversal.html">Transversales</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link text-white" href="adminCentro_direccion.html">Administración</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link text-white" href="adminCentro_personal.html">Mantenimientos y
+                servicios</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link text-white" href="voluntariado.html">Voluntariado</a>
+            </li>
+          </ul>
+        </div>
       </div>
-  </nav>
+    </nav>
   </header>
+
+  <!-- Hero descripción de DAW-->
   <section>
-    <div id="hero" class="p-5 text-center">
+    <div id="hero" class="p-5">
       <div class="container">
         <div class="row">
           <div class="col-md-12">
             <div class="d-flex justify-content-center align-items-center h-100">
               <div class="text-black">
-                <h1 class="mb-3">Desarrollo de aplicaciones WEB</h1>
+                <h1 class="text-center mb-3">Desarrollo de aplicaciones WEB</h1>
                 <p class="mb-3">La FP oficial de Desarrollo de Aplicaciones Web representa la elección perfecta para
                   ingresar en uno de los sectores profesionales más cruciales en la actualidad. Nuestras aulas,
                   transformadas en entornos totalmente orientados a la práctica, están equipadas con tecnología
                   informática de vanguardia para que puedas cultivar las habilidades y competencias esenciales para tu
                   futura carrera. A través de este programa de formación exhaustivo, te capacitarás en el diseño de
-                  páginas web, la programación en diversos lenguajes y la configuración de sistemas informáticos.</p>
+                  páginas web, la programación en diversos lenguajes y la configuración de sistemas informáticos.
+                </p>
               </div>
             </div>
           </div>
@@ -149,230 +174,107 @@
       </div>
     </div>
   </section>
-  <div class="container p-5 mt-2">
-    <!--! sin p-5 psm-0 p-md-0 p-lg-5-->
-    <div  class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5 "><!-- disminuir p-->
 
-      <div class="col-12 col-md-12 col-lg-12 g-5">
-        <div
-          class="row rounded-5 justify-content-center align-items-center card-shadow p-4 bg-card border border-1 border-color ">
-          <div class="col-12 col-md-12 col-lg-6 text-center p-3">
-            <img src="Resources\img\img_Personal-4-3\Olga _DxO.jpg" class="img-fluid rounded-3">
-            <div class="container">
-              <div class="row justify-content-center align-items-center g-2 mt-2">
-                <!--! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS EN BG-BADGE-->
-                <h1 class="col-12 text-center">Olga M. Moreno Martín<br><span
-                    class="badge rounded-pill badge-size bg-badge-Lilac align-middle">☆</span></h1>
-                <h4 class="col-12 text-center">Profesora DAW/DAM</h4>
-              </div>
+  <!-- contenedor class=container -->
+  <section class="container pt-4">
+    <!-- contenedor class=row -->
+    <div class="row justify-content-center align-items-center mt-5">
 
-            </div>
-
-          </div>
-          <!--! añadido id remove_mobile-->
-          <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
-            <div class="row justify-content-center align-items-center align-middle g-2">
-              <div class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4  ">
-                <div class="container bg-card rounded-top mt-1">
-                  <h4 class="pt-2">Formación</h4>
-                  <p class="text-break pb-1 mb-1"> Ingeniera Superior en Informática 
-                  </p>
-                </div>
-                <div class="container bg-card">
-                  <h4 class="pt-2">Hobbies</h4>
-                  <p class="text-break pb-1 mb-1">Me encanta la pintura 🎨 los videojuegos y la cultura japonesa. 
-
-                </div>
-                <div class="container bg-card">
-                  <h4 class="pt-2">Frase que te represente</h4>
-                  <p class="text-break pb-1 mb-1">Tener un talento "natural" necesita un esfuerzo "sobrenatural"
-                  </p>
-                </div>
-                <div class="container bg-card rounded-bottom ">
-                  <h4 class="pt-2">Algo sobre ti</h4>
-                  <p class="text-break pb-1 mb-1">Me encanta enseñar, el diseño web y la seguridad informática. Soy una techgirl ;) </p>
-                </div>
-                
-
-              </div>
-            </div>
-          </div>
+      <!-- contenedor card-->
+      <div class="card col-sm-12 col-md-6 col-lg-4">
+        <div class="card-image">
+          <img src="Resources/img/img_Personal-4-3/JuanCarlos_DxO.jpg" alt="Profile image">
         </div>
+        <p class="name">Juan Carlos Jiménez</p>
+        <p>Profesor DAM</p>
+        <p>Ingeniería Informática | UPO</p>
+        <p>Máster Universotario Formación del Profesorado | UMA</p>
+        <div class="socials">
+          <button class="bg-badge-Green">
+            <a href="https://www.linkedin.com/in/juan-carlos-jim%C3%A9nez-cabrera-3a92176b" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </button>
+        </div>
+      </div>
 
+      <!-- contenedor card-->
+      <div class="card col-sm-12 col-md-6 col-lg-4">
+        <div class="card-image">
+          <img src="Resources/img/img_Personal-4-3/Olga _DxO.jpg" alt="Profile image">
+        </div>
+        <p class="name">Olga M. Moreno Martín</p>
+        <p>Profesora DAM/DAW</p>
+        <p>Grado Ingeniera Software | UPO</p>
+        <p>Máster Universotario Formación del Profesorado | UPO</p>
+        <div class="socials">
+          <button class="bg-badge-Lilac">
+            <a href="https://www.linkedin.com/in/olgamorenomartin" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <!-- contenedor card-->
+      <div class="card col-sm-12 col-md-6 col-lg-4">
+        <div class="card-image">
+          <img src="Resources/img/img_Personal-4-3/Martin Rivero_DxO.jpg" alt="Profile image">
+        </div>
+        <p class="name">Javier Martín Rivero</p>
+        <p>Profesor DAM/DAW</p>
+        <p>Ingeniería Informática | UCM</p>
+        <p>Máster Universotario Formación del Profesorado | UCM</p>
+        <div class="socials">
+          <button class="bg-badge-Red">
+            <a href="https://es.linkedin.com/in/martin-rivero-78786b2b0?trk=people-guest_people_search-card"
+              target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <!-- contenedor card-->
+      <div class="card col-sm-12 col-md-6 col-lg-4">
+        <div class="card-image">
+          <img src="Resources/img/img_Personal-4-3/Soraya_DxO.jpg" alt="Profile image">
+        </div>
+        <p class="name">Soraya Galisteo</p>
+        <p>Profesora DAM/DAW</p>
+        <p>Grado Matemáticas | UCA</p>
+        <p>Máster Universotario Formación del Profesorado | UCA</p>
+        <div class="socials">
+          <button class="bg-badge-Green">
+            <a href="https://www.linkedin.com/in/juan-carlos-jim%C3%A9nez-cabrera-3a92176b" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <!-- contenedor card-->
+      <div class="card col-sm-12 col-md-6 col-lg-4">
+        <div class="card-image">
+          <img src="Resources/img/img_Personal-4-3/pedro_DxO.jpg" alt="Profile image">
+        </div>
+        <p class="name">Pedro González</p>
+        <p>Profesor DAM/DAW</p>
+        <p>Grado Ingeniería Informática | US</p>
+        <p>Máster Universotario Formación del Profesorado | UNIR</p>
+        <div class="socials">
+          <button class="bg-badge-blue">
+            <a href="https://www.linkedin.com/in/pedro-gonzalez-gordillo-9183b7263/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </button>
+        </div>
       </div>
 
     </div>
+  </section>
 
-  </div>
-
-  
-  <div class="container p-5 mt-2">
-    <!--! sin p-5 psm-0 p-md-0 p-lg-5-->
-    <div  class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5 "><!-- disminuir p-->
-
-      <div class="col-12 col-md-12 col-lg-12 g-5">
-        <div
-          class="row rounded-5 justify-content-center align-items-center card-shadow p-4 bg-card border border-1 border-color ">
-          <div class="col-12 col-md-12 col-lg-6 text-center p-3">
-            <img src="Resources\img\img_Personal-4-3\Martin Rivero_DxO.jpg" class="img-fluid rounded-3">
-            <div class="container">
-              <div class="row justify-content-center align-items-center g-2 mt-2">
-                <!--! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS EN BG-BADGE-->
-                <h1 class="col-12 text-center">Martín Rivero<br><span
-                    class="badge rounded-pill badge-size bg-badge-Red align-middle">☆</span></h1>
-                <h4 class="col-12 text-center">Profesor DAW/DAM</h4>
-              </div>
-
-            </div>
-
-          </div>
-          <!--! añadido id remove_mobile-->
-          <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
-            <div class="row justify-content-center align-items-center align-middle g-2">
-              <div class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4  ">
-                <div class="container bg-card rounded-top mt-1">
-                  <h4 class="pt-2">Formación</h4>
-                  <p class="text-break pb-1 mb-1"> Ingeniero Superior en Informática 
-                  </p>
-                </div>
-                <div class="container bg-card">
-                  <h4 class="pt-2">Hobbies</h4>
-                  <p class="text-break pb-1 mb-1">Gym y leer
-
-                </div>
-                <div class="container bg-card">
-                  <h4 class="pt-2">Frase que te represente</h4>
-                  <p class="text-break pb-1 mb-1">Lo invisible, es esencial a los ojos
-                  </p>
-                </div>
-                <div class="container bg-card rounded-bottom ">
-                  <h4 class="pt-2">Algo sobre ti</h4>
-                  <p class="text-break pb-1 mb-1">Soy una persona más ayudando a otras personas a conseguir sus metas. Nada más :)
-                    </p>
-                  </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-
-  <div class="container p-5 mt-2">
-    <!--! sin p-5 psm-0 p-md-0 p-lg-5-->
-    <div  class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5 "><!-- disminuir p-->
-
-      <div class="col-12 col-md-12 col-lg-12 g-5">
-        <div
-          class="row rounded-5 justify-content-center align-items-center card-shadow p-4 bg-card border border-1 border-color ">
-          <div class="col-12 col-md-12 col-lg-6 text-center p-3">
-            <img src="Resources\img\img_Personal-4-3\Soraya_DxO.jpg" class="img-fluid rounded-3">
-            <div class="container">
-              <div class="row justify-content-center align-items-center g-2 mt-2">
-                <!--! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS EN BG-BADGE-->
-                <h1 class="col-12 text-center">Soraya Galisteo<br><span
-                    class="badge rounded-pill badge-size bg-badge-Green align-middle">☆</span></h1>
-                <h4 class="col-12 text-center">Profesora DAW/DAM</h4>
-              </div>
-
-            </div>
-
-          </div>
-          <!--! añadido id remove_mobile-->
-          <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
-            <div class="row justify-content-center align-items-center align-middle g-2">
-              <div class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4  ">
-                <div class="container bg-card rounded-top mt-1">
-                  <h4 class="pt-2">Formación</h4>
-                  <p class="text-break pb-1 mb-1">Grado en Matemáticas (Universidad de Cádiz; Facultad de Ciencias); 
-                    Máster en Educación (Universidad de Cádiz; Facultad de Ciencias de la Educación) 
-                  </p>
-                </div>
-                <div class="container bg-card">
-                  <h4 class="pt-2">Hobbies</h4>
-                  <p class="text-break pb-1 mb-1">Patinar, ir al cine, ver anime, jugar a juegos de mesa, asustar alumnos con programación
-
-                </div>
-                <div class="container bg-card">
-                  <h4 class="pt-2">Frase que te represente</h4>
-                  <p class="text-break pb-1 mb-1">Holaaa????. No pierde quien más veces cae, sino aquel que renuncia a levantarse. 
-                  </p>
-                </div>
-                <div class="container bg-card rounded-bottom ">
-                  <h4 class="pt-2">Algo sobre ti</h4>
-                  <p class="text-break pb-1 mb-1">Intento ser cada día mejor en mi trabajo. Disfruto de mi profesión como docente e intento que los alumnos aprendan y saquen su mejor versión, siempre poniendo mi personalidad y buen humor en el aula. 
-                    </p>
-                  </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
-  <div class="container p-5 mt-2">
-    <!--! sin p-5 psm-0 p-md-0 p-lg-5-->
-    <div  class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5 "><!-- disminuir p-->
-
-      <div class="col-12 col-md-12 col-lg-12 g-5">
-        <div
-          class="row rounded-5 justify-content-center align-items-center card-shadow p-4 bg-card border border-1 border-color ">
-          <div class="col-12 col-md-12 col-lg-6 text-center p-3">
-            <img src="Resources\img\img_Personal-4-3\Pedro_DxO.jpg" class="img-fluid rounded-3">
-            <div class="container">
-              <div class="row justify-content-center align-items-center g-2 mt-2">
-                <!--! PONER NOMBRE DEL PROFE PARA EVITAR CONFLICTOS EN BG-BADGE-->
-                <h1 class="col-12 text-center">Pedro González<br><span
-                    class="badge rounded-pill badge-size bg-badge-blue align-middle">☆</span></h1>
-                <h4 class="col-12 text-center">Profesor DAW/DAM</h4>
-              </div>
-
-            </div>
-
-          </div>
-          <!--! añadido id remove_mobile-->
-          <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
-            <div class="row justify-content-center align-items-center align-middle g-2">
-              <div class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4  ">
-                <div class="container bg-card rounded-top mt-1">
-                  <h4 class="pt-2">Formación</h4>
-                  <p class="text-break pb-1 mb-1">Graduado en Ingeniería Informática - Ingeniería del Software 
-                  </p>
-                </div>
-                <div class="container bg-card">
-                  <h4 class="pt-2">Hobbies</h4>
-                  <p class="text-break pb-1 mb-1">Viajar, hacer deporte, la cultura en todas sus formas, los juegos de mesa y las hamburguesas. Me encantan las hamburguesas.
-
-                </div>
-                <div class="container bg-card">
-                  <h4 class="pt-2">Frase que te represente</h4>
-                  <p class="text-break pb-1 mb-1">In a hole in the ground there lived a hobbit. 
-                  </p>
-                </div>
-                <div class="container bg-card rounded-bottom ">
-                  <h4 class="pt-2">Algo sobre ti</h4>
-                  <p class="text-break pb-1 mb-1">Después de estar los últimos ocho años trabajando en el sector de la consultoría informática he decidido llevarme esa experiencia a un sector por el que siento vocación, la docencia. 
-                    </p>
-                  </div>
-
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-
-    </div>
-
-  </div>
+  <!-- Footer-->
   <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
     <div class="container">
       <div class="row my-4">
@@ -385,24 +287,27 @@
         <div class="row my-3">
           <div class="col-12 col-md-4">
             <div class="text-left">
-              <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.079767245528!2d-5.9385033!3d37.4011837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1269414d8c133d%3A0x498ce95cde9f9931!2sILERNA%20Sevilla!5e0!3m2!1ses!2ses!4v1701699015351!5m2!1ses!2ses" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.079767245528!2d-5.9385033!3d37.4011837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1269414d8c133d%3A0x498ce95cde9f9931!2sILERNA%20Sevilla!5e0!3m2!1ses!2ses!4v1701699015351!5m2!1ses!2ses"
+                width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
           </div>
           <div class="col-12 col-md-4">
             <figure>
               <img src="Resources\Icons\ubi.png" alt="">
               <figcaption>Av. de la Innovación, 7-9, Edificio Arena, 2, 41020 Sevilla</figcaption>
-             </figure>
+            </figure>
             <!--  -->
             <figure>
               <img src="Resources\Icons\telefono.png" alt="">
               <figcaption>954 04 12 12</figcaption>
-             </figure>
-             <!--  -->
-             <figure>
+            </figure>
+            <!--  -->
+            <figure>
               <img src="Resources\Icons\clock.png" alt="">
               <figcaption>L-V 8:30- 14:30 <br> L-V 15:00- 22:00</figcaption>
-             </figure>
+            </figure>
           </div>
           <div class="col-12 col-md-4">
             <div class="text-left">
@@ -437,6 +342,7 @@
       </div>
     </div>
   </footer>
+
 </body>
 
 </html>
