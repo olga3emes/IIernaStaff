@@ -1,5 +1,9 @@
+.text-rosa{
+    color: var(--badge-Pink);
+}
+
 .main {
-    display: flex;
+    display: grid;
     justify-content: center;
     align-items: center;
     height: auto;
@@ -9,13 +13,20 @@
 .general-card {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     transition: 0.3s;
-    width: 90vh;
+    max-width: 90vh;
     border-radius: 5px;
     overflow: hidden;
     margin-left: 3vh;
     margin-right: 3vh;
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+@media (width< 1224px) {
+    .general-card {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
 }
 
 .teacher-card {
@@ -25,10 +36,6 @@
     overflow: hidden;
 }
 
-.teacher-card img {
-    width: 100%;
-}
-
 .container {
     padding: 16px 16px;
 }
@@ -36,11 +43,6 @@
 .title {
     color: grey;
     font-size: 18px;
-}
-
-.image-container {
-    position: relative;
-    width: 100%;
 }
 
 .overlay {
@@ -63,7 +65,29 @@
 
 .text {
     color: white;
-    font-size: 36px;
+    font-size: 2em;
     text-align: center;
     padding: 5%;
+}
+
+
+/*Botones redes sociales*/
+.marco {
+    border: 1px solid lightgray;
+    border-radius: 500px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 7px;
+    box-shadow: 2px 2px grey;
+    color: black;
+    transition: transform .2s;
+}
+
+.marco:hover {
+    box-shadow: 5px 5px grey;
+    transform: scale(1.2);
 }
