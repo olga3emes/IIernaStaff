@@ -48,9 +48,10 @@
 .noemi-select:hover {
     background-color: #80cdde;
 }
-.card{
-background-color: var(--main-White);
+.integration-bg{
+    background-color: #fff;
 }
+
 .card-shadow-integration {
     box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
 }
