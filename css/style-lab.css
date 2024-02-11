@@ -431,6 +431,7 @@ figure {
   border-radius: 15px;
   background-color: #f8f9fa;
   box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  z-index: 10;
 }
 .card-img-top {
   border-top-left-radius: 15px;
@@ -460,7 +461,7 @@ figure {
 
 .bg-card-img {
 /* background-image: url('/Resources/img/grupo4/lab/fondo-moleculas.avif');*/
-  background-color: #f6f6f7;
+  background-color: #bdbdc2;
   background-size: cover;
   background-position: center;
 }
@@ -506,24 +507,20 @@ figure {
 .container-cards {
   position: relative;
   overflow: hidden;
+  background-image: url('/Resources/img/fondo/pattern_diamonds.png');
+  background-repeat: repeat-y; 
+  background-size: 100% auto; 
+  z-index: 10;
 }
 
-.bg-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  z-index: -1;
-  opacity: 0.5; /* Cambia la opacidad según lo necesites */
-}
 
 .bg-cards {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  height: 30%;
-  z-index: -1;
+  height: auto;
+  z-index: -10;
  
 }
+
