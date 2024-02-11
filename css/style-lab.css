@@ -426,49 +426,70 @@ figure {
  }
 
 
+/* Estilos para las cards */
 .card {
   border: none;
   border-radius: 15px;
-  background-color: #f8f9fa;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
-  z-index: 10;
-}
-.card-img-top {
-  border-top-left-radius: 15px;
-  border-top-right-radius: 15px;
-  object-fit: cover;
-  height: 250px;
-}
-.card-body {
-  padding: 2rem;
+  background-color: #ffffff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
 }
 
+.card:hover {
+  transform: translateY(-5px); 
+}
+
+.card-body {
+  padding: 20px; 
+}
 
 .bg-card {
-  background-color: rgba(58, 210, 139, 0.285); /* Color verde con transparencia */
-  backdrop-filter: blur(5px) brightness(120%);
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Sombra suave */
-  transition: filter 0.3s, transform 0.1s; /* Transición suave para el filtro y transform */
+  background-color: rgba(58, 210, 139, 0.3); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  transition: filter 0.3s, transform 0.3s, margin-top 0.3s; 
+}
+.bg-card-red{
+  background-color: rgba(210, 58, 58, 0.3); 
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); 
+  transition: filter 0.3s, transform 0.3s, margin-top 0.3s; 
 }
 
 .bg-card:hover {
-  filter: brightness(150%); /* Aumento del brillo al hacer hover */
-  transform: scale(1.1); /* Aumento de tamaño al hacer hover */
-  margin-top: 10px;
+  filter: brightness(110%); 
+  transform: scale(1.05); 
+  margin-top: 5px; 
+}
+.bg-card-red:hover {
+  filter: brightness(110%); 
+  transform: scale(1.05); 
+  margin-top: 5px; 
+}
+
+.bg-card-carlos {
+  background-color: #118cf0;
+  backdrop-filter: blur(10px); 
 }
 
 
+.bg-card-ja {
+  background-color: #f1f1f1; 
+ 
+}
+.bg-card-rosa {
+  background-color: #118cf0;
+  backdrop-filter: blur(10px);
 
-.bg-card-img {
-/* background-image: url('/Resources/img/grupo4/lab/fondo-moleculas.avif');*/
-  background-color: #bdbdc2;
-  background-size: cover;
-  background-position: center;
+}
+.bg-card-dani {
+  background-color: #429ef5; 
+  backdrop-filter: blur(10px); 
+ 
 }
 
 .card-shadow {
-  box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
 }
+
 
 .image-container .texto {
   position: absolute;
