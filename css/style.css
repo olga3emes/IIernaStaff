@@ -1,36 +1,35 @@
 :root {
-  --main-White: #FBFBFB;
-  --main-Light-blue: #CAE2E4;
-  --main-Blue: #008F9F;
+  --main-White: #fbfbfb;
+  --main-Light-blue: #cae2e4;
+  --main-Blue: #008f9f;
   --main-Black: #050505;
-  --main-Yellow: #FDC523;
+  --main-Yellow: #fdc523;
   --badge-Red: #ec1212;
   --badge-Green: #05b80b;
-  --badge-Lilac: #B695C0;
+  --badge-Lilac: #b695c0;
   --badge-blue: #1b5ed3;
   --badge-Orange: #ec9c12;
-  --badge-Pink: #ff35d7;/*o fucsia*/
+  --badge-Pink: #ff35d7; /*o fucsia*/
   --badge-White: #dddddd;
   --badge-Black: #050505;
   --badge-Yellow: #ece112;
   --badge-Aquamarine: #9fd5d1;
   --badge-Purple: #800080;
   --badge-Light-blue: #80cdde;
-  --badge-mallow: #E0B0FF;
-  --badge-turquoise:#5dc1b9;
+  --badge-mallow: #e0b0ff;
+  --badge-turquoise: #5dc1b9;
 }
-
 
 .carouselImg {
   width: 15%;
   height: 15%;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
 
 body {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /*NAVBAR*/
@@ -43,7 +42,7 @@ body {
 .menu-derecha {
   margin-left: auto;
   /* Mueve el menú hacia la derecha */
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 /* Estilo del subrayado y color al pasar el cursor sobre los elementos del menú */
@@ -63,7 +62,6 @@ body {
   bottom: 0;
   left: 0;
   background-color: var(--main-Light-blue);
-  ;
   /* Color inicial del subrayado */
   transform: scaleX(0);
   /* Inicialmente, el subrayado no es visible */
@@ -81,7 +79,6 @@ body {
   /* Muestra el subrayado al pasar el cursor */
   transform-origin: bottom left;
   background-color: var(--main-Light-blue);
-  ;
   /* Cambia el color del subrayado al pasar el cursor */
 }
 
@@ -94,7 +91,7 @@ body {
   display: none;
   position: absolute;
   background-color: #008f9f;
-  /*main blue con transparencia*/ 
+  /*main blue con transparencia*/
   /* con transparencia en los menús mucho ojo porque se ponen encima del texto y no se ve*/
   list-style: none;
   margin: 0;
@@ -214,7 +211,7 @@ body {
 }
 
 .nav-link:hover::before {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   left: 0;
@@ -228,7 +225,7 @@ body {
 }
 
 .nav-link:hover::after {
-  content: '';
+  content: "";
   position: absolute;
   bottom: 0;
   right: 0;
@@ -247,7 +244,7 @@ body {
   opacity: 1;
   transform: scaleX(1);
 }
-.link-joseka{
+.link-joseka {
   text-decoration: none;
   color: inherit;
 }
@@ -266,13 +263,13 @@ h1,
 h2,
 h3,
 h4 {
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
 
 /*font size por defecto 16px*/
 p {
-  font-family: 'Lato', sans-serif;
+  font-family: "Lato", sans-serif;
   font-weight: normal;
 }
 
@@ -285,8 +282,28 @@ p {
   box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
 }
 
-.border-color {
-  border-color: var(--main-Black);
+.card {
+  border: none;
+  border-radius: 15px;
+  background-color: #f8f9fa;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+.card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+  height: 250px;
+}
+.card-body {
+  padding: 2rem;
+}
+.divider {
+  width: 100%;
+  border-bottom: 1px solid #ccc;
+  margin: 1.5rem 0;
+}
+.section-title {
+  text-align: center;
 }
 
 /*evita texto fuera de sus cuadros*/
@@ -306,12 +323,10 @@ p {
   margin: 0%;
 }
 
-
 .image-container img {
   width: 100%;
   height: auto;
   margin: 0%;
- 
 }
 
 .image-container .texto {
@@ -324,7 +339,6 @@ p {
   text-align: center;
   background-color: rgba(0, 0, 0, 0.4);
   border-radius: 5px;
-  
 }
 
 .carrusel-img {
@@ -332,21 +346,24 @@ p {
   flex: 1;
 }
 
-button{
+button {
   background-color: var(--main-Yellow);
-  font-weight:bold;
+  font-weight: bold;
   font-size: 16px;
 }
-.bg-badge-sergio{
-  background: linear-gradient(to bottom, #000000, #0000FF);
+.bg-badge-sergio {
+  background: linear-gradient(to bottom, #000000, #0000ff);
   /* Cambia el valor según tus necesidades */
 }
 
-/*oculta card en displ moviles*/
-@media (max-width: 750px) {
-  #remove_mobile {
-    display: none;
-  }
+.bg-badge-jessica3d{
+  background-color: #ff0000;
+  /* Cambia el valor según tus necesidades */
+}
+
+.bg-badge-guille3d{
+  background-color: #f8770d;
+  /* Cambia el valor según tus necesidades */
 }
 
 /** Carousel*/
@@ -409,39 +426,76 @@ button{
 .bg-badge-turquoise {
   background-color: var(--badge-turquoise);
 }
-.dropdown-h{
+.dropdown-h {
   height: 500px;
 }
 
-.title-dropdown{
-  color:var(--main-Yellow) ;
+.title-dropdown {
+  color: var(--main-Yellow);
 }
 
-.img-max-w{
+.img-max-w {
   max-width: 1500px;
   height: auto;
 }
 
-.img-min-w{
+.img-min-w {
   min-width: 1000px;
   height: auto;
 }
 figure {
   max-width: 300px;
   overflow: auto;
- }
- 
- figure img {
+}
+
+figure img {
   float: left;
   margin: 0 1em 1em 0;
   width: 40px;
   height: auto;
- }
- @media screen and (max-width: 600px) {
+}
+@media screen and (max-width: 600px) {
   .table-container {
-      width: 100%;
-      overflow-y: auto;
-      _overflow: auto;
-      margin: 0 0 1em;
+    width: 100%;
+    overflow-y: auto;
+    _overflow: auto;
+    margin: 0 0 1em;
   }
+}
+
+.information button {
+  border-radius: 15px;
+  border: solid black 1px;
+  background-color: #eee;
+}
+
+.caracterizacion {
+  background-image: url("../Resources/img/grupo4/fondoCaracterizacion.jpg");
+  background-color: rgba(255, 255, 255, 0.267) !important;
+}
+
+.imagenxd {
+  align-items: start;
+
+}
+
+.mauroFavorito {
+  background: rgb(0, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(255, 255, 255, 1) 100%
+  );
+}
+
+.carolinaFavorito {
+  background: rgb(115, 74, 145);
+  background: linear-gradient(
+    90deg,
+    rgba(115, 74, 145, 1) 0%,
+    rgba(168, 123, 199, 1) 25%,
+    rgba(224, 176, 255, 1) 50%,
+    rgba(241, 215, 255, 1) 75%,
+    rgba(255, 255, 255, 1) 100%
+  );
 }

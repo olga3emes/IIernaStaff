@@ -1,0 +1,50 @@
+body{
+    background-image: url("../Resources/img/bg\ photos/fondoinfantil.avif");
+  }
+
+  .bgbluecolor{
+    background-color: #C7ECFF;
+  }
+
+  .color-identificador-Green {
+    width: 100%; 
+    height: 35px; 
+    background-color: #05b80b;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+  }
+  .color-identificador-Yellow {
+    width: 100%; 
+    height: 35px; 
+    background-color:#ece112;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+  }
+  
+  .color-identificador-Purple {
+    width: 100%; 
+    height: 35px; 
+    background-color:#800080;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+  }
+  
+  .color-identificador-Light-blue {
+    width: 100%; 
+    height: 35px; 
+    background-color: #80cdde;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+  }
