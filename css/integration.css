@@ -1,0 +1,138 @@
+:root {
+    --main-White: #FBFBFB;
+    --main-Light-blue: #CAE2E4;
+    --main-Blue: #008F9F;
+    --main-Black: #050505;
+    --main-Yellow: #FDC523;
+    --badge-Red: #ec1212;
+    --badge-Green: #05b80b;
+    --badge-Lilac: #B695C0;
+    --badge-blue: #1b5ed3;
+    --badge-Orange: #ec9c12;
+    --badge-Pink: #ff35d7;
+    /*o fucsia*/
+    --badge-White: #dddddd;
+    --badge-Black: #050505;
+    --badge-Yellow: #ece112;
+    --badge-Aquamarine: #9fd5d1;
+    --badge-Purple: #800080;
+    --badge-Light-blue: #80cdde;
+    --badge-mallow: #E0B0FF;
+    --badge-turquoise: #5dc1b9;
+}
+
+.h35 {
+    font-size: 1.5rem;
+    /* Tamaño de fuente medio entre 3 y 4 */
+    font-weight: 550;
+}
+
+/* modificar por lapiz */
+.cursor {
+    cursor: pointer;
+}
+
+.critina-select:hover {
+    background-color: #05b80b;
+}
+
+.maria-select:hover {
+    background-color: #800080;
+    color: var(--main-White);
+}
+
+.lourdes-select:hover {
+    background-color: #ece112;
+}
+
+.noemi-select:hover {
+    background-color: #80cdde;
+}
+.integration-bg{
+    background-color: #fff;
+}
+
+.card-shadow-integration {
+    box-shadow: 0 1rem 3rem rgba(0, 0, 0, 0.6);
+}
+
+#rotated-svg {
+    transform: rotate(180deg) scaleX(-1);
+    width: 500px;
+    height: 500px;
+}
+
+#rotated-rectangle {
+    transform: rotate(-90deg);
+}
+
+#ilustration img {
+    max-width: 905px;
+    width: 100%;
+    margin: auto;
+    opacity: 0;
+    animation-name: show;
+    animation-delay: 6s;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-timing-function: linear;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 2;
+}
+
+#ilustration svg {
+    max-width: 900px;
+    width: 100%;
+    margin: auto;
+    position: absolute;
+    position: absolute;
+    left: 0;
+    right: 0;
+    z-index: 1;
+}
+
+#ilustration svg path {
+    stroke-width: 2;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    animation-name: draw;
+    animation-timing-function: linear;
+}
+
+#ilustration svg path#hands {
+    stroke: #666;
+    stroke-dasharray: 14535;
+    stroke-dashoffset: 14535;
+    animation-duration: 10s;
+}
+
+#ilustration svg path#shadow {
+    stroke: #999;
+    stroke-dasharray: 1481;
+    stroke-dashoffset: 1481;
+    animation-duration: 2s;
+    animation-delay: 2s;
+}
+
+#ilustration svg path#heart {
+    stroke: #ddd;
+    stroke-dasharray: 3093;
+    stroke-dashoffset: 3093;
+    animation-duration: 2s;
+    animation-delay: 5s;
+}
+
+@keyframes draw {
+    to {
+        stroke-dashoffset: 0;
+    }
+}
+
+@keyframes show {
+    to {
+        opacity: 1;
+    }
+}
