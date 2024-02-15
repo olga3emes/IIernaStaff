@@ -278,6 +278,11 @@ p {
 
 /*CSS-start Fer*/
 
+.fondo-bucodental{
+  background-image: url("../Resources/img/higiene_bucodental/clase.jpg");
+  background-repeat:repeat-y;
+}
+
 .card {
   border: none;
   border-radius: 15px;
