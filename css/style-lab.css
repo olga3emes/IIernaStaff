@@ -1,0 +1,296 @@
+  #hero {
+      background-color: var(--main-Light-blue);
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: bold;
+  }
+
+  /*font size por defecto 16px*/
+  p {
+      font-family: 'Lato', sans-serif;
+      font-weight: normal;
+  }
+
+
+
+  .divider {
+      width: 100%;
+      border-bottom: 1px solid #ccc;
+      margin: 1.5rem 0;
+  }
+
+  .section-title {
+      text-align: center;
+  }
+
+  /*evita texto fuera de sus cuadros*/
+  .white-space {
+      white-space: nowrap;
+  }
+
+  .badge-size {
+      width: 100px;
+      /* Cambia el valor según tus necesidades */
+      height: 50px;
+      /* Cambia el valor según tus necesidades */
+  }
+
+  .image-container {
+      position: relative;
+      text-align: center;
+      margin: 0%;
+  }
+
+
+  .image-container img {
+      width: 100%;
+      height: auto;
+      margin: 0%;
+
+  }
+
+
+
+  .carrusel-img {
+      display: flex;
+      flex: 1;
+  }
+
+  button {
+      background-color: var(--main-Yellow);
+      font-weight: bold;
+      font-size: 16px;
+  }
+
+  .bg-badge-sergio {
+      background: linear-gradient(to bottom, #000000, #0000FF);
+      /* Cambia el valor según tus necesidades */
+  }
+
+  /*oculta card en displ moviles*/
+  @media (max-width: 750px) {
+      #remove_mobile {
+          display: none;
+      }
+  }
+
+  /** Carousel*/
+  .bg-carousel {
+      background-color: var(--main-Blue);
+  }
+
+  /*! badge colors*/
+  .bg-badge-Red {
+      background-color: var(--badge-Red);
+  }
+
+  .bg-badge-Green {
+      background-color: var(--badge-Green);
+  }
+
+  .bg-badge-Lilac {
+      background-color: var(--badge-Lilac);
+  }
+
+  .bg-badge-blue {
+      background-color: var(--badge-blue);
+  }
+
+  .bg-badge-Orange {
+      background-color: var(--badge-Orange);
+  }
+
+  .bg-badge-Pink {
+      background-color: var(--badge-Pink);
+  }
+
+  .bg-badge-White {
+      background-color: var(--badge-White);
+  }
+
+  .bg-badge-Black {
+      background-color: var(--badge-Black);
+  }
+
+  .bg-badge-Yellow {
+      background-color: var(--badge-Yellow);
+  }
+
+  .bg-badge-Aquamarine {
+      background-color: var(--badge-Aquamarine);
+  }
+
+  .bg-badge-Purple {
+      background-color: var(--badge-Purple);
+  }
+
+  .bg-badge-Light-blue {
+      background-color: var(--badge-Light-blue);
+  }
+
+  .bg-badge-mallow {
+      background-color: var(--badge-mallow);
+  }
+
+  .bg-badge-turquoise {
+      background-color: var(--badge-turquoise);
+  }
+
+  .dropdown-h {
+      height: 500px;
+  }
+
+  .title-dropdown {
+      color: var(--main-Yellow);
+  }
+
+  .img-max-w {
+      max-width: 1500px;
+      height: auto;
+  }
+
+  .img-min-w {
+      min-width: 1000px;
+      height: auto;
+  }
+
+  figure {
+      max-width: 300px;
+      overflow: auto;
+  }
+
+  figure img {
+      float: left;
+      margin: 0 1em 1em 0;
+      width: 40px;
+      height: auto;
+  }
+
+
+  /* Estilos para las cards */
+  .card {
+      border: none;
+      border-radius: 15px;
+      background-color: #ffffff;
+      box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+      transition: transform 0.3s ease-in-out;
+  }
+
+  .card:hover {
+      transform: translateY(-5px);
+  }
+
+  .card-body {
+      padding: 20px;
+  }
+
+  .bg-card {
+      background-color: rgba(58, 210, 139, 0.3);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: filter 0.3s, transform 0.3s, margin-top 0.3s;
+  }
+
+  .bg-card-red {
+      background-color: rgba(210, 58, 58, 0.3);
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+      transition: filter 0.3s, transform 0.3s, margin-top 0.3s;
+  }
+
+  .bg-card:hover {
+      filter: brightness(110%);
+      transform: scale(1.05);
+      margin-top: 5px;
+  }
+
+  .bg-card-red:hover {
+      filter: brightness(110%);
+      transform: scale(1.05);
+      margin-top: 5px;
+  }
+
+  .bg-card-carlos {
+      background-color: rgb(199, 237, 241);
+      backdrop-filter: blur(10px);
+  }
+
+
+  .bg-card-ja {
+      background-color: #f1f1f1;
+
+  }
+
+  .bg-card-rosa {
+      background-color: rgb(199, 237, 241);
+      backdrop-filter: blur(10px);
+
+  }
+
+  .bg-card-dani {
+      background-color: rgb(199, 237, 241);
+      backdrop-filter: blur(10px);
+  }
+
+  .card-shadow {
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  }
+
+
+  .image-container .texto {
+      position: absolute;
+      padding: 0.5em;
+      top: 20%;
+      left: 10%;
+      right: 10%;
+      color: var(--main-White);
+      text-align: center;
+      background-color: rgba(0, 0, 0, 0.4);
+      border-radius: 5px;
+
+  }
+
+  .container-img {
+      position: relative;
+      width: 100%;
+      height: 210vw;
+      overflow: hidden;
+  }
+
+  .container-img img {
+      width: 100%;
+      height: auto;
+      display: block;
+  }
+
+  .content {
+      position: relative;
+      top: 55vh;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+      border-radius: 10px;
+  }
+
+  .container-cards {
+      position: relative;
+      overflow: hidden;
+      background-image: url('Resources/img/fondo/pattern_diamonds.png');
+      background-repeat: repeat-y;
+      background-size: 100% auto;
+      z-index: 10;
+  }
+
+
+  .bg-cards {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: auto;
+      z-index: -10;
+
+  }
