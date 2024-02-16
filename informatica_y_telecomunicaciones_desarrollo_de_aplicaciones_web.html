@@ -1,318 +1,283 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <!--Enlace cdnj iconos RRSS -->
-    <link rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
-    <!--Enlace cdnj iconos RRSS -->
-    <link rel="stylesheet" href="css/cards-DAW-SEIDA.css">
-    <link rel="stylesheet" href="css/style4.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/png"
-      href="Resources/img/logo/LOGO_ILERNA.png">
-    <!-- Iconos -->
-    <link rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous">
-    <script defer src="js/bootstrap.bundle.js"></script>
-    <title>Desarrollo WEB</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!--Enlace cdnj iconos RRSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+  <!--Enlace cdnj iconos RRSS -->
+  <link rel="stylesheet" href="css/cards-DAW-SEIDA.css">
+  <link rel="stylesheet" href="css/style4.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="Resources/img/logo/LOGO_ILERNA.png">
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <script defer src="js/bootstrap.bundle.js"></script>
+  <script defer src="js/hidden.js"></script>
+  <title>Desarrollo WEB</title>
+</head>
 
-  <body>
+<body>
 
-    <header>
-      <!-- Navbar-->
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
-        <div class="container-xxl">
-          <a class="navbar-brand" href="index.html">
-            <img src="Resources/img/logo/ilerna_Staff_Informatica.png"
-              alt="Logotipo" class="d-inline-block align-text-top logo">
-          </a>
-          <button class="" type="button"
-            data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+  <header>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="index.html">
+          <img src="Resources/img/logo/ilerna_Staff_Informatica.png" alt="Logotipo"
+            class="d-inline-block align-text-top logo">
+        </a>
+        <button hidden id="botoncollapse" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto menu-derecha">
-              <li class="nav-item small">
-                <a class="nav-link" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item small dropdown">
-                <a class="nav-link dropdown-toggle" href
-                  id="navbarDropdownMenuLink" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false"> Familias
-                  educativas
-                </a>
-                <ul class="dropdown-menu bg-blueilerna p-2"
-                  aria-labelledby="navbarDropdownMenuLink">
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="sanidad.html">Sanidad</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="comerciomarketing.html">Comercio y
-                      Marketing</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="administracionFinanzas.html">Administración y
-                      Gestión</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="informatica.html">Informática</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="imagen_y_sonido_3D,juegos_y_entornos_interactivos.html">Imagen
-                      y Sonido</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="serviciosculturales.html">Servicios
-                      Socioculturales</a></li>
-                </ul>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="Transversal_Transversal.html">Transversales</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="adminCentro_direccion.html">Administración</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="adminCentro_personal.html">Mantenimientos y
-                  servicios</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link" href="voluntariado.html">Voluntariado</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <!-- Hero descripción de DAW-->
-    <section>
-      <div id="hero" class="p-5">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div
-                class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-black">
-                  <h1 class="text-center mb-3">Desarrollo de aplicaciones
-                    WEB</h1>
-                  <p class="mb-3">La FP oficial de Desarrollo de Aplicaciones
-                    Web representa la elección perfecta para
-                    ingresar en uno de los sectores profesionales más
-                    cruciales en la actualidad. Nuestras aulas,
-                    transformadas en entornos totalmente orientados a la
-                    práctica, están equipadas con tecnología
-                    informática de vanguardia para que puedas cultivar las
-                    habilidades y competencias esenciales para tu
-                    futura carrera. A través de este programa de formación
-                    exhaustivo, te capacitarás en el diseño de
-                    páginas web, la programación en diversos lenguajes y la
-                    configuración de sistemas informáticos.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto menu-derecha">
+            <li class="nav-item small">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item small dropdown">
+              <a class="nav-link dropdown-toggle" href id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false"> Familias
+                educativas
+              </a>
+              <ul class="dropdown-menu bg-blueilerna p-2" aria-labelledby="navbarDropdownMenuLink">
+                <li class="mb-2"><a class="text-white menuletras" href="sanidad.html">Sanidad</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="comerciomarketing.html">Comercio y
+                    Marketing</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="administracionFinanzas.html">Administración y
+                    Gestión</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="informatica.html">Informática</a></li>
+                <li class="mb-2"><a class="text-white menuletras"
+                    href="imagen_y_sonido_3D,juegos_y_entornos_interactivos.html">Imagen
+                    y Sonido</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="serviciosculturales.html">Servicios
+                    Socioculturales</a></li>
+              </ul>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="Transversal_Transversal.html">Transversales</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="adminCentro_direccion.html">Administración</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="adminCentro_personal.html">Mantenimientos y
+                servicios</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="voluntariado.html">Voluntariado</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </section>
+    </nav>
+  </header>
 
-    <!-- contenedor class=container -->
-    <section class="container pt-4">
-      <!-- contenedor class=row -->
-      <div class="row justify-content-center align-items-center mt-5">
-
-        <!-- contenedor card-->
-        <div class="card col-sm-12 col-md-6 col-lg-4">
-          <div class="card-image">
-            <img src="Resources/img/img_Personal-4-3/JuanCarlos_DxO.jpg"
-              alt="Profile image">
-          </div>
-          <p class="name">Juan Carlos Jiménez</p>
-          <p>Profesor DAM</p>
-          <p>Ingeniería Informática | UPO</p>
-          <p>Máster Universotario Formación del Profesorado | UMA</p>
-          <div class="socials">
-            <button class="bg-badge-Green">
-              <a
-                href="https://www.linkedin.com/in/juan-carlos-jim%C3%A9nez-cabrera-3a92176b"
-                target="_blank">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </button>
-          </div>
-        </div>
-
-        <!-- contenedor card-->
-        <div class="card col-sm-12 col-md-6 col-lg-4">
-          <div class="card-image">
-            <img src="Resources/img/img_Personal-4-3/Olga _DxO.jpg"
-              alt="Profile image">
-          </div>
-          <p class="name">Olga M. Moreno Martín</p>
-          <p>Profesora DAM/DAW</p>
-          <p>Grado Ingeniera Software | UPO</p>
-          <p>Máster Universotario Formación del Profesorado | UPO</p>
-          <div class="socials">
-            <button class="bg-badge-Lilac">
-              <a href="https://www.linkedin.com/in/olgamorenomartin"
-                target="_blank">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </button>
-          </div>
-        </div>
-
-        <!-- contenedor card-->
-        <div class="card col-sm-12 col-md-6 col-lg-4">
-          <div class="card-image">
-            <img src="Resources/img/img_Personal-4-3/Martin Rivero_DxO.jpg"
-              alt="Profile image">
-          </div>
-          <p class="name">Javier Martín Rivero</p>
-          <p>Profesor DAM/DAW</p>
-          <p>Ingeniería Informática | UCM</p>
-          <p>Máster Universotario Formación del Profesorado | UCM</p>
-          <div class="socials">
-            <button class="bg-badge-Red">
-              <a
-                href="https://es.linkedin.com/in/martin-rivero-78786b2b0?trk=people-guest_people_search-card"
-                target="_blank">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </button>
-          </div>
-        </div>
-
-        <!-- contenedor card-->
-        <div class="card col-sm-12 col-md-6 col-lg-4">
-          <div class="card-image">
-            <img src="Resources/img/img_Personal-4-3/Soraya_DxO.jpg"
-              alt="Profile image">
-          </div>
-          <p class="name">Soraya Galisteo</p>
-          <p>Profesora DAM/DAW</p>
-          <p>Grado Matemáticas | UCA</p>
-          <p>Máster Universotario Formación del Profesorado | UCA</p>
-          <div class="socials">
-            <button class="bg-badge-Green">
-              <a
-                href="https://www.linkedin.com/in/juan-carlos-jim%C3%A9nez-cabrera-3a92176b"
-                target="_blank">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </button>
-          </div>
-        </div>
-
-        <!-- contenedor card-->
-        <div class="card col-sm-12 col-md-6 col-lg-4">
-          <div class="card-image">
-            <img src="Resources/img/img_Personal-4-3/pedro_DxO.jpg"
-              alt="Profile image">
-          </div>
-          <p class="name">Pedro González</p>
-          <p>Profesor DAM/DAW</p>
-          <p>Grado Ingeniería Informática | US</p>
-          <p>Máster Universotario Formación del Profesorado | UNIR</p>
-          <div class="socials">
-            <button class="bg-badge-blue">
-              <a
-                href="https://www.linkedin.com/in/pedro-gonzalez-gordillo-9183b7263/"
-                target="_blank">
-                <i class="fab fa-linkedin"></i>
-              </a>
-            </button>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
+  <!-- Hero descripción de DAW-->
+  <section>
+    <div id="hero" class="p-5">
       <div class="container">
-        <div class="row my-4">
-          <div class="col-12 mb-2">
-            <hr class="bg-white">
-          </div>
-          <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
-          <div class="row my-3">
-            <div class="col-lg-4 col-md-12 col-sm-12">
-              <div class="text-left">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.079767245528!2d-5.9385033!3d37.4011837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1269414d8c133d%3A0x498ce95cde9f9931!2sILERNA%20Sevilla!5e0!3m2!1ses!2ses!4v1701699015351!5m2!1ses!2ses"
-                  width="100%" height="250" style="border:0;"
-                  allowfullscreen
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 datos">
-              <div class="text-left">
-                <p class="info-item"><i class="fas fa-map-marker-alt"></i>
-                  Av.
-                  de la Innovación, 7-9, Edificio Arena, 2, 41020
-                  Sevilla</p>
-              </div>
-              <div class="text-left">
-                <p class="info-item"><i class="fas fa-phone"></i> 954 04 12
-                  12</p>
-              </div>
-              <div class="text-left">
-                <p class="info-item"><i class="far fa-clock"></i> L-V
-                  8:30-14:30
-                  <br> L-V 15:00-22:00</p>
-              </div>
-            </div>
-            <div class="col-lg-4 12 col-md-6 col-sm-12 datos">
-              <div class="text-left">
-                <p>
-                  <a href="mailto:correo1@example.com"
-                    class="correo-link"><i
-                      class="fa fa-angle-double-right"></i>
-                    ilernaonline@gmail.com</a>
-                  <br>
-                  <a href="mailto:correo2@example.com"
-                    class="correo-link"><i
-                      class="fa fa-angle-double-right"></i>
-                    ilernaandalucia@gmail.com</a>
-                  <br>
-                  Preguntas frecuentes
+        <div class="row">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-black">
+                <h1 class="text-center mb-3">Desarrollo de aplicaciones
+                  WEB</h1>
+                <p class="mb-3">La FP oficial de Desarrollo de Aplicaciones
+                  Web representa la elección perfecta para
+                  ingresar en uno de los sectores profesionales más
+                  cruciales en la actualidad. Nuestras aulas,
+                  transformadas en entornos totalmente orientados a la
+                  práctica, están equipadas con tecnología
+                  informática de vanguardia para que puedas cultivar las
+                  habilidades y competencias esenciales para tu
+                  futura carrera. A través de este programa de formación
+                  exhaustivo, te capacitarás en el diseño de
+                  páginas web, la programación en diversos lenguajes y la
+                  configuración de sistemas informáticos.
                 </p>
               </div>
             </div>
           </div>
-          <div class="col-12">
-            <hr class="bg-white">
-          </div>
-          <!-- Bloque 3: Políticas de Privacidad y Cookies -->
-          <div class="row my-3">
-            <div class="col-md-7 text-center ">
-              <div>
-                <a class="text-light" href="#">Política de Privacidad</a>
-              </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- contenedor class=container -->
+  <section class="container pt-4">
+    <!-- contenedor class=row -->
+    <div class="row justify-content-center align-items-center mt-5">
+
+      <!-- contenedor card-->
+      <div class="card col-sm-12 col-md-6 col-lg-4">
+        <div class="card-image">
+          <img src="Resources/img/img_Personal-4-3/JuanCarlos_DxO.jpg" alt="Profile image">
+        </div>
+        <p class="name">Juan Carlos Jiménez</p>
+        <p>Profesor DAM</p>
+        <p>Ingeniería Informática | UPO</p>
+        <p>Máster Universotario Formación del Profesorado | UMA</p>
+        <div class="socials">
+          <button class="bg-badge-Green">
+            <a href="https://www.linkedin.com/in/juan-carlos-jim%C3%A9nez-cabrera-3a92176b" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <!-- contenedor card-->
+      <div class="card col-sm-12 col-md-6 col-lg-4">
+        <div class="card-image">
+          <img src="Resources/img/img_Personal-4-3/Olga _DxO.jpg" alt="Profile image">
+        </div>
+        <p class="name">Olga M. Moreno Martín</p>
+        <p>Profesora DAM/DAW</p>
+        <p>Grado Ingeniera Software | UPO</p>
+        <p>Máster Universotario Formación del Profesorado | UPO</p>
+        <div class="socials">
+          <button class="bg-badge-Lilac">
+            <a href="https://www.linkedin.com/in/olgamorenomartin" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <!-- contenedor card-->
+      <div class="card col-sm-12 col-md-6 col-lg-4">
+        <div class="card-image">
+          <img src="Resources/img/img_Personal-4-3/Martin Rivero_DxO.jpg" alt="Profile image">
+        </div>
+        <p class="name">Javier Martín Rivero</p>
+        <p>Profesor DAM/DAW</p>
+        <p>Ingeniería Informática | UCM</p>
+        <p>Máster Universotario Formación del Profesorado | UCM</p>
+        <div class="socials">
+          <button class="bg-badge-Red">
+            <a href="https://es.linkedin.com/in/martin-rivero-78786b2b0?trk=people-guest_people_search-card"
+              target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <!-- contenedor card-->
+      <div class="card col-sm-12 col-md-6 col-lg-4">
+        <div class="card-image">
+          <img src="Resources/img/img_Personal-4-3/Soraya_DxO.jpg" alt="Profile image">
+        </div>
+        <p class="name">Soraya Galisteo</p>
+        <p>Profesora DAM/DAW</p>
+        <p>Grado Matemáticas | UCA</p>
+        <p>Máster Universotario Formación del Profesorado | UCA</p>
+        <div class="socials">
+          <button class="bg-badge-Green">
+            <a href="https://www.linkedin.com/in/juan-carlos-jim%C3%A9nez-cabrera-3a92176b" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+
+      <!-- contenedor card-->
+      <div class="card col-sm-12 col-md-6 col-lg-4">
+        <div class="card-image">
+          <img src="Resources/img/img_Personal-4-3/pedro_DxO.jpg" alt="Profile image">
+        </div>
+        <p class="name">Pedro González</p>
+        <p>Profesor DAM/DAW</p>
+        <p>Grado Ingeniería Informática | US</p>
+        <p>Máster Universotario Formación del Profesorado | UNIR</p>
+        <div class="socials">
+          <button class="bg-badge-blue">
+            <a href="https://www.linkedin.com/in/pedro-gonzalez-gordillo-9183b7263/" target="_blank">
+              <i class="fab fa-linkedin"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
+    <div class="container">
+      <div class="row my-4">
+        <div class="col-12 mb-2">
+          <hr class="bg-white">
+        </div>
+        <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
+        <div class="row my-3">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="text-left">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.079767245528!2d-5.9385033!3d37.4011837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1269414d8c133d%3A0x498ce95cde9f9931!2sILERNA%20Sevilla!5e0!3m2!1ses!2ses!4v1701699015351!5m2!1ses!2ses"
+                width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <div class="col-md-3 text-center">
-              <div>
-                <a class="text-light" href="#">Política de Cookies</a>
-              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 datos">
+            <div class="text-left">
+              <p class="info-item"><i class="fas fa-map-marker-alt"></i>
+                Av.
+                de la Innovación, 7-9, Edificio Arena, 2, 41020
+                Sevilla</p>
+            </div>
+            <div class="text-left">
+              <p class="info-item"><i class="fas fa-phone"></i> 954 04 12
+                12</p>
+            </div>
+            <div class="text-left">
+              <p class="info-item"><i class="far fa-clock"></i> L-V
+                8:30-14:30
+                <br> L-V 15:00-22:00
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 12 col-md-6 col-sm-12 datos">
+            <div class="text-left">
+              <p>
+                <a href="mailto:correo1@example.com" class="correo-link"><i class="fa fa-angle-double-right"></i>
+                  ilernaonline@gmail.com</a>
+                <br>
+                <a href="mailto:correo2@example.com" class="correo-link"><i class="fa fa-angle-double-right"></i>
+                  ilernaandalucia@gmail.com</a>
+                <br>
+                Preguntas frecuentes
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <hr class="bg-white">
+        </div>
+        <!-- Bloque 3: Políticas de Privacidad y Cookies -->
+        <div class="row my-3">
+          <div class="col-md-7 text-center ">
+            <div>
+              <a class="text-light" href="#">Política de Privacidad</a>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div>
+              <a class="text-light" href="#">Política de Cookies</a>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 
-  </body>
+</body>
 
 </html>

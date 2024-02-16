@@ -1,510 +1,473 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <head>
-    <title>Ilerna Staff - Higiene bucodental</title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style_bucodental.css">
-    <link rel="stylesheet" href="css/style4.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/png"
-      href="Resources/img/logo/LOGO_ILERNA.png">
-    <!-- Iconos -->
-    <link rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous">
-    <script defer src="js/bootstrap.bundle.js"></script>
-  </head>
+<head>
+  <title>Ilerna Staff - Higiene bucodental</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style_bucodental.css">
+  <link rel="stylesheet" href="css/style4.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="Resources/img/logo/LOGO_ILERNA.png">
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <script defer src="js/bootstrap.bundle.js"></script>
+  <script defer src="js/hidden.js"></script>
+</head>
 
-  <body>
-    <header>
-      <!-- Navbar-->
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
-        <div class="container-xxl">
-          <a class="navbar-brand" href="index.html">
-            <img src="Resources/img/logo/ilerna_Staff_Sanidad.png"
-              alt="Logotipo" class="d-inline-block align-text-top logo">
-          </a>
-          <button class="" type="button"
-            data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<body>
+  <header>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="index.html">
+          <img src="Resources/img/logo/ilerna_Staff_Sanidad.png" alt="Logotipo"
+            class="d-inline-block align-text-top logo">
+        </a>
+        <button hidden id="botoncollapse" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto menu-derecha">
-              <li class="nav-item small">
-                <a class="nav-link" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item small dropdown">
-                <a class="nav-link dropdown-toggle" href=""
-                  id="navbarDropdownMenuLink" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false"> Familias
-                  educativas
-                </a>
-                <ul class="dropdown-menu bg-blueilerna p-2"
-                  aria-labelledby="navbarDropdownMenuLink">
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="sanidad.html">Sanidad</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="comerciomarketing.html">Comercio y
-                      Marketing</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="administracionFinanzas.html">Administración y
-                      Gestión</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="informatica.html">Informática</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="imagen_y_sonido_3D,juegos_y_entornos_interactivos.html">Imagen
-                      y Sonido</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="serviciosculturales.html">Servicios
-                      Socioculturales</a></li>
-                </ul>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="Transversal_Transversal.html">Transversales</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="adminCentro_direccion.html">Administración</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="adminCentro_personal.html">Mantenimientos y
-                  servicios</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link" href="voluntariado.html">Voluntariado</a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto menu-derecha">
+            <li class="nav-item small">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item small dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false"> Familias
+                educativas
+              </a>
+              <ul class="dropdown-menu bg-blueilerna p-2" aria-labelledby="navbarDropdownMenuLink">
+                <li class="mb-2"><a class="text-white menuletras" href="sanidad.html">Sanidad</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="comerciomarketing.html">Comercio y
+                    Marketing</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="administracionFinanzas.html">Administración y
+                    Gestión</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="informatica.html">Informática</a></li>
+                <li class="mb-2"><a class="text-white menuletras"
+                    href="imagen_y_sonido_3D,juegos_y_entornos_interactivos.html">Imagen
+                    y Sonido</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="serviciosculturales.html">Servicios
+                    Socioculturales</a></li>
+              </ul>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="Transversal_Transversal.html">Transversales</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="adminCentro_direccion.html">Administración</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="adminCentro_personal.html">Mantenimientos y
+                servicios</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="voluntariado.html">Voluntariado</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <main>
-      <!-- Hero -->
-      <div id="hero" class="p-5 text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div
-                class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-black">
-                  <h1 class="mb-3">Higiene Bucodental</h1>
-                  <p class="mb-3">Higiene Bucodental es un programa educativo
-                    diseñado para preparar a los estudiantes en
-                    la promoción
-                    y el mantenimiento de la salud oral de las personas. Esta
-                    formación se enfoca en la adquisición de
-                    habilidades y
-                    conocimientos necesarios para desempeñarse como higienista
-                    dental, un profesional de la salud oral que
-                    trabaja en estrecha
-                    colaboración con dentistas y odontólogos</p>
-                </div>
+  <main>
+    <!-- Hero -->
+    <div id="hero" class="p-5 text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-black">
+                <h1 class="mb-3">Higiene Bucodental</h1>
+                <p class="mb-3">Higiene Bucodental es un programa educativo
+                  diseñado para preparar a los estudiantes en
+                  la promoción
+                  y el mantenimiento de la salud oral de las personas. Esta
+                  formación se enfoca en la adquisición de
+                  habilidades y
+                  conocimientos necesarios para desempeñarse como higienista
+                  dental, un profesional de la salud oral que
+                  trabaja en estrecha
+                  colaboración con dentistas y odontólogos</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="fondo-bucodental">
-        <!--CARD-->
-        <h1 class="text-center pt-3">Docentes</h1>
-        <div class="container-fluid d-flex justify-content-center">
-          <div class="row py-3 px-4 justify-content-evenly">
+    </div>
+    <div class="fondo-bucodental">
+      <!--CARD-->
+      <h1 class="text-center pt-3">Docentes</h1>
+      <div class="container-fluid d-flex justify-content-center">
+        <div class="row py-3 px-4 justify-content-evenly">
 
-            <!-- Profe 1 -->
-            <div class="card mt-4 col-12 col-md-5 px-2">
-              <!-- NOMBRE -->
-              <h5 class="card-title text-center border-0 mt-2 pt-3">Andrés
-                Hurtado Moreno</h5>
-              <!-- CONTENIDO -->
-              <div class="card-body">
-                <!-- IMAGEN -->
-                <div class="card-img position-relative">
-                  <img class="rounded-5"
-                    src="Resources/img/higiene_bucodental/josehurtado.jpg">
-                  <span
-                    class="position-absolute bottom-0 end-50 translate-middle badge badge-custom rounded-pill">Profesor</span>
-                </div>
-                <!-- INFO -->
-                <table class="card-data table bg-white rounded-5 mt-4">
-                  <tr class="d-grid ms-4 py-2">
-                    <td>
-                      <h4>Formación</h4>
-                      <span>Grado Biología y master en Educación</span>
-                    </td>
-                    <td>
-                      <h4>Hobbies</h4>
-                      <div class="d-flex">
-                        <ul class="m-0 list-unstyled col-6">
-                          <li>Rol</li>
-                          <li>Leer</li>
-                          <li>Sevilla FC</li>
-                          <li>Star Wars</li>
-                        </ul>
-                        <ul class="m-0 list-unstyled col-6">
-                          <li>Deporte</li>
-                          <li>Gaming</li>
-                          <li>El negroni</li>
-                        </ul>
-                      </div>
-                    </td>
-                    <td>
-                      <h4>Mantra</h4>
-                      <span
-                        class="fst-italic">"La fuente de mis virtudes; la madre de mis defectos"</span>
-                    </td>
-                    <td>
-                      <h4>Sobre mi</h4>
-                      <span>Me encanta la docencia, estar cerca del alumnado y
-                        sentir la
-                        satisfacción de ver los logros de los alumnos</span>
-                    </td>
-                  </tr>
-                </table>
+          <!-- Profe 1 -->
+          <div class="card mt-4 col-12 col-md-5 px-2">
+            <!-- NOMBRE -->
+            <h5 class="card-title text-center border-0 mt-2 pt-3">Andrés
+              Hurtado Moreno</h5>
+            <!-- CONTENIDO -->
+            <div class="card-body">
+              <!-- IMAGEN -->
+              <div class="card-img position-relative">
+                <img class="rounded-5" src="Resources/img/higiene_bucodental/josehurtado.jpg">
+                <span
+                  class="position-absolute bottom-0 end-50 translate-middle badge badge-custom rounded-pill">Profesor</span>
               </div>
-            </div>
-
-            <!-- Profe 2 -->
-            <div class="card mt-4 col-12 col-md-5 px-2">
-              <!-- NOMBRE -->
-              <h5 class="card-title text-center border-0 mt-2 pt-3">Rosa
-                García Valero</h5>
-              <!-- CONTENIDO -->
-              <div class="card-body">
-                <!-- IMAGEN -->
-                <div class="position-relative card-img">
-                  <img class="rounded-5"
-                    src="Resources/img/higiene_bucodental/rosa.jpg">
-                  <span
-                    class="position-absolute bottom-0 end-50  translate-middle badge badge-custom rounded-pill bg-badge-Green text-white">Profesor</span>
-                </div>
-                <!-- INFO -->
-                <table class="card-data table bg-white rounded-5 mt-4">
-                  <tr class="d-grid ms-4 py-2">
-                    <td>
-                      <h4>Formación</h4>
-                      <span>Doctora en Microbilogía</span>
-                    </td>
-                    <td>
-                      <h4>Hobbies</h4>
-                      <div class="d-flex">
-                        <ul class="m-0 list-unstyled col-6">
-                          <li>Leer</li>
-                          <li>Cocinar</li>
-                          <li>Senderismo</li>
-                          <li>Ciencia Ficción</li>
-                        </ul>
-                        <ul class="m-0 list-unstyled col-6">
-                          <li>Manga</li>
-                          <li>Submarinismo</li>
-                          <li>Artes marciales</li>
-                          <li>Juegos de mesa</li>
-                        </ul>
-                      </div>
-                    </td>
-                    <td>
-                      <h4>Mantra</h4>
-                      <div class="d-grid fst-italic">
-                        <span>Me lo contaron y lo olvidé.</span>
-                        <span>Lo vi y lo entendí.</span>
-                        <span>Lo hice y lo aprendí </span>
-                      </div>
-                    </td>
-                    <td>
-                      <h4>Sobre mi</h4>
-                      <span>
-                        Me encanta la investigación tanto básica como
-                        aplicada. A nivel docente, intento transmitir mi
-                        pasión por la ciencia a las nuevas generaciones
-                      </span>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-
-            <!-- Profe 3 -->
-            <div class="card mt-4 col-12 col-md-5 px-2">
-              <!-- NOMBRE -->
-              <h5 class="card-title text-center border-0 mt-2 pt-3">Iván
-                Carrasco Guardiola</h5>
-              <!-- CONTENIDO -->
-              <div class="card-body">
-                <!-- IMAGEN -->
-                <div class="card-img position-relative">
-                  <img class="rounded-5"
-                    src="Resources/img/higiene_bucodental/ivan.jpeg">
-                  <span
-                    class="position-absolute bottom-0 end-50 translate-middle badge badge-custom rounded-pill bg-badge-blue text-white">Profesor</span>
-                  <span
-                    class="position-absolute top-0 start-50 translate-middle badge badge-custom2 rounded-pill bg-warning text-dark">Jefe
-                    de estudios</span>
-                </div>
-                <!-- INFO -->
-                <table class="card-data table bg-white rounded-5 mt-4">
-                  <tr class="d-grid ms-4 py-2">
-                    <td>
-                      <h4>Formación</h4>
-                      <span>Odontología</span>
-                    </td>
-                    <td>
-                      <h4>Hobbies</h4>
-                      <span>Deporte</span>
-                    </td>
-                    <td>
-                      <h4>Mantra</h4>
-                      <span
-                        class="fst-italic">"Ningún mar en calma hizo experto a un marinero"</span>
-                    </td>
-                    <td>
-                      <h4>Sobre mi</h4>
-                      <span>La constancia</span>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-
-            <!-- Profe 4 -->
-            <div class="card mt-4 col-12 col-md-5 px-2">
-              <!-- NOMBRE -->
-              <h5 class="card-title text-center border-0 mt-2 pt-3">María
-                Silva Tarancón</h5>
-              <!-- CONTENIDO -->
-              <div class="card-body">
-                <!-- IMAGEN -->
-                <div class="card-img position-relative">
-                  <img class="rounded-5"
-                    src="Resources/img/higiene_bucodental/maria_silva.jpeg">
-                  <span
-                    class="position-absolute bottom-0 end-50 translate-middle badge badge-custom rounded-pill bg-badge-Aquamarine text-dark">Profesor</span>
-                </div>
-                <!-- INFO -->
-                <table class="card-data table bg-white rounded-5 mt-4">
-                  <tr class="d-grid ms-4 py-2">
-                    <td>
-                      <h4>Formación</h4>
-                      <span>Odontología</span>
-                    </td>
-                    <td>
-                      <h4>Hobbies</h4>
-                      <div class="d-flex">
-                        <ul class="m-0 list-unstyled col-6">
-                          <li>Pádel</li>
-                          <li>Deporte</li>
-                        </ul>
-                        <ul class="m-0 list-unstyled col-6">
-                          <li>Salir</li>
-                          <li>Viajar</li>
-                        </ul>
-                      </div>
-                    </td>
-                    <td>
-                      <h4>Mantra</h4>
-                      <span class="fst-italic">Sonríe y sé feliz</span>
-                    </td>
-                    <td>
-                      <h4>Sobre mi</h4>
-                      <span>Me gustan los perros y me fui a Honduras</span>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-
-            <!-- Profe 5 -->
-            <div class="card mt-4 col-12 col-md-5 px-2">
-              <!-- NOMBRE -->
-              <h5 class="card-title text-center border-0 mt-2 pt-3">Mª Carmen
-                Alonso Vasco</h5>
-              <!-- CONTENIDO -->
-              <div class="card-body">
-                <!-- IMAGEN -->
-                <div class="card-img position-relative">
-                  <img class="rounded-5"
-                    src="Resources/img/higiene_bucodental/carmen_alonso.png">
-                  <span
-                    class="position-absolute bottom-0 end-50 translate-middle badge badge-custom rounded-pill bg-badge-Light-blue text-dark">Profesor</span>
-                </div>
-                <!-- INFO -->
-                <table class="card-data table bg-white rounded-5 mt-4">
-                  <tr class="d-grid ms-4 py-2">
-                    <td>
-                      <h4>Formación</h4>
-                      <span>Licenciada en odontología</span>
-                    </td>
-                    <td>
-                      <h4>Hobbies</h4>
-                      <div class="d-flex">
-                        <ul class="m-0 list-unstyled col-6">
-                          <li>Leer</li>
-                          <li>Senderismo</li>
-                        </ul>
-                        <ul class="m-0 list-unstyled col-6">
-                          <li>Golf</li>
-                          <li>Cocinar</li>
-                        </ul>
-                      </div>
-                    </td>
-                    <td>
-                      <h4>Mantra</h4>
-                      <span
-                        class="fst-italic">"Después de la tormenta siempre sale el sol"</span>
-                    </td>
-                    <td>
-                      <h4>Sobre mi</h4>
-                      <span>Odontóloga por vocación, docente de corazón</span>
-                    </td>
-                  </tr>
-                </table>
-              </div>
-            </div>
-
-            <!-- Profe 6 -->
-            <div class="card mt-4 col-12 col-md-5 px-2">
-              <!-- NOMBRE -->
-              <h5 class="card-title text-center border-0 mt-2 pt-3">Andrea
-                García Carles</h5>
-              <!-- CONTENIDO -->
-              <div class="card-body">
-                <!-- IMAGEN -->
-                <div class="card-img position-relative">
-                  <img class="rounded-5"
-                    src="Resources/img/higiene_bucodental/andrea_garcia.jpeg">
-                  <span id="gradiente-andrea"
-                    class="position-absolute bottom-0 end-50 translate-middle badge badge-custom rounded-pill bg-badge-Light-blue text-dark">Profesor</span>
-                </div>
-                <!-- INFO -->
-                <table class="card-data table bg-white rounded-5 mt-4">
-                  <tr class="d-grid ms-4 py-2">
-                    <td>
-                      <h4>Formación</h4>
-                      <span>Odontología</span>
-                    </td>
-                    <td>
-                      <h4>Hobbies</h4>
-                      <div class="d-flex">
-                        <ul class="m-0 list-unstyled col-6">
-                          <li>Tenis</li>
-                        </ul>
-                        <ul class="m-0 list-unstyled col-6">
-                          <li>Teatro</li>
-                        </ul>
-                      </div>
-                    </td>
-                    <td>
-                      <h4>Mantra</h4>
-                      <span class="fst-italic">"Lo hacemos y ya vemos"</span>
-                      - La llamada
-                    </td>
-                    <td>
-                      <h4>Sobre mi</h4>
-                      <span>Soy muy divertida</span>
-                    </td>
-                  </tr>
-                </table>
-              </div>
+              <!-- INFO -->
+              <table class="card-data table bg-white rounded-5 mt-4">
+                <tr class="d-grid ms-4 py-2">
+                  <td>
+                    <h4>Formación</h4>
+                    <span>Grado Biología y master en Educación</span>
+                  </td>
+                  <td>
+                    <h4>Hobbies</h4>
+                    <div class="d-flex">
+                      <ul class="m-0 list-unstyled col-6">
+                        <li>Rol</li>
+                        <li>Leer</li>
+                        <li>Sevilla FC</li>
+                        <li>Star Wars</li>
+                      </ul>
+                      <ul class="m-0 list-unstyled col-6">
+                        <li>Deporte</li>
+                        <li>Gaming</li>
+                        <li>El negroni</li>
+                      </ul>
+                    </div>
+                  </td>
+                  <td>
+                    <h4>Mantra</h4>
+                    <span class="fst-italic">"La fuente de mis virtudes; la madre de mis defectos"</span>
+                  </td>
+                  <td>
+                    <h4>Sobre mi</h4>
+                    <span>Me encanta la docencia, estar cerca del alumnado y
+                      sentir la
+                      satisfacción de ver los logros de los alumnos</span>
+                  </td>
+                </tr>
+              </table>
             </div>
           </div>
-        </main>
 
-        <!-- Footer -->
-        <footer
-          class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
-          <div class="container">
-            <div class="row my-4">
-              <div class="col-12 mb-2">
-                <hr class="bg-white">
+          <!-- Profe 2 -->
+          <div class="card mt-4 col-12 col-md-5 px-2">
+            <!-- NOMBRE -->
+            <h5 class="card-title text-center border-0 mt-2 pt-3">Rosa
+              García Valero</h5>
+            <!-- CONTENIDO -->
+            <div class="card-body">
+              <!-- IMAGEN -->
+              <div class="position-relative card-img">
+                <img class="rounded-5" src="Resources/img/higiene_bucodental/rosa.jpg">
+                <span
+                  class="position-absolute bottom-0 end-50  translate-middle badge badge-custom rounded-pill bg-badge-Green text-white">Profesor</span>
               </div>
-              <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
-              <div class="row my-3">
-                <div class="col-lg-4 col-md-12 col-sm-12">
-                  <div class="text-left">
-                    <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.079767245528!2d-5.9385033!3d37.4011837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1269414d8c133d%3A0x498ce95cde9f9931!2sILERNA%20Sevilla!5e0!3m2!1ses!2ses!4v1701699015351!5m2!1ses!2ses"
-                      width="100%" height="250"
-                      style="border:0;"
-                      allowfullscreen
-                      loading="lazy"
-                      referrerpolicy="no-referrer-when-downgrade"></iframe>
-                  </div>
-                </div>
-                <div class="col-lg-4 col-md-6 col-sm-12 datos">
-                  <div class="text-left">
-                    <p class="info-item"><i
-                        class="fas fa-map-marker-alt"></i>
-                      Av.
-                      de la Innovación, 7-9, Edificio
-                      Arena, 2, 41020
-                      Sevilla</p>
-                  </div>
-                  <div class="text-left">
-                    <p class="info-item"><i
-                        class="fas fa-phone"></i> 954 04
-                      12
-                      12</p>
-                  </div>
-                  <div class="text-left">
-                    <p class="info-item"><i
-                        class="far fa-clock"></i> L-V
-                      8:30-14:30
-                      <br> L-V 15:00-22:00</p>
-                  </div>
-                </div>
-                <div
-                  class="col-lg-4 12 col-md-6 col-sm-12 datos">
-                  <div class="text-left">
-                    <p>
-                      <a href="mailto:correo1@example.com"
-                        class="correo-link"><i
-                          class="fa fa-angle-double-right"></i>
-                        ilernaonline@gmail.com</a>
-                      <br>
-                      <a href="mailto:correo2@example.com"
-                        class="correo-link"><i
-                          class="fa fa-angle-double-right"></i>
-                        ilernaandalucia@gmail.com</a>
-                      <br>
-                      Preguntas frecuentes
-                    </p>
-                  </div>
-                </div>
-              </div>
-              <div class="col-12">
-                <hr class="bg-white">
-              </div>
-              <!-- Bloque 3: Políticas de Privacidad y Cookies -->
-              <div class="row my-3">
-                <div class="col-md-7 text-center ">
-                  <div>
-                    <a class="text-light" href="#">Política
-                      de Privacidad</a>
-                  </div>
-                </div>
-                <div class="col-md-3 text-center">
-                  <div>
-                    <a class="text-light" href="#">Política
-                      de Cookies</a>
-                  </div>
-                </div>
-              </div>
+              <!-- INFO -->
+              <table class="card-data table bg-white rounded-5 mt-4">
+                <tr class="d-grid ms-4 py-2">
+                  <td>
+                    <h4>Formación</h4>
+                    <span>Doctora en Microbilogía</span>
+                  </td>
+                  <td>
+                    <h4>Hobbies</h4>
+                    <div class="d-flex">
+                      <ul class="m-0 list-unstyled col-6">
+                        <li>Leer</li>
+                        <li>Cocinar</li>
+                        <li>Senderismo</li>
+                        <li>Ciencia Ficción</li>
+                      </ul>
+                      <ul class="m-0 list-unstyled col-6">
+                        <li>Manga</li>
+                        <li>Submarinismo</li>
+                        <li>Artes marciales</li>
+                        <li>Juegos de mesa</li>
+                      </ul>
+                    </div>
+                  </td>
+                  <td>
+                    <h4>Mantra</h4>
+                    <div class="d-grid fst-italic">
+                      <span>Me lo contaron y lo olvidé.</span>
+                      <span>Lo vi y lo entendí.</span>
+                      <span>Lo hice y lo aprendí </span>
+                    </div>
+                  </td>
+                  <td>
+                    <h4>Sobre mi</h4>
+                    <span>
+                      Me encanta la investigación tanto básica como
+                      aplicada. A nivel docente, intento transmitir mi
+                      pasión por la ciencia a las nuevas generaciones
+                    </span>
+                  </td>
+                </tr>
+              </table>
             </div>
           </div>
-        </footer>
 
-      </body>
+          <!-- Profe 3 -->
+          <div class="card mt-4 col-12 col-md-5 px-2">
+            <!-- NOMBRE -->
+            <h5 class="card-title text-center border-0 mt-2 pt-3">Iván
+              Carrasco Guardiola</h5>
+            <!-- CONTENIDO -->
+            <div class="card-body">
+              <!-- IMAGEN -->
+              <div class="card-img position-relative">
+                <img class="rounded-5" src="Resources/img/higiene_bucodental/ivan.jpeg">
+                <span
+                  class="position-absolute bottom-0 end-50 translate-middle badge badge-custom rounded-pill bg-badge-blue text-white">Profesor</span>
+                <span
+                  class="position-absolute top-0 start-50 translate-middle badge badge-custom2 rounded-pill bg-warning text-dark">Jefe
+                  de estudios</span>
+              </div>
+              <!-- INFO -->
+              <table class="card-data table bg-white rounded-5 mt-4">
+                <tr class="d-grid ms-4 py-2">
+                  <td>
+                    <h4>Formación</h4>
+                    <span>Odontología</span>
+                  </td>
+                  <td>
+                    <h4>Hobbies</h4>
+                    <span>Deporte</span>
+                  </td>
+                  <td>
+                    <h4>Mantra</h4>
+                    <span class="fst-italic">"Ningún mar en calma hizo experto a un marinero"</span>
+                  </td>
+                  <td>
+                    <h4>Sobre mi</h4>
+                    <span>La constancia</span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
 
-    </html>
+          <!-- Profe 4 -->
+          <div class="card mt-4 col-12 col-md-5 px-2">
+            <!-- NOMBRE -->
+            <h5 class="card-title text-center border-0 mt-2 pt-3">María
+              Silva Tarancón</h5>
+            <!-- CONTENIDO -->
+            <div class="card-body">
+              <!-- IMAGEN -->
+              <div class="card-img position-relative">
+                <img class="rounded-5" src="Resources/img/higiene_bucodental/maria_silva.jpeg">
+                <span
+                  class="position-absolute bottom-0 end-50 translate-middle badge badge-custom rounded-pill bg-badge-Aquamarine text-dark">Profesor</span>
+              </div>
+              <!-- INFO -->
+              <table class="card-data table bg-white rounded-5 mt-4">
+                <tr class="d-grid ms-4 py-2">
+                  <td>
+                    <h4>Formación</h4>
+                    <span>Odontología</span>
+                  </td>
+                  <td>
+                    <h4>Hobbies</h4>
+                    <div class="d-flex">
+                      <ul class="m-0 list-unstyled col-6">
+                        <li>Pádel</li>
+                        <li>Deporte</li>
+                      </ul>
+                      <ul class="m-0 list-unstyled col-6">
+                        <li>Salir</li>
+                        <li>Viajar</li>
+                      </ul>
+                    </div>
+                  </td>
+                  <td>
+                    <h4>Mantra</h4>
+                    <span class="fst-italic">Sonríe y sé feliz</span>
+                  </td>
+                  <td>
+                    <h4>Sobre mi</h4>
+                    <span>Me gustan los perros y me fui a Honduras</span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <!-- Profe 5 -->
+          <div class="card mt-4 col-12 col-md-5 px-2">
+            <!-- NOMBRE -->
+            <h5 class="card-title text-center border-0 mt-2 pt-3">Mª Carmen
+              Alonso Vasco</h5>
+            <!-- CONTENIDO -->
+            <div class="card-body">
+              <!-- IMAGEN -->
+              <div class="card-img position-relative">
+                <img class="rounded-5" src="Resources/img/higiene_bucodental/carmen_alonso.png">
+                <span
+                  class="position-absolute bottom-0 end-50 translate-middle badge badge-custom rounded-pill bg-badge-Light-blue text-dark">Profesor</span>
+              </div>
+              <!-- INFO -->
+              <table class="card-data table bg-white rounded-5 mt-4">
+                <tr class="d-grid ms-4 py-2">
+                  <td>
+                    <h4>Formación</h4>
+                    <span>Licenciada en odontología</span>
+                  </td>
+                  <td>
+                    <h4>Hobbies</h4>
+                    <div class="d-flex">
+                      <ul class="m-0 list-unstyled col-6">
+                        <li>Leer</li>
+                        <li>Senderismo</li>
+                      </ul>
+                      <ul class="m-0 list-unstyled col-6">
+                        <li>Golf</li>
+                        <li>Cocinar</li>
+                      </ul>
+                    </div>
+                  </td>
+                  <td>
+                    <h4>Mantra</h4>
+                    <span class="fst-italic">"Después de la tormenta siempre sale el sol"</span>
+                  </td>
+                  <td>
+                    <h4>Sobre mi</h4>
+                    <span>Odontóloga por vocación, docente de corazón</span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+
+          <!-- Profe 6 -->
+          <div class="card mt-4 col-12 col-md-5 px-2">
+            <!-- NOMBRE -->
+            <h5 class="card-title text-center border-0 mt-2 pt-3">Andrea
+              García Carles</h5>
+            <!-- CONTENIDO -->
+            <div class="card-body">
+              <!-- IMAGEN -->
+              <div class="card-img position-relative">
+                <img class="rounded-5" src="Resources/img/higiene_bucodental/andrea_garcia.jpeg">
+                <span id="gradiente-andrea"
+                  class="position-absolute bottom-0 end-50 translate-middle badge badge-custom rounded-pill bg-badge-Light-blue text-dark">Profesor</span>
+              </div>
+              <!-- INFO -->
+              <table class="card-data table bg-white rounded-5 mt-4">
+                <tr class="d-grid ms-4 py-2">
+                  <td>
+                    <h4>Formación</h4>
+                    <span>Odontología</span>
+                  </td>
+                  <td>
+                    <h4>Hobbies</h4>
+                    <div class="d-flex">
+                      <ul class="m-0 list-unstyled col-6">
+                        <li>Tenis</li>
+                      </ul>
+                      <ul class="m-0 list-unstyled col-6">
+                        <li>Teatro</li>
+                      </ul>
+                    </div>
+                  </td>
+                  <td>
+                    <h4>Mantra</h4>
+                    <span class="fst-italic">"Lo hacemos y ya vemos"</span>
+                    - La llamada
+                  </td>
+                  <td>
+                    <h4>Sobre mi</h4>
+                    <span>Soy muy divertida</span>
+                  </td>
+                </tr>
+              </table>
+            </div>
+          </div>
+        </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
+    <div class="container">
+      <div class="row my-4">
+        <div class="col-12 mb-2">
+          <hr class="bg-white">
+        </div>
+        <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
+        <div class="row my-3">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="text-left">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.079767245528!2d-5.9385033!3d37.4011837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1269414d8c133d%3A0x498ce95cde9f9931!2sILERNA%20Sevilla!5e0!3m2!1ses!2ses!4v1701699015351!5m2!1ses!2ses"
+                width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 datos">
+            <div class="text-left">
+              <p class="info-item"><i class="fas fa-map-marker-alt"></i>
+                Av.
+                de la Innovación, 7-9, Edificio
+                Arena, 2, 41020
+                Sevilla</p>
+            </div>
+            <div class="text-left">
+              <p class="info-item"><i class="fas fa-phone"></i> 954 04
+                12
+                12</p>
+            </div>
+            <div class="text-left">
+              <p class="info-item"><i class="far fa-clock"></i> L-V
+                8:30-14:30
+                <br> L-V 15:00-22:00
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 12 col-md-6 col-sm-12 datos">
+            <div class="text-left">
+              <p>
+                <a href="mailto:correo1@example.com" class="correo-link"><i class="fa fa-angle-double-right"></i>
+                  ilernaonline@gmail.com</a>
+                <br>
+                <a href="mailto:correo2@example.com" class="correo-link"><i class="fa fa-angle-double-right"></i>
+                  ilernaandalucia@gmail.com</a>
+                <br>
+                Preguntas frecuentes
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <hr class="bg-white">
+        </div>
+        <!-- Bloque 3: Políticas de Privacidad y Cookies -->
+        <div class="row my-3">
+          <div class="col-md-7 text-center ">
+            <div>
+              <a class="text-light" href="#">Política
+                de Privacidad</a>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div>
+              <a class="text-light" href="#">Política
+                de Cookies</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

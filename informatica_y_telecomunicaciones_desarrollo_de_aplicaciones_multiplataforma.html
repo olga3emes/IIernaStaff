@@ -1,428 +1,392 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style2.css">
-    <link rel="stylesheet" href="css/style4.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/png"
-      href="Resources/img/logo/LOGO_ILERNA.png">
-    <!-- Iconos -->
-    <link rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous">
-    <script defer src="js/bootstrap.bundle.js"></script>
-    <title>Desarrollo Multiplataforma</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+  <link rel="stylesheet" href="css/style4.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="Resources/img/logo/LOGO_ILERNA.png">
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <script defer src="js/bootstrap.bundle.js"></script>
+  <script defer src="js/hidden.js"></script>
+  <title>Desarrollo Multiplataforma</title>
+</head>
 
-  <body>
-    <header>
-      <!-- Navbar-->
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
-        <div class="container-xxl">
-          <a class="navbar-brand" href="index.html">
-            <img src="Resources/img/logo/ilerna_Staff_Informatica.png"
-              alt="Logotipo" class="d-inline-block align-text-top logo">
-          </a>
-          <button class="" type="button"
-            data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<body>
+  <header>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="index.html">
+          <img src="Resources/img/logo/ilerna_Staff_Informatica.png" alt="Logotipo"
+            class="d-inline-block align-text-top logo">
+        </a>
+        <button hidden id="botoncollapse" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto menu-derecha">
-              <li class="nav-item small">
-                <a class="nav-link" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item small dropdown">
-                <a class="nav-link dropdown-toggle" href
-                  id="navbarDropdownMenuLink" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false"> Familias
-                  educativas
-                </a>
-                <ul class="dropdown-menu bg-blueilerna p-2"
-                  aria-labelledby="navbarDropdownMenuLink">
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="sanidad.html">Sanidad</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="comerciomarketing.html">Comercio y
-                      Marketing</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="administracionFinanzas.html">Administración y
-                      Gestión</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="informatica.html">Informática</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="imagen_y_sonido_3D,juegos_y_entornos_interactivos.html">Imagen
-                      y Sonido</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="serviciosculturales.html">Servicios
-                      Socioculturales</a></li>
-                </ul>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="Transversal_Transversal.html">Transversales</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="adminCentro_direccion.html">Administración</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="adminCentro_personal.html">Mantenimientos y
-                  servicios</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link" href="voluntariado.html">Voluntariado</a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto menu-derecha">
+            <li class="nav-item small">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item small dropdown">
+              <a class="nav-link dropdown-toggle" href id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false"> Familias
+                educativas
+              </a>
+              <ul class="dropdown-menu bg-blueilerna p-2" aria-labelledby="navbarDropdownMenuLink">
+                <li class="mb-2"><a class="text-white menuletras" href="sanidad.html">Sanidad</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="comerciomarketing.html">Comercio y
+                    Marketing</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="administracionFinanzas.html">Administración y
+                    Gestión</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="informatica.html">Informática</a></li>
+                <li class="mb-2"><a class="text-white menuletras"
+                    href="imagen_y_sonido_3D,juegos_y_entornos_interactivos.html">Imagen
+                    y Sonido</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="serviciosculturales.html">Servicios
+                    Socioculturales</a></li>
+              </ul>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="Transversal_Transversal.html">Transversales</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="adminCentro_direccion.html">Administración</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="adminCentro_personal.html">Mantenimientos y
+                servicios</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="voluntariado.html">Voluntariado</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
+      </div>
+    </nav>
+  </header>
 
-    <section>
-      <div id="hero" class="p-5 text-center">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div
-                class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-black">
-                  <h1 class="mb-3">Desarrollo de aplicaciones
-                    Multiplataforma</h1>
-                  <p class="mb-3">Realiza el Grado Superior en Desarrollo de
-                    Aplicaciones Multiplataforma y adéntrate en
-                    un sector en pleno crecimiento. Mediante esta FP,
-                    adquirirás las competencias para programar y
-                    desarrollar aplicaciones en diversas plataformas, crear
-                    aplicaciones para juegos y dispositivos
-                    móviles, y diseñar interfaces intuitivas y atractivas.
-                    Esta formación integral y altamente práctica te
-                    proporcionará los conocimientos y habilidades esenciales
-                    para prosperar en una industria en constante
-                    transformación y expansión.</p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <div class="container mt-5">
-      <div
-        class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5">
-        <div class="card-container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="left-content">
-                <img class="rectangular"
-                  src="Resources/img/img_Personal-4-3/Martin Rivero_DxO.jpg"
-                  alt="Foto de Martin" height="290" />
-                <div class="pt-2">
-                  <h3>Martín Rivero</h3>
-                  <h6><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                      height="16" fill="currentColor" class="bi bi-geo"
-                      viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411" />
-                    </svg> Valladolid</h6>
-                  <div class="buttons">
-                    <h5 class="badge text-bg-warning">INGENIERO
-                      INFORMÁTICO</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-8 pt-5 pl-4  mt-4">
-              <h4>Hobbies</h4>
-              <p>Gym y leer</p>
-              <h4>Frase que te represente</h4>
-              <p>Lo invisible, es esencial a los ojos</p>
-              <h4>Algo sobre ti</h4>
-              <p>Soy una persona más ayudando a otras personas a conseguir sus
-                metas. Nada más :)</p>
-            </div>
-          </div>
-          <div id="Martin">
-            <h4>Color favorito</h4>
-            <ul>
-              <h5 class="badge ">Rojo</h5>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container mt-5">
-      <div
-        class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5">
-        <div class="card-container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="left-content">
-                <img class="rectangular"
-                  src="Resources/img/img_Personal-4-3/Olga _DxO.jpg"
-                  alt="Foto de Olga" height="290" />
-                <div class="pt-2">
-                  <h3>Olga M.Moreno Martín</h3>
-                  <h6><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                      height="16" fill="currentColor" class="bi bi-geo"
-                      viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411" />
-                    </svg> Sevilla</h6>
-                  <div class="buttons">
-                    <h5 class="badge text-bg-warning">INGENIERA
-                      INFORMÁTICA</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-8 pt-5 pl-4 ml-2 mt-4">
-              <h4>Hobbies</h4>
-              <p>Me encanta la pintura 🎨 los videojuegos y la cultura
-                japonesa.</p>
-              <h4>Frase que te represente</h4>
-              <p>Tener un talento "natural" necesita un esfuerzo
-                "sobrenatural"</p>
-              <h4>Algo sobre ti</h4>
-              <p>Me encanta enseñar, el diseño web y la seguridad informática.
-                Soy una techgirl ;)</p>
-            </div>
-          </div>
-          <div id="Olga">
-            <h4>Color favorito</h4>
-            <ul>
-              <h5 class="badge ">Lila</h5>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container mt-5">
-      <div
-        class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5">
-        <div class="card-container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="left-content">
-                <img class="rectangular"
-                  src="Resources/img/img_Personal-4-3/Soraya_DxO.jpg"
-                  alt="Foto de Soraya" height="290" />
-                <div class="pt-2">
-                  <h3>Soraya Galisteo</h3>
-                  <h6><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                      height="16" fill="currentColor" class="bi bi-geo"
-                      viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411" />
-                    </svg>Cádiz</h6>
-                  <div class="buttons">
-                    <h5 class="badge text-bg-warning">MATEMÁTICA</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-8 pt-5 pl-4 ml-2 mt-4">
-              <h4>Hobbies</h4>
-              <p>Patinar, ir al cine, ver anime, jugar a juegos de mesa,
-                asustar alumnos con programación</p>
-              <h4>Frase que te represente</h4>
-              <p>Holaaa??. No pierde quien más veces cae, sino aquel que
-                renuncia a levantarse.</p>
-              <h4>Algo sobre ti</h4>
-              <p>Intento ser cada día mejor en mi trabajo. Disfruto de mi
-                profesión como docente e intento que los alumnos aprendan y
-                saquen su mejor versión, siempre poniendo mi personalidad y
-                buen humor en el aula.</p>
-            </div>
-          </div>
-          <div id="Soraya">
-            <h4>Color favorito</h4>
-            <ul>
-              <h5 class="badge ">Verde</h5>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container mt-5">
-      <div
-        class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5">
-        <div class="card-container">
-          <div class="row">
-            <div class="col-md-4">
-              <div class="left-content">
-                <img class="rectangular"
-                  src="Resources/img/img_Personal-4-3/pedro_DxO.jpg"
-                  alt="Foto de Pedro" height="290" />
-                <div class="pt-2">
-                  <h3>Pedro González</h3>
-                  <h6><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                      height="16" fill="currentColor" class="bi bi-geo"
-                      viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411" />
-                    </svg> Cádiz</h6>
-                  <div class="buttons">
-                    <h5 class="badge text-bg-warning">INGENIERO
-                      INFORMÁTICO</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-8 p-5 ml-2 mt-4">
-              <h4>Hobbies</h4>
-              <p>Viajar, hacer deporte, la cultura en todas sus formas, los
-                juegos de mesa y las hamburguesas. Me encantan las
-                hamburguesas.</p>
-              <h4>Frase que te represente</h4>
-              <p>In a hole in the ground there lived a hobbit.</p>
-              <h4>Algo sobre ti</h4>
-              <p>Después de estar los últimos ocho años trabajando en el
-                sector de la consultoría informática he decidido llevarme esa
-                experiencia a un sector por el que siento vocación, la
-                docencia.</p>
-            </div>
-          </div>
-          <div id="Pedro">
-            <h4>Color favorito</h4>
-            <ul>
-              <h5 class="badge ">Azul</h5>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="container mb-5 mt-5">
-      <div
-        class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5">
-        <div class="card-container">
-          <div class="row">
-            <div class="col-md-4">
-              <!-- Columna para la imagen y el contenido de la izquierda -->
-              <div class="left-content">
-                <img class="rectangular"
-                  src="Resources/img/img_Personal-4-3/juanCa_DxO.jpg.jpeg"
-                  alt="Foto de Juan Carlos" height="290" />
-                <div class="pt-2">
-                  <h3>Juan Carlos </h3>
-                  <h6><svg xmlns="http://www.w3.org/2000/svg" width="16"
-                      height="16" fill="currentColor" class="bi bi-geo"
-                      viewBox="0 0 16 16">
-                      <path fill-rule="evenodd"
-                        d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411" />
-                    </svg> Sevilla</h6>
-                  <div class="buttons">
-                    <h5 class="badge text-bg-warning">INGENIERO
-                      INFORMÁTICO</h5>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-md-8 pt-5 pl-4 ml-2 mt-4">
-              <!-- Columna para los elementos de la derecha -->
-              <h4>Hobbies</h4>
-              <p>NS/NC</p>
-              <h4>Frase que te represente</h4>
-              <p>NS/NC.</p>
-              <h4>Algo sobre ti</h4>
-              <p> Toda la info en mi perfil. Gracias </p>
-            </div>
-          </div>
-          <div id="Soraya">
-            <h4>Color favorito</h4>
-            <ul>
-              <h5 class="badge ">verde</h5>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Footer -->
-    <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
+  <section>
+    <div id="hero" class="p-5 text-center">
       <div class="container">
-        <div class="row my-4">
-          <div class="col-12 mb-2">
-            <hr class="bg-white">
-          </div>
-          <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
-          <div class="row my-3">
-            <div class="col-lg-4 col-md-12 col-sm-12">
-              <div class="text-left">
-                <iframe
-                  src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.079767245528!2d-5.9385033!3d37.4011837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1269414d8c133d%3A0x498ce95cde9f9931!2sILERNA%20Sevilla!5e0!3m2!1ses!2ses!4v1701699015351!5m2!1ses!2ses"
-                  width="100%" height="250" style="border:0;"
-                  allowfullscreen
-                  loading="lazy"
-                  referrerpolicy="no-referrer-when-downgrade"></iframe>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6 col-sm-12 datos">
-              <div class="text-left">
-                <p class="info-item"><i class="fas fa-map-marker-alt"></i>
-                  Av.
-                  de la Innovación, 7-9, Edificio Arena, 2, 41020
-                  Sevilla</p>
-              </div>
-              <div class="text-left">
-                <p class="info-item"><i class="fas fa-phone"></i> 954 04 12
-                  12</p>
-              </div>
-              <div class="text-left">
-                <p class="info-item"><i class="far fa-clock"></i> L-V
-                  8:30-14:30
-                  <br> L-V 15:00-22:00</p>
-              </div>
-            </div>
-            <div class="col-lg-4 12 col-md-6 col-sm-12 datos">
-              <div class="text-left">
-                <p>
-                  <a href="mailto:correo1@example.com"
-                    class="correo-link"><i
-                      class="fa fa-angle-double-right"></i>
-                    ilernaonline@gmail.com</a>
-                  <br>
-                  <a href="mailto:correo2@example.com"
-                    class="correo-link"><i
-                      class="fa fa-angle-double-right"></i>
-                    ilernaandalucia@gmail.com</a>
-                  <br>
-                  Preguntas frecuentes
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-12">
-            <hr class="bg-white">
-          </div>
-          <!-- Bloque 3: Políticas de Privacidad y Cookies -->
-          <div class="row my-3">
-            <div class="col-md-7 text-center ">
-              <div>
-                <a class="text-light" href="#">Política de Privacidad</a>
-              </div>
-            </div>
-            <div class="col-md-3 text-center">
-              <div>
-                <a class="text-light" href="#">Política de Cookies</a>
+        <div class="row">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-black">
+                <h1 class="mb-3">Desarrollo de aplicaciones
+                  Multiplataforma</h1>
+                <p class="mb-3">Realiza el Grado Superior en Desarrollo de
+                  Aplicaciones Multiplataforma y adéntrate en
+                  un sector en pleno crecimiento. Mediante esta FP,
+                  adquirirás las competencias para programar y
+                  desarrollar aplicaciones en diversas plataformas, crear
+                  aplicaciones para juegos y dispositivos
+                  móviles, y diseñar interfaces intuitivas y atractivas.
+                  Esta formación integral y altamente práctica te
+                  proporcionará los conocimientos y habilidades esenciales
+                  para prosperar en una industria en constante
+                  transformación y expansión.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </footer>
+    </div>
+  </section>
+  <div class="container mt-5">
+    <div class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5">
+      <div class="card-container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="left-content">
+              <img class="rectangular" src="Resources/img/img_Personal-4-3/Martin Rivero_DxO.jpg" alt="Foto de Martin"
+                height="290" />
+              <div class="pt-2">
+                <h3>Martín Rivero</h3>
+                <h6><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411" />
+                  </svg> Valladolid</h6>
+                <div class="buttons">
+                  <h5 class="badge text-bg-warning">INGENIERO
+                    INFORMÁTICO</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 pt-5 pl-4  mt-4">
+            <h4>Hobbies</h4>
+            <p>Gym y leer</p>
+            <h4>Frase que te represente</h4>
+            <p>Lo invisible, es esencial a los ojos</p>
+            <h4>Algo sobre ti</h4>
+            <p>Soy una persona más ayudando a otras personas a conseguir sus
+              metas. Nada más :)</p>
+          </div>
+        </div>
+        <div id="Martin">
+          <h4>Color favorito</h4>
+          <ul>
+            <h5 class="badge ">Rojo</h5>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5">
+      <div class="card-container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="left-content">
+              <img class="rectangular" src="Resources/img/img_Personal-4-3/Olga _DxO.jpg" alt="Foto de Olga"
+                height="290" />
+              <div class="pt-2">
+                <h3>Olga M.Moreno Martín</h3>
+                <h6><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411" />
+                  </svg> Sevilla</h6>
+                <div class="buttons">
+                  <h5 class="badge text-bg-warning">INGENIERA
+                    INFORMÁTICA</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 pt-5 pl-4 ml-2 mt-4">
+            <h4>Hobbies</h4>
+            <p>Me encanta la pintura 🎨 los videojuegos y la cultura
+              japonesa.</p>
+            <h4>Frase que te represente</h4>
+            <p>Tener un talento "natural" necesita un esfuerzo
+              "sobrenatural"</p>
+            <h4>Algo sobre ti</h4>
+            <p>Me encanta enseñar, el diseño web y la seguridad informática.
+              Soy una techgirl ;)</p>
+          </div>
+        </div>
+        <div id="Olga">
+          <h4>Color favorito</h4>
+          <ul>
+            <h5 class="badge ">Lila</h5>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5">
+      <div class="card-container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="left-content">
+              <img class="rectangular" src="Resources/img/img_Personal-4-3/Soraya_DxO.jpg" alt="Foto de Soraya"
+                height="290" />
+              <div class="pt-2">
+                <h3>Soraya Galisteo</h3>
+                <h6><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411" />
+                  </svg>Cádiz</h6>
+                <div class="buttons">
+                  <h5 class="badge text-bg-warning">MATEMÁTICA</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 pt-5 pl-4 ml-2 mt-4">
+            <h4>Hobbies</h4>
+            <p>Patinar, ir al cine, ver anime, jugar a juegos de mesa,
+              asustar alumnos con programación</p>
+            <h4>Frase que te represente</h4>
+            <p>Holaaa??. No pierde quien más veces cae, sino aquel que
+              renuncia a levantarse.</p>
+            <h4>Algo sobre ti</h4>
+            <p>Intento ser cada día mejor en mi trabajo. Disfruto de mi
+              profesión como docente e intento que los alumnos aprendan y
+              saquen su mejor versión, siempre poniendo mi personalidad y
+              buen humor en el aula.</p>
+          </div>
+        </div>
+        <div id="Soraya">
+          <h4>Color favorito</h4>
+          <ul>
+            <h5 class="badge ">Verde</h5>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-5">
+    <div class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5">
+      <div class="card-container">
+        <div class="row">
+          <div class="col-md-4">
+            <div class="left-content">
+              <img class="rectangular" src="Resources/img/img_Personal-4-3/pedro_DxO.jpg" alt="Foto de Pedro"
+                height="290" />
+              <div class="pt-2">
+                <h3>Pedro González</h3>
+                <h6><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411" />
+                  </svg> Cádiz</h6>
+                <div class="buttons">
+                  <h5 class="badge text-bg-warning">INGENIERO
+                    INFORMÁTICO</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 p-5 ml-2 mt-4">
+            <h4>Hobbies</h4>
+            <p>Viajar, hacer deporte, la cultura en todas sus formas, los
+              juegos de mesa y las hamburguesas. Me encantan las
+              hamburguesas.</p>
+            <h4>Frase que te represente</h4>
+            <p>In a hole in the ground there lived a hobbit.</p>
+            <h4>Algo sobre ti</h4>
+            <p>Después de estar los últimos ocho años trabajando en el
+              sector de la consultoría informática he decidido llevarme esa
+              experiencia a un sector por el que siento vocación, la
+              docencia.</p>
+          </div>
+        </div>
+        <div id="Pedro">
+          <h4>Color favorito</h4>
+          <ul>
+            <h5 class="badge ">Azul</h5>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mb-5 mt-5">
+    <div class="row justify-content-center align-items-center p-sm-0 p-md-0 p-lg-5">
+      <div class="card-container">
+        <div class="row">
+          <div class="col-md-4">
+            <!-- Columna para la imagen y el contenido de la izquierda -->
+            <div class="left-content">
+              <img class="rectangular" src="Resources/img/img_Personal-4-3/juanCa_DxO.jpg.jpeg"
+                alt="Foto de Juan Carlos" height="290" />
+              <div class="pt-2">
+                <h3>Juan Carlos </h3>
+                <h6><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-geo"
+                    viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                      d="M8 1a3 3 0 1 0 0 6 3 3 0 0 0 0-6M4 4a4 4 0 1 1 4.5 3.969V13.5a.5.5 0 0 1-1 0V7.97A4 4 0 0 1 4 3.999zm2.493 8.574a.5.5 0 0 1-.411.575c-.712.118-1.28.295-1.655.493a1.3 1.3 0 0 0-.37.265.3.3 0 0 0-.057.09V14l.002.008.016.033a.6.6 0 0 0 .145.15c.165.13.435.27.813.395.751.25 1.82.414 3.024.414s2.273-.163 3.024-.414c.378-.126.648-.265.813-.395a.6.6 0 0 0 .146-.15l.015-.033L12 14v-.004a.3.3 0 0 0-.057-.09 1.3 1.3 0 0 0-.37-.264c-.376-.198-.943-.375-1.655-.493a.5.5 0 1 1 .164-.986c.77.127 1.452.328 1.957.594C12.5 13 13 13.4 13 14c0 .426-.26.752-.544.977-.29.228-.68.413-1.116.558-.878.293-2.059.465-3.34.465s-2.462-.172-3.34-.465c-.436-.145-.826-.33-1.116-.558C3.26 14.752 3 14.426 3 14c0-.599.5-1 .961-1.243.505-.266 1.187-.467 1.957-.594a.5.5 0 0 1 .575.411" />
+                  </svg> Sevilla</h6>
+                <div class="buttons">
+                  <h5 class="badge text-bg-warning">INGENIERO
+                    INFORMÁTICO</h5>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-8 pt-5 pl-4 ml-2 mt-4">
+            <!-- Columna para los elementos de la derecha -->
+            <h4>Hobbies</h4>
+            <p>NS/NC</p>
+            <h4>Frase que te represente</h4>
+            <p>NS/NC.</p>
+            <h4>Algo sobre ti</h4>
+            <p> Toda la info en mi perfil. Gracias </p>
+          </div>
+        </div>
+        <div id="Soraya">
+          <h4>Color favorito</h4>
+          <ul>
+            <h5 class="badge ">verde</h5>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  </body>
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
+    <div class="container">
+      <div class="row my-4">
+        <div class="col-12 mb-2">
+          <hr class="bg-white">
+        </div>
+        <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
+        <div class="row my-3">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="text-left">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.079767245528!2d-5.9385033!3d37.4011837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1269414d8c133d%3A0x498ce95cde9f9931!2sILERNA%20Sevilla!5e0!3m2!1ses!2ses!4v1701699015351!5m2!1ses!2ses"
+                width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 datos">
+            <div class="text-left">
+              <p class="info-item"><i class="fas fa-map-marker-alt"></i>
+                Av.
+                de la Innovación, 7-9, Edificio Arena, 2, 41020
+                Sevilla</p>
+            </div>
+            <div class="text-left">
+              <p class="info-item"><i class="fas fa-phone"></i> 954 04 12
+                12</p>
+            </div>
+            <div class="text-left">
+              <p class="info-item"><i class="far fa-clock"></i> L-V
+                8:30-14:30
+                <br> L-V 15:00-22:00
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 12 col-md-6 col-sm-12 datos">
+            <div class="text-left">
+              <p>
+                <a href="mailto:correo1@example.com" class="correo-link"><i class="fa fa-angle-double-right"></i>
+                  ilernaonline@gmail.com</a>
+                <br>
+                <a href="mailto:correo2@example.com" class="correo-link"><i class="fa fa-angle-double-right"></i>
+                  ilernaandalucia@gmail.com</a>
+                <br>
+                Preguntas frecuentes
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <hr class="bg-white">
+        </div>
+        <!-- Bloque 3: Políticas de Privacidad y Cookies -->
+        <div class="row my-3">
+          <div class="col-md-7 text-center ">
+            <div>
+              <a class="text-light" href="#">Política de Privacidad</a>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div>
+              <a class="text-light" href="#">Política de Cookies</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+</body>
 
 </html>

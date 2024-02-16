@@ -1,301 +1,278 @@
 <!DOCTYPE html>
 <html lang="es">
 
-  <head>
-    <title>Ilerna Staff - Anatomía Patologíca </title>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/anatomia.css">
-    <link rel="stylesheet" href="css/style4.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/png"
-      href="Resources/img/logo/LOGO_ILERNA.png">
-    <!-- Iconos -->
-    <link rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous">
-      <script defer src="js/bootstrap.bundle.js"></script>
-  </head>
+<head>
+  <title>Ilerna Staff - Anatomía Patologíca </title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap -->
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/anatomia.css">
+  <link rel="stylesheet" href="css/style4.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="Resources/img/logo/LOGO_ILERNA.png">
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <script defer src="js/bootstrap.bundle.js"></script>
+  <script defer src="js/hidden.js"></script>
+</head>
 
-  <body>
-    <header>
-      <!-- Navbar-->
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
-        <div class="container-xxl">
-          <a class="navbar-brand" href="index.html">
-            <img src="Resources/img/logo/ilerna_Staff_Sanidad.png"
-              alt="Logotipo" class="d-inline-block align-text-top logo">
-          </a>
-          <button class="" type="button"
-            data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<body>
+  <header>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="index.html">
+          <img src="Resources/img/logo/ilerna_Staff_Sanidad.png" alt="Logotipo"
+            class="d-inline-block align-text-top logo">
+        </a>
+        <button hidden id="botoncollapse" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto menu-derecha">
-              <li class="nav-item small">
-                <a class="nav-link" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item small dropdown">
-                <a class="nav-link dropdown-toggle" href=""
-                  id="navbarDropdownMenuLink" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false"> Familias
-                  educativas
-                </a>
-                <ul class="dropdown-menu bg-blueilerna p-2"
-                  aria-labelledby="navbarDropdownMenuLink">
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="sanidad.html">Sanidad</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="comerciomarketing.html">Comercio y
-                      Marketing</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="administracionFinanzas.html">Administración y
-                      Gestión</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="informatica.html">Informática</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="imagen_y_sonido_3D,juegos_y_entornos_interactivos.html">Imagen
-                      y Sonido</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="serviciosculturales.html">Servicios
-                      Socioculturales</a></li>
-                </ul>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="Transversal_Transversal.html">Transversales</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="adminCentro_direccion.html">Administración</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="adminCentro_personal.html">Mantenimientos y
-                  servicios</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link" href="voluntariado.html">Voluntariado</a>
-              </li>
-            </ul>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto menu-derecha">
+            <li class="nav-item small">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item small dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false"> Familias
+                educativas
+              </a>
+              <ul class="dropdown-menu bg-blueilerna p-2" aria-labelledby="navbarDropdownMenuLink">
+                <li class="mb-2"><a class="text-white menuletras" href="sanidad.html">Sanidad</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="comerciomarketing.html">Comercio y
+                    Marketing</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="administracionFinanzas.html">Administración y
+                    Gestión</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="informatica.html">Informática</a></li>
+                <li class="mb-2"><a class="text-white menuletras"
+                    href="imagen_y_sonido_3D,juegos_y_entornos_interactivos.html">Imagen
+                    y Sonido</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="serviciosculturales.html">Servicios
+                    Socioculturales</a></li>
+              </ul>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="Transversal_Transversal.html">Transversales</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="adminCentro_direccion.html">Administración</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="adminCentro_personal.html">Mantenimientos y
+                servicios</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="voluntariado.html">Voluntariado</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero -->
+    <div id="hero" class="has-bg-image p-5 text-center bg-banner-direccion">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-black">
+                <h1 class="mb-3">Anatomia Patológica y Citoldiagnostico</h1>
+                <p class="mb-3">La FP 100% oficial de Técnico Superior en
+                  Anatomía Patológica y Citodiagnóstico te
+                  capacitará para obtener muestras biológicas y
+                  distribuirlas, asegurando la conservación hasta las
+                  clínicas que lo demandan. A lo largo de la formación
+                  aprenderás a garantizar la calidad del proceso de
+                  la toma de muestras, conocerás los protocolos establecidos
+                  en la unidad de trabajo y te prepararás
+                  para realizar técnicas necrópsicas de forma práctica
+                  gracias a nuestros laboratorios profesionales.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </div>
 
-    <main>
+    <div class="title-container">
+      <h1 class="title">Profesores</h1>
+    </div>
+
+    <div class="cards-container">
+      <!-- Tarjeta 1 -->
+      <div class="card">
+        <div class="face front">
+          <!-- Contenido del frente de la tarjeta -->
+          <img src="Resources/img/personal/raquel.png" alt="Nombre">
+          <h3>Raquel García Rodríguez</h3>
+        </div>
+        <div class="face back">
+          <!-- Contenido de la parte trasera de la tarjeta -->
+          <div class="card-info">
+            <br>
+            <h4>Formación</h4>
+            <p>Licenciatura en Derecho y Diplomatura en Ciencias
+              Empresariales.</p>
+
+            <h4>Hobbies</h4>
+            <p>Viajar, ir de conciertos/festivales, pasar tiempo con los
+              míos, la playa y un buen atardecer.</p>
+
+            <h4>Frase que te represente</h4>
+            <p>Tiempo al tiempo.</p>
+
+            <h4>Algo sobre ti</h4>
+            <p>Imparto asignaturas transversales como Formación y
+              Orientación Laboral, entre otras. Estoy feliz de poder
+              dedicarme a la docencia y de ayudar al alumnado en su
+              incorporación al mundo laboral. Creo firmemente en el poder de
+              la actitud.</p>
+
+          </div>
+        </div>
+      </div>
+      <!-- Tarjeta 2 -->
+      <div class="card">
+        <div class="face front">
+          <!-- Contenido del frente de la tarjeta -->
+          <img src="Resources/img/img_Personal-4-3/daniddc_DxO.jpg" alt="Dani">
+          <h3>Daniel Domínguez Cabría</h3>
+        </div>
+        <div class="face back">
+          <!-- Contenido de la parte trasera de la tarjeta -->
+          <div class="card-info">
+            <br>
+            <h4>Formación</h4>
+            <p>Licenciado en Biología.</p>
+
+            <h4>Hobbies</h4>
+            <p>Videojuegos, libros, juegos de mesa, anime.</p>
+
+            <h4>Frase que te represente</h4>
+            <p>¿Se necesita una razón para ayudar a alguien? Yitan FFIX.</p>
+
+            <h4>Algo sobre ti</h4>
+            <p>Cercano y apasionado, creo que el profesor debe apoyar al
+              alumno desde la cercanía, no desde una posición de poder.</p>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- Tarjeta 3 -->
+      <div class="card">
+        <div class="face front">
+          <!-- Contenido del frente de la tarjeta -->
+          <img src="Resources/img/img_Personal-4-3/rosa_DxO.jpg" alt="Dani">
+          <h3>Daniel Domínguez Cabría</h3>
+        </div>
+        <div class="face back">
+          <!-- Contenido de la parte trasera de la tarjeta -->
+          <div class="card-info">
+            <br>
+            <h4>Formación</h4>
+            <p>Doctora en Microbiología.</p>
+
+            <h4>Hobbies</h4>
+            <p>Leer, cocinar, senderismos, ciencia ficción, manga,
+              submarinismos, artes marciales, juegos de mesa.</p>
+
+            <h4>Frase que te represente</h4>
+            <p>Me lo contaron y lo olvidé. Lo vi y lo entendí. Lo hice y lo
+              aprendí.</p>
+
+            <h4>Algo sobre ti</h4>
+            <p>Me encanta la investigación tanto básica como aplicada. A
+              nivel docente, intento transmitir mi pasión por la ciencia a
+              las nuevas generaciones.</p>
+
+          </div>
+        </div>
+      </div>
+
       <!-- Hero -->
-      <div id="hero" class="has-bg-image p-5 text-center bg-banner-direccion">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div
-                class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-black">
-                  <h1 class="mb-3">Anatomia Patológica y Citoldiagnostico</h1>
-                  <p class="mb-3">La FP 100% oficial de Técnico Superior en
-                    Anatomía Patológica y Citodiagnóstico te
-                    capacitará para obtener muestras biológicas y
-                    distribuirlas, asegurando la conservación hasta las
-                    clínicas que lo demandan. A lo largo de la formación
-                    aprenderás a garantizar la calidad del proceso de
-                    la toma de muestras, conocerás los protocolos establecidos
-                    en la unidad de trabajo y te prepararás
-                    para realizar técnicas necrópsicas de forma práctica
-                    gracias a nuestros laboratorios profesionales.
-                  </p>
-                </div>
-              </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
+    <div class="container">
+      <div class="row my-4">
+        <div class="col-12 mb-2">
+          <hr class="bg-white">
+        </div>
+        <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
+        <div class="row my-3">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="text-left">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.079767245528!2d-5.9385033!3d37.4011837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1269414d8c133d%3A0x498ce95cde9f9931!2sILERNA%20Sevilla!5e0!3m2!1ses!2ses!4v1701699015351!5m2!1ses!2ses"
+                width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 datos">
+            <div class="text-left">
+              <p class="info-item"><i class="fas fa-map-marker-alt"></i>
+                Av.
+                de la Innovación, 7-9, Edificio Arena, 2, 41020
+                Sevilla</p>
+            </div>
+            <div class="text-left">
+              <p class="info-item"><i class="fas fa-phone"></i> 954 04 12
+                12</p>
+            </div>
+            <div class="text-left">
+              <p class="info-item"><i class="far fa-clock"></i> L-V
+                8:30-14:30
+                <br> L-V 15:00-22:00
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 12 col-md-6 col-sm-12 datos">
+            <div class="text-left">
+              <p>
+                <a href="mailto:correo1@example.com" class="correo-link"><i class="fa fa-angle-double-right"></i>
+                  ilernaonline@gmail.com</a>
+                <br>
+                <a href="mailto:correo2@example.com" class="correo-link"><i class="fa fa-angle-double-right"></i>
+                  ilernaandalucia@gmail.com</a>
+                <br>
+                Preguntas frecuentes
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12">
+          <hr class="bg-white">
+        </div>
+        <!-- Bloque 3: Políticas de Privacidad y Cookies -->
+        <div class="row my-3">
+          <div class="col-md-7 text-center ">
+            <div>
+              <a class="text-light" href="#">Política de Privacidad</a>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div>
+              <a class="text-light" href="#">Política de Cookies</a>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </footer>
 
-      <div class="title-container">
-        <h1 class="title">Profesores</h1>
-      </div>
+</body>
 
-      <div class="cards-container">
-        <!-- Tarjeta 1 -->
-        <div class="card">
-          <div class="face front">
-            <!-- Contenido del frente de la tarjeta -->
-            <img src="Resources/img/personal/raquel.png" alt="Nombre">
-            <h3>Raquel García Rodríguez</h3>
-          </div>
-          <div class="face back">
-            <!-- Contenido de la parte trasera de la tarjeta -->
-            <div class="card-info">
-              <br>
-              <h4>Formación</h4>
-              <p>Licenciatura en Derecho y Diplomatura en Ciencias
-                Empresariales.</p>
-
-              <h4>Hobbies</h4>
-              <p>Viajar, ir de conciertos/festivales, pasar tiempo con los
-                míos, la playa y un buen atardecer.</p>
-
-              <h4>Frase que te represente</h4>
-              <p>Tiempo al tiempo.</p>
-
-              <h4>Algo sobre ti</h4>
-              <p>Imparto asignaturas transversales como Formación y
-                Orientación Laboral, entre otras. Estoy feliz de poder
-                dedicarme a la docencia y de ayudar al alumnado en su
-                incorporación al mundo laboral. Creo firmemente en el poder de
-                la actitud.</p>
-
-            </div>
-          </div>
-        </div>
-        <!-- Tarjeta 2 -->
-        <div class="card">
-          <div class="face front">
-            <!-- Contenido del frente de la tarjeta -->
-            <img src="Resources/img/img_Personal-4-3/daniddc_DxO.jpg"
-              alt="Dani">
-            <h3>Daniel Domínguez Cabría</h3>
-          </div>
-          <div class="face back">
-            <!-- Contenido de la parte trasera de la tarjeta -->
-            <div class="card-info">
-              <br>
-              <h4>Formación</h4>
-              <p>Licenciado en Biología.</p>
-
-              <h4>Hobbies</h4>
-              <p>Videojuegos, libros, juegos de mesa, anime.</p>
-
-              <h4>Frase que te represente</h4>
-              <p>¿Se necesita una razón para ayudar a alguien? Yitan FFIX.</p>
-
-              <h4>Algo sobre ti</h4>
-              <p>Cercano y apasionado, creo que el profesor debe apoyar al
-                alumno desde la cercanía, no desde una posición de poder.</p>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Tarjeta 3 -->
-        <div class="card">
-          <div class="face front">
-            <!-- Contenido del frente de la tarjeta -->
-            <img src="Resources/img/img_Personal-4-3/rosa_DxO.jpg" alt="Dani">
-            <h3>Daniel Domínguez Cabría</h3>
-          </div>
-          <div class="face back">
-            <!-- Contenido de la parte trasera de la tarjeta -->
-            <div class="card-info">
-              <br>
-              <h4>Formación</h4>
-              <p>Doctora en Microbiología.</p>
-
-              <h4>Hobbies</h4>
-              <p>Leer, cocinar, senderismos, ciencia ficción, manga,
-                submarinismos, artes marciales, juegos de mesa.</p>
-
-              <h4>Frase que te represente</h4>
-              <p>Me lo contaron y lo olvidé. Lo vi y lo entendí. Lo hice y lo
-                aprendí.</p>
-
-              <h4>Algo sobre ti</h4>
-              <p>Me encanta la investigación tanto básica como aplicada. A
-                nivel docente, intento transmitir mi pasión por la ciencia a
-                las nuevas generaciones.</p>
-
-            </div>
-          </div>
-        </div>
-
-        <!-- Hero -->
-      </main>
-
-      <!-- Footer -->
-      <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
-        <div class="container">
-          <div class="row my-4">
-            <div class="col-12 mb-2">
-              <hr class="bg-white">
-            </div>
-            <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
-            <div class="row my-3">
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="text-left">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.079767245528!2d-5.9385033!3d37.4011837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1269414d8c133d%3A0x498ce95cde9f9931!2sILERNA%20Sevilla!5e0!3m2!1ses!2ses!4v1701699015351!5m2!1ses!2ses"
-                    width="100%" height="250" style="border:0;"
-                    allowfullscreen
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 datos">
-                <div class="text-left">
-                  <p class="info-item"><i class="fas fa-map-marker-alt"></i>
-                    Av.
-                    de la Innovación, 7-9, Edificio Arena, 2, 41020
-                    Sevilla</p>
-                </div>
-                <div class="text-left">
-                  <p class="info-item"><i class="fas fa-phone"></i> 954 04 12
-                    12</p>
-                </div>
-                <div class="text-left">
-                  <p class="info-item"><i class="far fa-clock"></i> L-V
-                    8:30-14:30
-                    <br> L-V 15:00-22:00</p>
-                </div>
-              </div>
-              <div class="col-lg-4 12 col-md-6 col-sm-12 datos">
-                <div class="text-left">
-                  <p>
-                    <a href="mailto:correo1@example.com"
-                      class="correo-link"><i
-                        class="fa fa-angle-double-right"></i>
-                      ilernaonline@gmail.com</a>
-                    <br>
-                    <a href="mailto:correo2@example.com"
-                      class="correo-link"><i
-                        class="fa fa-angle-double-right"></i>
-                      ilernaandalucia@gmail.com</a>
-                    <br>
-                    Preguntas frecuentes
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-12">
-              <hr class="bg-white">
-            </div>
-            <!-- Bloque 3: Políticas de Privacidad y Cookies -->
-            <div class="row my-3">
-              <div class="col-md-7 text-center ">
-                <div>
-                  <a class="text-light" href="#">Política de Privacidad</a>
-                </div>
-              </div>
-              <div class="col-md-3 text-center">
-                <div>
-                  <a class="text-light" href="#">Política de Cookies</a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </footer>
-
-    </body>
-
-  </html>
-  <!--holiwi-->
+</html>
+<!--holiwi-->

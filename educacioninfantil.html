@@ -1,433 +1,395 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/style4.css">
-    <!-- Favicon -->
-    <link rel="icon" type="image/png"
-      href="Resources/img/logo/LOGO_ILERNA.png">
-    <!-- Iconos -->
-    <link rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
-      integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm"
-      crossorigin="anonymous">
-    <link rel="stylesheet" href="/css/infantil.css">
-    <script defer src="js/bootstrap.bundle.js"></script>
-    <title>Educacion Infantil</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style4.css">
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="Resources/img/logo/LOGO_ILERNA.png">
+  <!-- Iconos -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="stylesheet" href="/css/infantil.css">
+  <script defer src="js/bootstrap.bundle.js"></script>
+  <script defer src="js/hidden.js"></script>
+  <title>Educacion Infantil</title>
+</head>
 
-  <body>
-    <header>
-      <!-- Navbar-->
-      <nav
-        class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
-        <div class="container-xxl">
-          <a class="navbar-brand" href="index.html">
-            <img src="Resources/img/logo/ilerna_Staff_Amarillo.png"
-              alt="Logotipo" class="d-inline-block align-text-top logo">
-          </a>
-          <button class="" type="button"
-            data-bs-toggle="collapse" data-bs-target="#navbarNav"
-            aria-controls="navbarNav" aria-expanded="false"
-            aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+<body>
+  <header>
+    <!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-light bg-blueilerna custom-navbar">
+      <div class="container-xxl">
+        <a class="navbar-brand" href="index.html">
+          <img src="Resources/img/logo/ilerna_Staff_Amarillo.png" alt="Logotipo"
+            class="d-inline-block align-text-top logo">
+        </a>
+        <button hidden id="botoncollapse" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ml-auto menu-derecha">
-              <li class="nav-item small">
-                <a class="nav-link" href="index.html">Inicio</a>
-              </li>
-              <li class="nav-item small dropdown">
-                <a class="nav-link dropdown-toggle" href=""
-                  id="navbarDropdownMenuLink" role="button"
-                  data-bs-toggle="dropdown" aria-expanded="false"> Familias
-                  educativas
-                </a>
-                <ul class="dropdown-menu bg-blueilerna p-2"
-                  aria-labelledby="navbarDropdownMenuLink">
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="sanidad.html">Sanidad</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="comerciomarketing.html">Comercio y
-                      Marketing</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="administracionFinanzas.html">Administración y
-                      Gestión</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="informatica.html">Informática</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="imagen_y_sonido_3D,juegos_y_entornos_interactivos.html">Imagen
-                      y Sonido</a></li>
-                  <li class="mb-2"><a class="text-white menuletras"
-                      href="serviciosculturales.html">Servicios
-                      Socioculturales</a></li>
-                </ul>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="Transversal_Transversal.html">Transversales</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="adminCentro_direccion.html">Administración</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link"
-                  href="adminCentro_personal.html">Mantenimientos y
-                  servicios</a>
-              </li>
-              <li class="nav-item small">
-                <a class="nav-link" href="voluntariado.html">Voluntariado</a>
-              </li>
-            </ul>
-          </div>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto menu-derecha">
+            <li class="nav-item small">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item small dropdown">
+              <a class="nav-link dropdown-toggle" href="" id="navbarDropdownMenuLink" role="button"
+                data-bs-toggle="dropdown" aria-expanded="false"> Familias
+                educativas
+              </a>
+              <ul class="dropdown-menu bg-blueilerna p-2" aria-labelledby="navbarDropdownMenuLink">
+                <li class="mb-2"><a class="text-white menuletras" href="sanidad.html">Sanidad</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="comerciomarketing.html">Comercio y
+                    Marketing</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="administracionFinanzas.html">Administración y
+                    Gestión</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="informatica.html">Informática</a></li>
+                <li class="mb-2"><a class="text-white menuletras"
+                    href="imagen_y_sonido_3D,juegos_y_entornos_interactivos.html">Imagen
+                    y Sonido</a></li>
+                <li class="mb-2"><a class="text-white menuletras" href="serviciosculturales.html">Servicios
+                    Socioculturales</a></li>
+              </ul>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="Transversal_Transversal.html">Transversales</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="adminCentro_direccion.html">Administración</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="adminCentro_personal.html">Mantenimientos y
+                servicios</a>
+            </li>
+            <li class="nav-item small">
+              <a class="nav-link" href="voluntariado.html">Voluntariado</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-    </header>
-
-    <!--  -->
-    <section>
-      <div class="p-5 text-center bgbluecolor">
-        <div class="container">
-          <div class="row">
-            <div class="col-md-12">
-              <div
-                class="d-flex justify-content-center align-items-center h-100">
-                <div class="text-black">
-                  <h1 class="mb-3">Educación Infantil</h1>
-                  <p class="mb-3">
-                    El Ciclo Formativo de Grado Superior (CFGS) de Educación
-                    Infantil es un programa educativo diseñado
-                    para formar profesionales altamente capacitados en el
-                    cuidado, educación y atención integral de niños
-                    en sus primeros años de vida. Este ciclo proporciona las
-                    habilidades pedagógicas, emocionales y
-                    sociales necesarias para trabajar en centros de educación
-                    infantil, contribuyendo al desarrollo
-                    cognitivo, emocional y social de los niños. Los
-                    estudiantes adquieren conocimientos teóricos y
-                    prácticos sobre el diseño y la implementación de
-                    actividades educativas, la observación del desarrollo
-                    infantil, la estimulación temprana y la gestión de
-                    espacios de aprendizaje seguros y enriquecedores
-                    para los niños. Además, se enfatiza el fomento de valores
-                    como la igualdad, la diversidad y el
-                    respeto, creando así profesionales comprometidos con el
-                    bienestar y el desarrollo integral de los más
-                    pequeños.
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- CARDS -->
-      <div class="container p-5 mt-2">
-
-        <!-- First Card -->
-        <div class="col-12 col-md-12 col-lg-12 g-5 ">
-          <div
-            class="row rounded-5 justify-content-center align-items-center card-shadow-Dark p-4 bg-card border border-1 border-color position-relative">
-            <!-- Línea horizontal como color identificador -->
-            <div class="color-identificador-Green"></div>
-
-            <div class="col-12 col-md-12 col-lg-6 text-center p-3">
-              <img src="Resources/img/img_Personal-4-3/cristina_DxO.jpg"
-                class="img-fluid rounded-3">
-              <div class="container">
-                <div
-                  class="row justify-content-center align-items-center g-2 mt-2">
-                  <h1 class="col-12 text-center">Cristina Nieto Carmona
-                    <br><span
-                      class="badge rounded-pill badge-size bg-badge-Green align-middle">👩‍🏫</span></h1>
-                  <h4 class="col-12 text-center">Profesora</h4>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
-              <div
-                class="row justify-content-center align-items-center align-middle g-2">
-                <div
-                  class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4">
-                  <!-- Resto del contenido -->
-                  <div class="container bg-card rounded-top mt-1">
-                    <h4 class="pt-2">Formación 🎓</h4>
-                    <p class="text-break pb-1 mb-1"> Pedagoga y doctora en
-                      Educación </p>
-                  </div>
-                  <div class="container bg-card">
-                    <h4 class="pt-2">Hobbies 📚</h4>
-                    <p class="text-break pb-1 mb-1"> La gente divertida,
-                      viajar y comer </p>
-                  </div>
-                  <div class="container bg-card">
-                    <h4 class="pt-2">Frase que te represente 🌠</h4>
-                    <p class="text-break pb-1 mb-1">Dame risa y comida y me
-                      has conquistado</p>
-                  </div>
-                  <div class="container bg-card rounded-bottom ">
-                    <h4 class="pt-2">Algo sobre ti 🗺️</h4>
-                    <p class="text-break pb-1 mb-1">Defensora de la Pedagogía
-                      de la Emoción. El aprendizaje divertido
-                      siempre es
-                      significativo.</p>
-                  </div>
-                  <!-- Fin del contenido -->
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
+    </nav>
+  </header>
 
-      <!-- Second Card -->
-      <div class="container p-5 mt-2">
-        <div class="col-12 col-md-12 col-lg-12 g-5">
-          <div
-            class="row rounded-5 justify-content-center align-items-center card-shadow-Dark p-4 bg-card border border-1 border-color position-relative">
-            <!-- Línea horizontal como color identificador -->
-            <div class="color-identificador-Purple"></div>
-
-            <div class="col-12 col-md-12 col-lg-6 text-center p-3">
-              <img src="Resources/img/img_Personal-4-3/mariat_DxO.jpg"
-                class="img-fluid rounded-3">
-              <div class="container">
-                <div
-                  class="row justify-content-center align-items-center g-2 mt-2">
-                  <h1 class="col-12 text-center">Maria Tenorio
-                    Rodriguez<br><span
-                      class="badge rounded-pill badge-size bg-badge-Purple align-middle">👩‍🏫</span></h1>
-                  <h4 class="col-12 text-center">Profesora</h4>
-                </div>
-              </div>
-            </div>
-            <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
-              <div
-                class="row justify-content-center align-items-center align-middle g-2">
-                <div
-                  class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4">
-                  <!-- Resto del contenido -->
-                  <div class="container bg-card rounded-top mt-1">
-                    <h4 class="pt-2">Formación 🎓</h4>
-                    <p class="text-break pb-1 mb-1"> Grado en Pedagogia</p>
-                  </div>
-                  <div class="container bg-card">
-                    <h4 class="pt-2">Hobbies 📚</h4>
-                    <p class="text-break pb-1 mb-1"> Me encanta la lectura, el
-                      baile, conocer lugares y disfrutar la calle
-                      con amig@s. </p>
-                  </div>
-                  <div class="container bg-card">
-                    <h4 class="pt-2">Frase que te represente 🌠</h4>
-                    <p class="text-break pb-1 mb-1">Cómo me las maravillaría
-                      yo</p>
-                  </div>
-                  <div class="container bg-card rounded-bottom ">
-                    <h4 class="pt-2">Algo sobre ti 🗺️</h4>
-                    <p class="text-break pb-1 mb-1">Soy una apasionada de mi
-                      trabajo. Trato de crear un clima relajado, de
-                      confianza y motivación que nos permita aprender
-                      junt@s.</p>
-                  </div>
-                  <!-- Fin del contenido -->
-                </div>
+  <!--  -->
+  <section>
+    <div class="p-5 text-center bgbluecolor">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-black">
+                <h1 class="mb-3">Educación Infantil</h1>
+                <p class="mb-3">
+                  El Ciclo Formativo de Grado Superior (CFGS) de Educación
+                  Infantil es un programa educativo diseñado
+                  para formar profesionales altamente capacitados en el
+                  cuidado, educación y atención integral de niños
+                  en sus primeros años de vida. Este ciclo proporciona las
+                  habilidades pedagógicas, emocionales y
+                  sociales necesarias para trabajar en centros de educación
+                  infantil, contribuyendo al desarrollo
+                  cognitivo, emocional y social de los niños. Los
+                  estudiantes adquieren conocimientos teóricos y
+                  prácticos sobre el diseño y la implementación de
+                  actividades educativas, la observación del desarrollo
+                  infantil, la estimulación temprana y la gestión de
+                  espacios de aprendizaje seguros y enriquecedores
+                  para los niños. Además, se enfatiza el fomento de valores
+                  como la igualdad, la diversidad y el
+                  respeto, creando así profesionales comprometidos con el
+                  bienestar y el desarrollo integral de los más
+                  pequeños.
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </section>
+  <!-- CARDS -->
+  <div class="container p-5 mt-2">
 
-      <!-- Third Card -->
-      <div class="container p-5 mt-2">
-        <div class="col-12 col-md-12 col-lg-12 g-5">
-          <div
-            class="row rounded-5 justify-content-center align-items-center card-shadow-Dark p-4 bg-card border border-1 border-color position-relative">
-            <!-- Línea horizontal como color identificador -->
-            <div class="color-identificador-Yellow"></div>
+    <!-- First Card -->
+    <div class="col-12 col-md-12 col-lg-12 g-5 ">
+      <div
+        class="row rounded-5 justify-content-center align-items-center card-shadow-Dark p-4 bg-card border border-1 border-color position-relative">
+        <!-- Línea horizontal como color identificador -->
+        <div class="color-identificador-Green"></div>
 
-            <div class="col-12 col-md-12 col-lg-6 text-center p-3">
-              <img src="Resources/img/img_Personal-4-3/lourdes_DxO.jpg"
-                class="img-fluid rounded-3">
-              <div class="container">
-                <div
-                  class="row justify-content-center align-items-center g-2 mt-2">
-                  <h1 class="col-12 text-center">Lourdes Pallarés Gonzalez
-                    <br><span
-                      class="badge rounded-pill badge-size bg-badge-Yellow align-middle">👩‍🏫</span></h1>
-                  <h4 class="col-12 text-center">Profesora</h4>
-                </div>
-              </div>
+        <div class="col-12 col-md-12 col-lg-6 text-center p-3">
+          <img src="Resources/img/img_Personal-4-3/cristina_DxO.jpg" class="img-fluid rounded-3">
+          <div class="container">
+            <div class="row justify-content-center align-items-center g-2 mt-2">
+              <h1 class="col-12 text-center">Cristina Nieto Carmona
+                <br><span class="badge rounded-pill badge-size bg-badge-Green align-middle">👩‍🏫</span>
+              </h1>
+              <h4 class="col-12 text-center">Profesora</h4>
             </div>
-            <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
-              <div
-                class="row justify-content-center align-items-center align-middle g-2">
-                <div
-                  class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4">
-                  <div class="container bg-card rounded-top mt-1">
-                    <h4 class="pt-2">Formación 🎓</h4>
-                    <p class="text-break pb-1 mb-1"> Pedagoga y doctora en
-                      Educación </p>
-                  </div>
-                  <div class="container bg-card">
-                    <h4 class="pt-2">Hobbies 📚</h4>
-                    <p class="text-break pb-1 mb-1"> Leer Valeria en sus
-                      zapatos, reír mucho, tarifa y dormir. </p>
-                  </div>
-                  <div class="container bg-card">
-                    <h4 class="pt-2">Frase que te represente 🌠</h4>
-                    <p class="text-break pb-1 mb-1">¡Que ansiedad tengo!</p>
-                  </div>
-                  <div class="container bg-card rounded-bottom ">
-                    <h4 class="pt-2">Algo sobre ti 🗺️</h4>
-                    <p class="text-break pb-1 mb-1">Exigente, creativa y
-                      apasionada de lo social.</p>
-                  </div>
-                </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
+          <div class="row justify-content-center align-items-center align-middle g-2">
+            <div class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4">
+              <!-- Resto del contenido -->
+              <div class="container bg-card rounded-top mt-1">
+                <h4 class="pt-2">Formación 🎓</h4>
+                <p class="text-break pb-1 mb-1"> Pedagoga y doctora en
+                  Educación </p>
+              </div>
+              <div class="container bg-card">
+                <h4 class="pt-2">Hobbies 📚</h4>
+                <p class="text-break pb-1 mb-1"> La gente divertida,
+                  viajar y comer </p>
+              </div>
+              <div class="container bg-card">
+                <h4 class="pt-2">Frase que te represente 🌠</h4>
+                <p class="text-break pb-1 mb-1">Dame risa y comida y me
+                  has conquistado</p>
+              </div>
+              <div class="container bg-card rounded-bottom ">
+                <h4 class="pt-2">Algo sobre ti 🗺️</h4>
+                <p class="text-break pb-1 mb-1">Defensora de la Pedagogía
+                  de la Emoción. El aprendizaje divertido
+                  siempre es
+                  significativo.</p>
+              </div>
+              <!-- Fin del contenido -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Second Card -->
+  <div class="container p-5 mt-2">
+    <div class="col-12 col-md-12 col-lg-12 g-5">
+      <div
+        class="row rounded-5 justify-content-center align-items-center card-shadow-Dark p-4 bg-card border border-1 border-color position-relative">
+        <!-- Línea horizontal como color identificador -->
+        <div class="color-identificador-Purple"></div>
+
+        <div class="col-12 col-md-12 col-lg-6 text-center p-3">
+          <img src="Resources/img/img_Personal-4-3/mariat_DxO.jpg" class="img-fluid rounded-3">
+          <div class="container">
+            <div class="row justify-content-center align-items-center g-2 mt-2">
+              <h1 class="col-12 text-center">Maria Tenorio
+                Rodriguez<br><span class="badge rounded-pill badge-size bg-badge-Purple align-middle">👩‍🏫</span></h1>
+              <h4 class="col-12 text-center">Profesora</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
+          <div class="row justify-content-center align-items-center align-middle g-2">
+            <div class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4">
+              <!-- Resto del contenido -->
+              <div class="container bg-card rounded-top mt-1">
+                <h4 class="pt-2">Formación 🎓</h4>
+                <p class="text-break pb-1 mb-1"> Grado en Pedagogia</p>
+              </div>
+              <div class="container bg-card">
+                <h4 class="pt-2">Hobbies 📚</h4>
+                <p class="text-break pb-1 mb-1"> Me encanta la lectura, el
+                  baile, conocer lugares y disfrutar la calle
+                  con amig@s. </p>
+              </div>
+              <div class="container bg-card">
+                <h4 class="pt-2">Frase que te represente 🌠</h4>
+                <p class="text-break pb-1 mb-1">Cómo me las maravillaría
+                  yo</p>
+              </div>
+              <div class="container bg-card rounded-bottom ">
+                <h4 class="pt-2">Algo sobre ti 🗺️</h4>
+                <p class="text-break pb-1 mb-1">Soy una apasionada de mi
+                  trabajo. Trato de crear un clima relajado, de
+                  confianza y motivación que nos permita aprender
+                  junt@s.</p>
+              </div>
+              <!-- Fin del contenido -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Third Card -->
+  <div class="container p-5 mt-2">
+    <div class="col-12 col-md-12 col-lg-12 g-5">
+      <div
+        class="row rounded-5 justify-content-center align-items-center card-shadow-Dark p-4 bg-card border border-1 border-color position-relative">
+        <!-- Línea horizontal como color identificador -->
+        <div class="color-identificador-Yellow"></div>
+
+        <div class="col-12 col-md-12 col-lg-6 text-center p-3">
+          <img src="Resources/img/img_Personal-4-3/lourdes_DxO.jpg" class="img-fluid rounded-3">
+          <div class="container">
+            <div class="row justify-content-center align-items-center g-2 mt-2">
+              <h1 class="col-12 text-center">Lourdes Pallarés Gonzalez
+                <br><span class="badge rounded-pill badge-size bg-badge-Yellow align-middle">👩‍🏫</span>
+              </h1>
+              <h4 class="col-12 text-center">Profesora</h4>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
+          <div class="row justify-content-center align-items-center align-middle g-2">
+            <div class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4">
+              <div class="container bg-card rounded-top mt-1">
+                <h4 class="pt-2">Formación 🎓</h4>
+                <p class="text-break pb-1 mb-1"> Pedagoga y doctora en
+                  Educación </p>
+              </div>
+              <div class="container bg-card">
+                <h4 class="pt-2">Hobbies 📚</h4>
+                <p class="text-break pb-1 mb-1"> Leer Valeria en sus
+                  zapatos, reír mucho, tarifa y dormir. </p>
+              </div>
+              <div class="container bg-card">
+                <h4 class="pt-2">Frase que te represente 🌠</h4>
+                <p class="text-break pb-1 mb-1">¡Que ansiedad tengo!</p>
+              </div>
+              <div class="container bg-card rounded-bottom ">
+                <h4 class="pt-2">Algo sobre ti 🗺️</h4>
+                <p class="text-break pb-1 mb-1">Exigente, creativa y
+                  apasionada de lo social.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      <!-- Fourth Card -->
-      <div class="container p-5 mt-2">
-        <div class="col-12 col-md-12 col-lg-12 g-5">
-          <div
-            class="row rounded-5 justify-content-center align-items-center card-shadow-Dark p-4 bg-card border border-1 border-color position-relative">
-            <!-- Línea horizontal como color identificador -->
-            <div class="color-identificador-Light-blue"></div>
+  <!-- Fourth Card -->
+  <div class="container p-5 mt-2">
+    <div class="col-12 col-md-12 col-lg-12 g-5">
+      <div
+        class="row rounded-5 justify-content-center align-items-center card-shadow-Dark p-4 bg-card border border-1 border-color position-relative">
+        <!-- Línea horizontal como color identificador -->
+        <div class="color-identificador-Light-blue"></div>
 
-            <div class="col-12 col-md-12 col-lg-6 text-center p-3">
-              <img src="Resources/img/img_Personal-4-3/noemi_DxO.jpg"
-                class="img-fluid rounded-3">
-              <div class="container">
-                <div
-                  class="row justify-content-center align-items-center g-2 mt-2">
-                  <h1 class="col-12 text-center">Noemi País Bozo<br><span
-                      class="badge rounded-pill badge-size bg-badge-Light-blue align-middle">👩‍🏫</span></h1>
-                  <h4 class="col-12 text-center">Profesora</h4>
-                </div>
-              </div>
+        <div class="col-12 col-md-12 col-lg-6 text-center p-3">
+          <img src="Resources/img/img_Personal-4-3/noemi_DxO.jpg" class="img-fluid rounded-3">
+          <div class="container">
+            <div class="row justify-content-center align-items-center g-2 mt-2">
+              <h1 class="col-12 text-center">Noemi País Bozo<br><span
+                  class="badge rounded-pill badge-size bg-badge-Light-blue align-middle">👩‍🏫</span></h1>
+              <h4 class="col-12 text-center">Profesora</h4>
             </div>
-            <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
-              <div
-                class="row justify-content-center align-items-center align-middle g-2">
-                <div
-                  class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4">
-                  <div class="container bg-card rounded-top mt-1">
-                    <h4 class="pt-2">Formación 🎓</h4>
-                    <p class="text-break pb-1 mb-1"> Diplomatura trabajo
-                      social </p>
-                  </div>
-                  <div class="container bg-card">
-                    <h4 class="pt-2">Hobbies 📚</h4>
-                    <p class="text-break pb-1 mb-1"> Leer, Viajar, Senderismo,
-                      Cocinar.</p>
-                  </div>
-                  <div class="container bg-card">
-                    <h4 class="pt-2">Frase que te represente 🌠</h4>
-                    <p class="text-break pb-1 mb-1">Lo esencial es invisible a
-                      los ojos.</p>
-                  </div>
-                  <div class="container bg-card rounded-bottom ">
-                    <h4 class="pt-2">Algo sobre ti 🗺️</h4>
-                    <p class="text-break pb-1 mb-1">Soy una persona con
-                      empatía, con capacidad de escucha , resolutiva, con
-                      habilidades comunicativas, y versátil. Me encanta el
-                      dinamismo, y me aburre lo estático, proponer y
-                      organizar actividades dando rienda suelta a la
-                      imaginación y creatividad forma parte de mi esencia. Me
-                      gusta ayudar a los demás, y mi profesión es totalmente
-                      vocacional.</p>
-                  </div>
-                </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6" id="remove_mobile">
+          <div class="row justify-content-center align-items-center align-middle g-2">
+            <div class="col-12 text-center container bg-dark border border-color border-1 rounded-3 px-1 my-4">
+              <div class="container bg-card rounded-top mt-1">
+                <h4 class="pt-2">Formación 🎓</h4>
+                <p class="text-break pb-1 mb-1"> Diplomatura trabajo
+                  social </p>
+              </div>
+              <div class="container bg-card">
+                <h4 class="pt-2">Hobbies 📚</h4>
+                <p class="text-break pb-1 mb-1"> Leer, Viajar, Senderismo,
+                  Cocinar.</p>
+              </div>
+              <div class="container bg-card">
+                <h4 class="pt-2">Frase que te represente 🌠</h4>
+                <p class="text-break pb-1 mb-1">Lo esencial es invisible a
+                  los ojos.</p>
+              </div>
+              <div class="container bg-card rounded-bottom ">
+                <h4 class="pt-2">Algo sobre ti 🗺️</h4>
+                <p class="text-break pb-1 mb-1">Soy una persona con
+                  empatía, con capacidad de escucha , resolutiva, con
+                  habilidades comunicativas, y versátil. Me encanta el
+                  dinamismo, y me aburre lo estático, proponer y
+                  organizar actividades dando rienda suelta a la
+                  imaginación y creatividad forma parte de mi esencia. Me
+                  gusta ayudar a los demás, y mi profesión es totalmente
+                  vocacional.</p>
               </div>
             </div>
           </div>
         </div>
       </div>
+    </div>
+  </div>
 
-      <!-- Footer -->
-      <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
-        <div class="container">
-          <div class="row my-4">
-            <div class="col-12 mb-2">
-              <hr class="bg-white">
+  <!-- Footer -->
+  <footer class="bg-dark text-light py-3 bg-blueilerna custom-navbar">
+    <div class="container">
+      <div class="row my-4">
+        <div class="col-12 mb-2">
+          <hr class="bg-white">
+        </div>
+        <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
+        <div class="row my-3">
+          <div class="col-lg-4 col-md-12 col-sm-12">
+            <div class="text-left">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.079767245528!2d-5.9385033!3d37.4011837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1269414d8c133d%3A0x498ce95cde9f9931!2sILERNA%20Sevilla!5e0!3m2!1ses!2ses!4v1701699015351!5m2!1ses!2ses"
+                width="100%" height="250" style="border:0;" allowfullscreen loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <!-- Bloque 2: Información de Contacto (dividido en 3 columnas iguales con texto alineado a la izquierda) -->
-            <div class="row my-3">
-              <div class="col-lg-4 col-md-12 col-sm-12">
-                <div class="text-left">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12678.079767245528!2d-5.9385033!3d37.4011837!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd1269414d8c133d%3A0x498ce95cde9f9931!2sILERNA%20Sevilla!5e0!3m2!1ses!2ses!4v1701699015351!5m2!1ses!2ses"
-                    width="100%" height="250" style="border:0;"
-                    allowfullscreen
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-              </div>
-              <div class="col-lg-4 col-md-6 col-sm-12 datos">
-                <div class="text-left">
-                  <p class="info-item"><i class="fas fa-map-marker-alt"></i>
-                    Av.
-                    de la Innovación, 7-9, Edificio Arena, 2, 41020
-                    Sevilla</p>
-                </div>
-                <div class="text-left">
-                  <p class="info-item"><i class="fas fa-phone"></i> 954 04 12
-                    12</p>
-                </div>
-                <div class="text-left">
-                  <p class="info-item"><i class="far fa-clock"></i> L-V
-                    8:30-14:30
-                    <br> L-V 15:00-22:00</p>
-                </div>
-              </div>
-              <div class="col-lg-4 12 col-md-6 col-sm-12 datos">
-                <div class="text-left">
-                  <p>
-                    <a href="mailto:correo1@example.com"
-                      class="correo-link"><i
-                        class="fa fa-angle-double-right"></i>
-                      ilernaonline@gmail.com</a>
-                    <br>
-                    <a href="mailto:correo2@example.com"
-                      class="correo-link"><i
-                        class="fa fa-angle-double-right"></i>
-                      ilernaandalucia@gmail.com</a>
-                    <br>
-                    Preguntas frecuentes
-                  </p>
-                </div>
-              </div>
+          </div>
+          <div class="col-lg-4 col-md-6 col-sm-12 datos">
+            <div class="text-left">
+              <p class="info-item"><i class="fas fa-map-marker-alt"></i>
+                Av.
+                de la Innovación, 7-9, Edificio Arena, 2, 41020
+                Sevilla</p>
             </div>
-            <div class="col-12">
-              <hr class="bg-white">
+            <div class="text-left">
+              <p class="info-item"><i class="fas fa-phone"></i> 954 04 12
+                12</p>
             </div>
-            <!-- Bloque 3: Políticas de Privacidad y Cookies -->
-            <div class="row my-3">
-              <div class="col-md-7 text-center ">
-                <div>
-                  <a class="text-light" href="#">Política de Privacidad</a>
-                </div>
-              </div>
-              <div class="col-md-3 text-center">
-                <div>
-                  <a class="text-light" href="#">Política de Cookies</a>
-                </div>
-              </div>
+            <div class="text-left">
+              <p class="info-item"><i class="far fa-clock"></i> L-V
+                8:30-14:30
+                <br> L-V 15:00-22:00
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-4 12 col-md-6 col-sm-12 datos">
+            <div class="text-left">
+              <p>
+                <a href="mailto:correo1@example.com" class="correo-link"><i class="fa fa-angle-double-right"></i>
+                  ilernaonline@gmail.com</a>
+                <br>
+                <a href="mailto:correo2@example.com" class="correo-link"><i class="fa fa-angle-double-right"></i>
+                  ilernaandalucia@gmail.com</a>
+                <br>
+                Preguntas frecuentes
+              </p>
             </div>
           </div>
         </div>
-      </footer>
+        <div class="col-12">
+          <hr class="bg-white">
+        </div>
+        <!-- Bloque 3: Políticas de Privacidad y Cookies -->
+        <div class="row my-3">
+          <div class="col-md-7 text-center ">
+            <div>
+              <a class="text-light" href="#">Política de Privacidad</a>
+            </div>
+          </div>
+          <div class="col-md-3 text-center">
+            <div>
+              <a class="text-light" href="#">Política de Cookies</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
 
-    </body>
+</body>
 
-  </html>
+</html>
