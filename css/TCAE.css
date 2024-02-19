@@ -1,4 +1,34 @@
-.tab {
+body {
+  background-position: center;
+  background-image: url("../Resources/img/cosasTCAE/fondo.jpg");
+  background-repeat: repeat;
+
+}
+
+.background-img {
+
+  background-repeat: repeat;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.5;
+}
+
+/* Estilo para el contenedor de las tarjetas */
+.card-container {
+  position: relative;
+  z-index: 1; /* Asegura que las tarjetas estén por encima de la imagen de fondo */
+}
+
+.card {
+  width: 600px; /* Ancho aumentado */
+  max-width: 90%; /* Para que no exceda el ancho de la pantalla en dispositivos pequeños */
+  border: 1px solid #ace8e9;
+  border-radius: 15px; /* Bordes redondeados */
+  margin: 20px auto;
   cursor: pointer;
 }
 
@@ -6,33 +36,36 @@
   margin-top: 20px;
 }
 
-body {
-  background-image: url('/Resources/img/cosasTCAE/fondo.jpg');
-  /*
-Reemplaza 'path/to/fondo.jpg' con la ruta real de tu imagen */
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-position: center;
+.card-blue {
+  height: auto;
+  width: 600px;
+  border: 2px solid #007bff; /* Borde azul */
+  box-shadow: 0 4px 8px rgba(0, 123, 255, 0.2); /* Sombra azul */
 }
 
-/* Estilos para hacer que el contenido sea opaco */
-main,
-header,
-footer {
-  background-color: rgba(188, 199, 253, 0.9);
-  /* Ajusta el valor de
-alfa según sea necesario */
+.card-red {
+  border: 2px solid #dc3545; /* Borde rojo */
+  box-shadow: 0 4px 8px rgba(220, 53, 69, 0.2); /* Sombra roja */
 }
 
-.card {
-  opacity: 0.8;
-  /* Ajusta la opacidad según sea necesario */
+.card-purple {
+  border: 2px solid #6f42c1; /* Borde morado */
+  box-shadow: 0 4px 8px rgba(111, 66, 193, 0.2); /* Sombra morada */
 }
 
-.img-border {
-  border: 3px solid #00FFFF;
-  /* Azul fosforito */
-  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
-  /* Sombra azul fosforito */
+.profile-image {
+  border-radius: 50%;
+  overflow: hidden;
+  width: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+  height: 100px; /* Ajusta el tamaño de la imagen según tus necesidades */
+}
+
+/* Estilos para posicionar el texto a la izquierda de la imagen */
+.profile-info {
+  display: flex;
+  align-items: center;
+}
+
+.profile-text {
+  margin-right: 20px; /* Ajusta el margen entre el texto y la imagen según tus necesidades */
 }
