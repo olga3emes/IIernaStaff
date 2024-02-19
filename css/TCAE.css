@@ -30,50 +30,39 @@ body {
   border-radius: 15px; /* Bordes redondeados */
   margin: 20px auto;
   cursor: pointer;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra */
-  transition: transform 0.3s ease;
-  background-color: rgb(255, 255, 255);
 }
 
-.card:hover {
-  transform: translateY(-5px); /* Efecto de levantar ligeramente al pasar el ratón */
+.info {
+  margin-top: 20px;
 }
 
-.card-header {
-  padding: 20px;
-  display: flex;
-  align-items: center;
+body {
+  background-image: url('/Resources/img/cosasTCAE/fondo.jpg');
+  /*
+Reemplaza 'path/to/fondo.jpg' con la ruta real de tu imagen */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
 }
 
-.card-header img {
-  width: auto; /* Foto de perfil más grande */
-  height: 300px;
-  border-radius: 50%;
-  margin-right: 20px;
+/* Estilos para hacer que el contenido sea opaco */
+main,
+header,
+footer {
+  background-color: rgba(188, 199, 253, 0.9);
+  /* Ajusta el valor de
+alfa según sea necesario */
 }
 
-.card-body {
-  padding: 20px;
-  display: none;
+.card {
+  opacity: 0.8;
+  /* Ajusta la opacidad según sea necesario */
 }
 
-.info-section h3 {
-  margin-bottom: 5px;
-}
-
-#card1 {
-  border: 2px solid blue; /* Borde azul */
-  box-shadow: 0 4px 8px rgba(0, 0, 255, 0.3); /* Sombra azul */
-}
-
-/* Estilos para la segunda tarjeta */
-#card2 {
-  border: 2px solid red; /* Borde rojo */
-  box-shadow: 0 4px 8px rgba(255, 0, 0, 0.3); /* Sombra roja */
-}
-
-/* Estilos para la tercera tarjeta */
-#card3 {
-  border: 2px solid purple; /* Borde morado */
-  box-shadow: 0 4px 8px rgba(128, 0, 128, 0.3); /* Sombra morada */
+.img-border {
+  border: 3px solid #00FFFF;
+  /* Azul fosforito */
+  box-shadow: 0 0 10px rgba(0, 255, 255, 0.5);
+  /* Sombra azul fosforito */
 }

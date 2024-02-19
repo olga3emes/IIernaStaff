@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;400;500;700&display=swap");
+
+body{
+  background: rgb(25,11,1);
+background: linear-gradient(90deg, rgba(25,11,1,1) 0%, rgba(125,92,16,1) 39%, rgba(255,162,0,1) 100%);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Nunito", sans-serif;
+}
+
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items:center;
+  margin-top: 25px;
+}
+
+#card1, #card2 {
+  transform-style: preserve-3d;
+  margin-bottom: 25px;
+}
+
+#card1 h4, #card2 h4 {
+  color: #8b5d2e; 
+  margin-top: -15px;
+}
+
+input#open, input#open2 {
+  display: none;
+}
+
+.open, .open2 {
+  display: flex;
+  background-color: transparent;
+  cursor: pointer;
+  transition: 2s;
+}
+
+#open:checked ~ label #p1 .clip,
+#open2:checked ~ label #p1 .clip {
+  transform: rotateY(-180deg);
+}
+
+#open:checked ~ label,
+#open2:checked ~ label {
+  margin-left: 300px;
+}
+
+#p1,
+#p2 {
+  width: 300px;
+  height: 400px;
+  border-radius: 10px;
+}
+
+#p1 {
+  perspective: 3000px;
+}
+
+#p1 h2,
+#p1 h4 {
+  margin: 15px;
+}
+
+#p1 .clip {
+  width: 100%;
+  transform-style: preserve-3d;
+  transition: 2s;
+  height: 100%;
+  transform-origin: left center;
+  background-color: #ead5b7; /* Beige claro */
+  border: 5px solid #8b5d2e; /* Marrón oscuro */
+}
+
+#p1 .front,
+#p1 .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+#p1 .front img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  object-position: center top; /* Puedes ajustar esto según tu preferencia */
+  border-bottom: 3px solid #30261e; /* Marrón oscuro */
+  outline: 0px solid #000;
+  background-color: #ead5b7; /* Beige claro */
+}
+
+#card1 #p1 .back {
+  transform: rotateY(180deg);
+  background-image: url("../Resources/img/img_Personal-4-3/jessica_DxO.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#card2 #p1 .back {
+  transform: rotateY(180deg);
+  background-image: url("../Resources/img/img_Personal-4-3/pablocenizo.jpg");
+  background-position: center center;
+  background-size: cover;
+}
+
+#p2 {
+  position: relative;
+  margin-left: -300px;
+  transition: 1s;
+  z-index: -1;
+  padding: 15px;
+  background-color: #30261e; /* Marrón oscuro */
+}
+
+#p2 h1 {
+  text-align: center;
+  font-size: 30px;
+  margin: 10px;
+  margin-bottom: 30px;
+  color: #d2b48c;
+}
+
+#p2 h2{
+  color: #d2b48c;
+}
+
+.skill {
+  margin: 15px;
+  margin-bottom: 30px;
+}
+
+.skill .a1 {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+#p2 h3 {
+  color: #d2b48c; /* Beige */
+}
+
+.percentage-bar {
+  background-color: #d2b48c; /* Beige */
+  border-radius: 10px;
+  height: 10px;
+  position: relative;
+  width: 100%;
+}
+
+.percentage {
+  background-color: #8b5d2e; /* Marrón oscuro */
+  border-radius: 10px;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  box-shadow: 0px 0px 10px #8b5d2e; /* Marrón oscuro */
+}
+
+#p2 footer {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  border-top: 3px solid #ead5b7; /* Beige claro */
+  width: 100%;
+  height: 50px;
+}
+
+#p2 ul {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: space-around;
+}
+
+ul li {
+  list-style: none;
+}
+
+ul li i {
+  font-size: 1.5rem;
+}

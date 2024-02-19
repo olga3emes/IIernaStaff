@@ -1,0 +1,64 @@
+.card-text {
+    display: block;
+    /* Muestra inicialmente el texto */
+}
+
+.card:hover .card-text {
+    display: none;
+    /* Oculta el texto cuando el ratón pasa sobre la tarjeta */
+}
+
+.card:hover .new-text {
+    display: block;
+    /* Muestra el nuevo texto cuando el ratón pasa sobre la tarjeta */
+}
+
+.new-text {
+    display: none;
+    /* Oculta el nuevo texto inicialmente */
+}
+
+.color-card{
+    background-color: rgb(84, 84, 84);
+}
+
+.w-60{
+    width: 65%;
+}
+
+.text-card-color{
+    color: rgb(194, 194, 194) !important;
+}
+
+.color-card:hover .card-body,
+.color-card:hover .card-body h3,
+.color-card:hover .card-body h4,
+.color-card:hover .card-body p {
+    color: white !important; /* Cambia el color del texto a blanco al pasar el ratón sobre la tarjeta */
+}
+
+.titulo{
+    color: var(--main-Blue) !important
+}
+
+.card .btn {
+    display: none;
+    /* Muestra inicialmente el boton */
+}
+
+.card:hover .btn {
+    display: block;
+    /* Oculta el texto cuando el ratón pasa sobre la tarjeta */
+}
+
+
+
+.btn-round {
+    border-radius: 50%; /* Establece el radio del borde para hacer un círculo */
+    width: 40px; /* Ajusta el ancho del botón según tus preferencias */
+    height: 40px; /* Ajusta la altura del botón según tus preferencias */
+    padding: 0; /* Elimina el relleno interior del botón */
+    font-size: 20px; /* Ajusta el tamaño de la fuente según tus preferencias */
+} 
+
+

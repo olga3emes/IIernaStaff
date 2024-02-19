@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+
+* {
+  box-sizing: border-box;
+}
+
+
+.left-content {
+  margin-right:5%;
+}
+.card-container {
+  background-color: #f5f1f1;
+  border-radius: 20px;
+  box-shadow: 0px 10px 20px -10px rgba(0, 0, 0, 0.75);
+  color: #24252a;
+  padding-top: 30px;
+  position: relative;
+  max-width: 89%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.card-container .rectangular {
+  border: 5px solid #464141;
+  border-radius: 10px;
+}
+
+button.primary {
+  background-color: #ffb700;
+  border: 1px solid #ffb700;
+  font-weight: bold;
+  border-radius: 25px;
+  color: #231e39;
+  font-family: Montserrat, sans-serif;
+  padding: 10px 25px;
+}
+
+button.primary.ghost {
+  background-color: transparent;
+  color: #02899c;
+}
+
+#Martin{
+  background-color: #ff0000;
+  border-bottom-left-radius: 20px; 
+  border-bottom-right-radius: 20px; 
+  text-align: center;
+  padding: 10px;
+  margin-top: 30px;
+  margin-left: -12px; 
+  margin-right: -12px;
+}
+#Martin ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  font-size: 22px;
+}
+
+
+
+
+#Olga{
+    background-color: #ca92e9;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: -12px; 
+    margin-right: -12px; 
+}
+
+#Olga  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+
+#Soraya{
+    background-color: #05b80b;
+    border-bottom-left-radius: 20px; 
+    border-bottom-right-radius: 20px; 
+    text-align: center;
+    padding: 10px;
+    margin-top: 30px;
+    margin-left: -12px; 
+    margin-right: -12px; 
+}
+
+#Soraya  ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    font-size: 22px;}
+
+    #Pedro{
+        background-color: #1b5ed3;
+        border-bottom-left-radius: 20px; 
+        border-bottom-right-radius: 20px; 
+        text-align: center;
+        padding: 10px;
+        margin-top: 30px;
+        margin-left: -12px;
+        margin-right: -12px;
+    }
+    
+    #Pedro  ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        font-size: 22px;}
+    
+
+
+
